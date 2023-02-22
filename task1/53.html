@@ -1,0 +1,627 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html dir="ltr" lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<style media="all" type="text/css">@import "/files/css/5ddb62dd645140765cc4796870c5825e.css";</style>
+<script src="/misc/pack.2.js" type="text/javascript"></script>
+<script src="/modules/vote_up_down/ajax_vote_up_down.js" type="text/javascript"></script>
+<script src="/modules/syntaxhighlighter/sh/scripts//syntaxhighlighter.min.js?3" type="text/javascript"></script>
+<script src="/modules/mistype/mistype.js" type="text/javascript"></script>
+<script type="text/javascript">Drupal.extend({ settings: { "baseurl": "http://javascript.ru/" } });</script>
+<script type="text/javascript">
+  $(function() { SyntaxHighlighter.highlight() })
+  </script>
+<script type="text/javascript">var nid=10422</script>
+<script type="text/javascript">var enter_from=''</script>
+<meta content="" name="keywords"/>
+<meta content="" name="description"/>
+<link href="/forum/clientscript/vbulletin_css/style-97d6914a-00003.css" id="vbulletin_css" rel="stylesheet" type="text/css"/>
+<link href="/article/feed" rel="alternate" title="Статьи на javascript.ru" type="application/rss+xml"/>
+<link href="/all/feed" rel="alternate" title="Все материалы с javascript.ru" type="application/rss+xml"/>
+<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-7627237725960834",
+    enable_page_level_ads: true
+  });
+</script>
+<!--
+<script type="text/javascript" src="/modules/syntaxhighlighter/sh/scripts/shCore.js"></script>
+<script type="text/javascript" src="/modules/syntaxhighlighter/sh/scripts/shBrushCss.js"></script>
+<script type="text/javascript" src="/modules/syntaxhighlighter/sh/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/modules/syntaxhighlighter/sh/scripts/shBrushJScript.js"></script>
+<script type="text/javascript" src="/modules/syntaxhighlighter/sh/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/modules/syntaxhighlighter/sh/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/modules/syntaxhighlighter/sh/scripts/shBrushPython.js"></script>
+<script type="text/javascript" src="/modules/syntaxhighlighter/sh/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/modules/syntaxhighlighter/sh/scripts/shBrushRuby.js"></script>
+<script type="text/javascript" src="/modules/syntaxhighlighter/sh/scripts/shBrushErlang.js"></script>
+<script type="text/javascript" src="/modules/syntaxhighlighter/sh/scripts/shBrushAS3.js"></script>
+-->
+<script src="/modules/syntaxhighlighter/sh/scripts/syntaxhighlighter.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+  $(function() { SyntaxHighlighter.highlight() })
+  </script>
+<style media="all" type="text/css">@import "/modules/syntaxhighlighter/sh/styles/shCore.css";</style>
+<style media="all" type="text/css">@import "/modules/syntaxhighlighter/sh/styles/shThemeDefault.css";</style>
+<style media="all" type="text/css">@import "/themes/defaultangy/jquery.alerts.css";</style>
+<script type="text/javascript"><!-- // hide from W3C validator
+
+var SESSIONURL = "s=a064ddb01efbdd212e06316a3007bfbc&";
+var IMGDIR_MISC = "/forum/images/ca_serenity/misc";
+var vb_disable_ajax = parseInt("0", 10);
+// --></script>
+<script>
+window._gaq =  []
+_gaq.push(['_setAccount', 'UA-2056213-10']);
+_gaq.push(["_addOrganic", "go.mail.ru","q"])
+_gaq.push(["_addOrganic", "nova.rambler.ru","query"])
+_gaq.push(["_addOrganic", "nigma.ru", "s"])
+_gaq.push(["_addOrganic", "blogs.yandex.ru", "text", true])
+_gaq.push(["_addOrganic", "webalta.ru", "q"])
+_gaq.push(["_addOrganic", "aport.ru", "r"])
+_gaq.push(["_addOrganic", "akavita.by", "z"])
+_gaq.push(["_addOrganic", "meta.ua", "q"])
+_gaq.push(["_addOrganic", "bigmir.net", "q"])
+_gaq.push(["_addOrganic", "tut.by", "query"])
+_gaq.push(["_addOrganic", "all.by", "query"])
+_gaq.push(["_addOrganic", "i.ua", "q"])
+_gaq.push(["_addOrganic", "online.ua", "q"])
+_gaq.push(["_addOrganic", "a.ua", "s"])
+_gaq.push(["_addOrganic", "ukr.net", "search_query"])
+_gaq.push(["_addOrganic", "search.com.ua", "q"])
+_gaq.push(["_addOrganic", "search.ua", "query"])
+_gaq.push(["_addOrganic", "poisk.ru", "text"])
+_gaq.push(["_addOrganic", "km.ru", "sq"])
+_gaq.push(["_addOrganic", "liveinternet.ru", "ask"])
+_gaq.push(["_addOrganic", "quintura.ru", "request"])
+_gaq.push(["_addOrganic", "search.qip.ru","query"])
+_gaq.push(["_addOrganic", "gde.ru","keywords"])
+_gaq.push(["_addOrganic", "search.ukr.net","search_query"])
+_gaq.push(["_addOrganic", "gogo.ru","q"])
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+</script>
+<script type="text/javascript">
+var ga = document.createElement('script')
+ga.src = location.protocol+'//www.google-analytics.com/ga.js'
+ga.async = true
+document.getElementsByTagName('head')[0].appendChild(ga)
+</script>
+<title>Центральный Javascript-ресурс. Учебник с примерами скриптов. Форум. Книги и многое другое.</title>
+</head>
+<body id="frontpage">
+<div id="wrapper">
+<a name="top"></a>
+<table align="center" cellpadding="0" cellspacing="0" id="maintable" width="960">
+<tr>
+<td id="maintable-first">
+<!-- header table --><table border="0" cellpadding="0" cellspacing="0" class="header-table" width="100%">
+<tr>
+<td align="left"><a href="/?s=a064ddb01efbdd212e06316a3007bfbc"><img alt="Javascript.RU" border="0" src="/forum/images/ca_serenity/misc/logo.gif"/></a></td>
+<td align="right" class="header-table-login" nowrap="nowrap" valign="bottom" width="100%">
+<a href="/forum/register.php" style="color:white">Регистрация</a> <a href="/forum/clogin.php" style="color:white">Вход в сайт</a>
+</td>
+</tr>
+</table><!-- / header table --></td>
+</tr>
+<tr>
+<td class="maintable-content"><!-- content table --><table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td class="content-row">
+<!-- nav buttons bar -->
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td align="center" class="navbar-row"><table align="center" cellspacing="0" class="navbar-row-table" width="100%">
+<tr align="center" class="vbmenu_dark">
+<td class="vbmenu_control"><h1><a href="/forum/">Форум</a></h1>
+</td>
+<td class="vbmenu_control"><a href="https://learn.javascript.ru/">Учебник</a>
+</td>
+<td class="vbmenu_control"><a href="https://learn.javascript.ru/nodejs-screencast">Node.JS скринкаст</a>
+</td>
+<td class="vbmenu_control"><a href="http://es5.javascript.ru">Стандарт языка</a>
+</td>
+<td class="vbmenu_control"><h1><a href="/manual">Справочник</a></h1>
+</td>
+<td class="vbmenu_control"><h1><a href="https://discord.gg/X8yWNWpTQs">Discord чат</a></h1>
+</td>
+<td width="100%"> </td>
+</tr>
+</table>
+<table align="center" cellspacing="0" class="navbar-row-table" width="100%">
+<tr align="center" class="vbmenu_dark">
+<td class="vbmenu_control"><a href="/doctree">Статьи</a>
+</td>
+<td class="vbmenu_control"><a href="https://learn.javascript.ru/quiz">Тест знаний</a>
+</td>
+<td class="vbmenu_control"><a href="/php">Аналоги функций PHP</a>
+</td>
+<!--
+<td class="vbmenu_control"><a href="http://chat.mibbit.com/?server=utf8.rusnet.org.ru:7770&channel=%23javascript&nick=JsGuest">Онлайн-чат</a>
+</td>
+-->
+<td class="vbmenu_control"><h1><a href="/courses"><span>Курсы javascript</span></a>
+</h1></td>
+<!--
+<td class="vbmenu_control"><h1><a href="/ajax">AJAX</a></h1>
+</td>
+-->
+<td width="100%"> </td>
+</tr>
+</table></td>
+</tr>
+</table>
+<!-- content table -->
+<!-- open content container -->
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td class="content-row" valign="top">
+<!--noindex-->
+<!-- NAVBAR POPUP MENUS -->
+<!-- header quick search form -->
+<div class="vbmenu_popup" id="navbar_search_menu" style="display:none">
+<table border="0" cellpadding="4" cellspacing="1">
+<tr>
+<td class="thead">Поиск по форуму</td>
+</tr>
+<tr>
+<td class="vbmenu_option" title="nohilite">
+<form action="/forum/search.php?do=process" method="post">
+<input name="do" type="hidden" value="process"/>
+<input name="quicksearch" type="hidden" value="1"/>
+<input name="childforums" type="hidden" value="1"/>
+<input name="exactname" type="hidden" value="1"/>
+<input name="s" type="hidden" value="a064ddb01efbdd212e06316a3007bfbc"/>
+<div><input class="bginput" name="query" size="25" tabindex="1001" type="text"/><input class="button" tabindex="1004" type="submit" value="Вперёд"/></div>
+<div style="margin-top:4px">
+<label for="rb_nb_sp0"><input checked="checked" id="rb_nb_sp0" name="showposts" tabindex="1002" type="radio" value="0"/>Отображать темы</label>
+						 
+						<label for="rb_nb_sp1"><input id="rb_nb_sp1" name="showposts" tabindex="1003" type="radio" value="1"/>Отображать сообщения</label>
+</div>
+</form>
+</td>
+</tr>
+<tr>
+<td class="vbmenu_option"><a accesskey="4" href="/forum/search.php?s=a064ddb01efbdd212e06316a3007bfbc" rel="nofollow">Расширенный поиск</a></td>
+</tr>
+</table>
+</div>
+<!-- / header quick search form -->
+<!-- / NAVBAR POPUP MENUS -->
+<!-- PAGENAV POPUP -->
+<div class="vbmenu_popup" id="pagenav_menu" style="display:none">
+<table border="0" cellpadding="4" cellspacing="1">
+<tr>
+<td class="thead" nowrap="nowrap">К странице...</td>
+</tr>
+<tr>
+<td class="vbmenu_option" title="nohilite">
+<form action="index.php" id="pagenav_form" method="get" onsubmit="return this.gotopage()">
+<input class="bginput" id="pagenav_itxt" size="4" style="font-size:11px" type="text"/>
+<input class="button" id="pagenav_ibtn" type="button" value="Вперёд"/>
+</form>
+</td>
+</tr>
+</table>
+</div>
+<!-- / PAGENAV POPUP -->
+<!--/noindex-->
+<!-- trade-links -->
+<!-- / breadcrumb -->
+<!-- pm notification -->
+<!-- / pm notification -->
+<table align="center" border="0" cellpadding="0" cellspacing="0" id="vbdrupalcontent" width="100%">
+<colgroup>
+<col width="*"/>
+<col width="10"/><col width="200"/>
+</colgroup>
+<tr valign="top">
+<td width="100%">
+<table align="center" border="0" cellpadding="4" cellspacing="0" class="node-table node_page node-full" id="node_10422" style="border-top-width: 0;" width="100%">
+<tr>
+<td class="node-content">
+<p style="font-weight:bold">Добро пожаловать на javascript.ru!<br/>Здесь живет профессиональный javascript.</p>
+<p>Цель этого сайта - предоставить как можно более грамотную и структурированную информацию для обучения языку javascript и смежным технологиям.</p>
+<p>Современный учебник JavaScript находится по адресу <a href="https://learn.javascript.ru">https://learn.javascript.ru</a>. Это новый движок, на который уже перенесена большая часть материалов сайта.</p>
+<p>Если вы здесь впервые - рекомендую ознакомиться с кратким обзором сайта - он тут: <a href="http://javascript.ru/overview">http://javascript.ru/overview</a>.</p>
+<p>Перевод ES5: <a href="http://es5.javascript.ru">http://es5.javascript.ru</a>.</p>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+</tr>
+</table>
+<br>
+</br></td>
+<td><!-- padding --> </td>
+<td class="block">
+<div id="ajaxCartUpdateHolder"></div>
+<table border="0" cellpadding="4" cellspacing="0" class="tborder tblock" id="block-search-0" width="100%">
+<thead>
+<tr>
+<td class="thead01">
+<a href="#top" onclick="return toggle_collapse('block-search-0')" style="float:right"><img alt="" border="0" id="collapseimg_block-search-0" src="/forum/images/ca_serenity/buttons/collapse_thead.gif"/></a>
+		
+		Поиск по сайту
+	</td>
+</tr>
+</thead>
+<tbody id="collapseobj_block-search-0" style="">
+<tr>
+<td class="alt1"><form accept-charset="UTF-8" action="/search/node" id="search-block-form" method="post">
+<div><div class="container-inline"><div class="form-item">
+<input class="form-text" id="edit-search-block-form-keys" maxlength="128" name="search_block_form_keys" size="15" title="Введите слова, которые вы хотите искать." type="text" value=""/>
+</div>
+<input class="button form-submit" name="op" type="submit" value="Поиск"/>
+<input id="edit-search-block-form" name="form_id" type="hidden" value="search_block_form"/>
+</div>
+</div></form>
+</td>
+</tr>
+</tbody>
+</table><table border="0" cellpadding="4" cellspacing="0" class="tborder tblock" id="block-block-2" width="100%">
+<thead>
+<tr>
+<td class="thead01">
+<a href="#top" onclick="return toggle_collapse('block-block-2')" style="float:right"><img alt="" border="0" id="collapseimg_block-block-2" src="/forum/images/ca_serenity/buttons/collapse_thead.gif"/></a>
+		
+		Содержание
+	</td>
+</tr>
+</thead>
+<tbody id="collapseobj_block-block-2" style="">
+<tr>
+<td class="alt1">
+<div style="padding-left: 10px">
+<h2 class="chapter-header" id="guru-js">Учебник javascript</h2>
+<ul class="book-tree book-tree-short book-tree-top" style="margin-bottom:0"><li class="leaf book-tree-3930"><a class="book-tree-link-1" href="/tutorial/intro">Введение</a></li><li class="collapsed book-tree-4125"><a class="book-tree-link-1" href="/tutorial/foundation">Основы javascript</a></li><li class="collapsed book-tree-605"><a class="book-tree-link-1" href="/tutorial/dom">DOM: работа с HTML-страницей</a></li><li class="collapsed book-tree-445"><a class="book-tree-link-1" href="/tutorial/events">События</a></li><li class="collapsed book-tree-443"><a class="book-tree-link-1" href="/tutorial/object">Объекты, ООП</a></li><li class="leaf book-tree-453"><a class="book-tree-link-1" href="/tutorial/ajax">AJAX</a></li><li class="leaf book-tree-6202"><a class="book-tree-link-1" href="/tutorial/regexp-specials">Особенности регулярных выражений в Javascript</a></li></ul>
+<h2 class="chapter-header" id="language">Основные элементы языка</h2>
+<ul class="book-tree book-tree-short book-tree-top"><li class="leaf book-tree-107"><a class="book-tree-link-1" href="/basic/types">Базовые типы: Строки, Числа, Boolean</a></li><li class="leaf book-tree-112"><a class="book-tree-link-1" href="/basic/operators">Операторы, их особенности в JS</a></li><li class="leaf book-tree-110"><a class="book-tree-link-1" href="/basic/array">Массивы </a></li><li class="leaf book-tree-121"><a class="book-tree-link-1" href="/basic/functions">Функции</a></li><li class="leaf book-tree-680"><a class="book-tree-link-1" href="/basic/closure">Замыкания </a></li><li class="leaf book-tree-105"><a class="book-tree-link-1" href="/basic/regular-expression">Регулярные выражения</a></li><li class="leaf book-tree-113"><a class="book-tree-link-1" href="/basic/syntax-switch-for">Конструкции языка. Обработка ошибок.</a></li></ul>
+<h2 class="chapter-header" id="tools">Сундучок с инструментами</h2>
+<ul class="book-tree book-tree-short book-tree-top"><li class="collapsed book-tree-596"><a class="book-tree-link-1" href="/tools/development">Редактирование и отладка скриптов</a></li><li class="collapsed book-tree-434"><a class="book-tree-link-1" href="/tools/cookie">Cookie</a></li><li class="collapsed book-tree-437"><a class="book-tree-link-1" href="/tools/http-debug">HTTP-Отладка</a></li><li class="collapsed book-tree-436"><a class="book-tree-link-1" href="/tools/html-source">Просмотр живого HTML</a></li><li class="collapsed book-tree-454"><a class="book-tree-link-1" href="/tools/plugin">Разное полезное</a></li></ul>
+<h2 class="chapter-header" id="ui">Интерфейсы</h2>
+<ul class="book-tree book-tree-short book-tree-top"><li class="leaf book-tree-1593"><a class="book-tree-link-1" href="/ui/draganddrop">Drag and drop</a></li><li class="leaf book-tree-708"><a class="book-tree-link-1" href="/ui/tree">Грамотное javascript-дерево за 7 шагов</a></li><li class="leaf book-tree-1418"><a class="book-tree-link-1" href="/ui/ajax">Интеграция AJAX в интерфейс</a></li><li class="leaf book-tree-1676"><a class="book-tree-link-1" href="/ui/offset">Координаты элемента на странице</a></li><li class="leaf book-tree-6174"><a class="book-tree-link-1" href="/ui/show-hide-toggle">Правильные show/hide/toggle</a></li><li class="leaf book-tree-1419"><a class="book-tree-link-1" href="/ui/ajaxtree">Удобное дерево с AJAX-подгрузкой</a></li></ul>
+<h2 class="chapter-header" id="ajax">Все об AJAX</h2>
+<ul class="book-tree book-tree-short book-tree-top"><li class="leaf book-tree-69"><a class="book-tree-link-1" href="/ajax/intro">Введение в Ajax</a></li><li class="leaf book-tree-71"><a class="book-tree-link-1" href="/ajax/rich-client">Ajax и Rich Client</a></li><li class="leaf book-tree-72"><a class="book-tree-link-1" href="/ajax/client-server">Ajax и клиент-серверная архитектура.</a></li><li class="collapsed book-tree-441"><a class="book-tree-link-1" href="/ajax/transport">Способы общения с сервером</a></li><li class="collapsed book-tree-440"><a class="book-tree-link-1" href="/ajax/comet">COMET</a></li><li class="leaf book-tree-68"><a class="book-tree-link-1" href="/ajax/formats">Форматы данных для AJAX</a></li><li class="leaf book-tree-85"><a class="book-tree-link-1" href="/ajax/cross-domain-scripting">Обмен данными для документов с разных доменов</a></li><li class="leaf book-tree-5225"><a class="book-tree-link-1" href="/ajax/cross-origin-2">Обмен данными между доменами. Часть 2.</a></li></ul>
+<h2 class="chapter-header" id="optimize">Оптимизация</h2>
+<ul class="book-tree book-tree-short book-tree-top"><li class="collapsed book-tree-5768"><a class="book-tree-link-1" href="/optimize/google-closure-compiler">Google Closure Compiler в деталях</a></li><li class="leaf book-tree-400"><a class="book-tree-link-1" href="/optimize/performance-rules">Yahoo: лучшие способы ускорения сайта</a></li><li class="leaf book-tree-65"><a class="book-tree-link-1" href="/optimize/yslow">Анализ оптимизации страниц c Yslow</a></li><li class="leaf book-tree-723"><a class="book-tree-link-1" href="/optimize/antimvc">Интерфейсы. Прочь от MVC</a></li><li class="leaf book-tree-142"><a class="book-tree-link-1" href="/optimize/javascript-performance">Оптимизация Javascript-кода</a></li><li class="leaf book-tree-10975"><a class="book-tree-link-1" href="/optimize/documentfragment-0">Польза от documentFragment</a></li><li class="leaf book-tree-140"><a class="book-tree-link-1" href="/optimize/javascript-compression">Сжатие Javascript и CSS</a></li><li class="leaf book-tree-778"><a class="book-tree-link-1" href="/optimize/better-compression">Улучшаем сжимаемость Javascript-кода. </a></li><li class="leaf book-tree-710"><a class="book-tree-link-1" href="/optimize/cache-versioning">Умное Кеширование и Версионность в Javascript/CSS</a></li></ul>
+<h2 class="chapter-header" id="misc">Разное</h2>
+<ul class="book-tree book-tree-short book-tree-top"><li class="collapsed book-tree-449"><a class="book-tree-link-1" href="/unsorted/async">Асинхронное программирование</a></li><li class="leaf book-tree-4908"><a class="book-tree-link-1" href="/unsorted/google-gears">Google Gears в деталях</a></li><li class="leaf book-tree-707"><a class="book-tree-link-1" href="/unsorted/bridge-to-flash">Javascript &lt;-&gt; Flash мост</a></li><li class="leaf book-tree-896"><a class="book-tree-link-1" href="/unsorted/bookmarklet">Букмарклеты и правила их написания</a></li><li class="leaf book-tree-151"><a class="book-tree-link-1" href="/unsorted/book-choice">О подборке книг на сайте</a></li><li class="leaf book-tree-807"><a class="book-tree-link-1" href="/unsorted/why_href_js_is_bad">Почему &lt;a href="javascript:..."&gt; - плохо</a></li><li class="leaf book-tree-10695"><a class="book-tree-link-1" href="/unsorted/id">Способы идентификации в интернете</a></li><li class="leaf book-tree-4176"><a class="book-tree-link-1" href="/unsorted/w3c">Уровни DOM</a></li><li class="leaf book-tree-717"><a class="book-tree-link-1" href="/unsorted/read">Что почитать?</a></li><li class="leaf book-tree-798"><a class="book-tree-link-1" href="/unsorted/templating">Шаблонизация с javascript</a></li><li class="leaf book-tree-809"><a class="book-tree-link-1" href="/unsorted/selenium-rc">Юнит-тесты уровня браузера на связке Selenium + PHP.</a></li><li class="leaf book-tree-394"><a class="book-tree-link-1" href="/unsorted/html-css-manual">Справочники: Javascript/HTML/CSS</a></li><li class="leaf book-tree-5783"><a class="book-tree-link-1" href="/unsorted/google-closure-library-build">Система сборки и зависимостей Google Closure Library</a></li><li class="leaf book-tree-683"><a class="book-tree-link-1" href="/unsorted/storage">Хранение данных на клиенте. DOM Storage и его аналоги.</a></li><li class="leaf book-tree-1016"><a class="book-tree-link-1" href="/unsorted/top-10-functions">10 лучших функций на JavaScript</a></li></ul>
+<p style="text-align:right;margin-bottom:0"><a href="http://javascript.ru/doctree">Дерево всех статей</a></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table><table border="0" cellpadding="4" cellspacing="0" class="tborder tblock" id="block-comment-0" width="100%">
+<thead>
+<tr>
+<td class="thead01">
+<a href="#top" onclick="return toggle_collapse('block-comment-0')" style="float:right"><img alt="" border="0" id="collapseimg_block-comment-0" src="/forum/images/ca_serenity/buttons/collapse_thead.gif"/></a>
+		
+		Последние комментарии
+	</td>
+</tr>
+</thead>
+<tbody id="collapseobj_block-comment-0" style="">
+<tr>
+<td class="alt1"><div class="item-list"><ul><li><a href="/optimize/documentfragment-0#comment-136177">Комментарий</a><br/>39 минут 51 секунда назад</li><li><a href="/while#comment-136175">I frequently watch them to learn...</a><br/>8 часов 9 минут назад</li><li><a href="/continue#comment-136174">The advice you provide is incredibly...</a><br/>8 часов 22 минуты назад</li><li><a href="/tutorial/dom/intro#comment-136173">The information shared is really...</a><br/>11 часов 18 минут назад</li><li><a href="/unsorted/google-closure-library-build#comment-136172">I think doing websites as you are your...</a><br/>11 часов 55 минут назад</li><li><a href="/basic/closure#comment-136171">Your writing is excellent, so allow me...</a><br/>12 часов 7 минут назад</li><li><a href="/unsorted/html-css-manual#comment-136170">ทางเข้าbiobet ที่สุดแห่งบาคาร่าออนไลน์...</a><br/>12 часов 8 минут назад</li><li><a href="/unsorted/async/deferred-deep#comment-136169">Trust Wallet is an all-in-one mobile...</a><br/>12 часов 24 минуты назад</li><li><a href="/tutorial/dom/modify#comment-136168">You need to take part in a kick the...</a><br/>12 часов 51 минута назад</li><li><a href="/unsorted/id#comment-136167">Pretty cool post.It 's really very nice...</a><br/>15 часов 8 минут назад</li></ul></div></td>
+</tr>
+</tbody>
+</table><table border="0" cellpadding="4" cellspacing="0" class="tborder tblock" id="block-vbforumblocks-1" width="100%">
+<thead>
+<tr>
+<td class="thead01">
+<a href="#top" onclick="return toggle_collapse('block-vbforumblocks-1')" style="float:right"><img alt="" border="0" id="collapseimg_block-vbforumblocks-1" src="/forum/images/ca_serenity/buttons/collapse_thead.gif"/></a>
+		
+		Последние темы на форуме
+	</td>
+</tr>
+</thead>
+<tbody id="collapseobj_block-vbforumblocks-1" style="">
+<tr>
+<td class="alt1"><div class="item-list"><ul><li><a href="http://javascript.ru/forum/showthread.php?t=84979&amp;goto=newpost" rel="nofollow" title="Здраствуйте
+
+Нужно сделать проверку строки, чтобы всё возвращалась
+
+Пробовал вот так, но что то не то намудрил
+
+let counter = 0;
+
+    while (counter &amp;lt;= str.length) {
+
+        if (   ) {
+            counter = counter + 1;
+            return counter;
+        }
+        else {
+
+        }
+
+Прошу помочь с написанием кода
+
+// Функция принимает на вход строку и символ
+// и возвращает количество символов в строке
+// Поиск должен работать в любом регистре
+// Примеры:
+// getCharCount(&amp;quot;строка&amp;quot;, &amp;quot;с&amp;quot;) =&amp;gt; 1
+// getCharCount(&amp;quot;Строка&amp;quot;, &amp;quot;с&amp;quot;) =&amp;gt; 1
+// getCharCount(&amp;quot;строка&amp;quot;, &amp;quot;А&amp;quot;) =&amp;gt; 1
+// getCharCount(&amp;quot;строка&amp;quot;, &amp;quot;ф&amp;quot;) =&amp;gt; 0
+
+function getCharCount(str, char) {
+  
+}
+
+export default getCharCount;
+
+import getCharCount from &amp;quot;./index&amp;quot;;
+
+it(&amp;quot;Проверка 1&amp;quot;, () =&amp;gt; {
+  expect(getCharCount(&amp;quot;строка&amp;quot;, &amp;quot;с&amp;quot;)).toBe(1);
+});
+
+it(&amp;quot;Проверка 2&amp;quot;, () =&amp;gt; {
+  expect(getCharCount(&amp;quot;строка&amp;quot;, &amp;quot;ы&amp;quot;)).toBe(0);
+});
+
+it(&amp;quot;Проверка 3&amp;quot;, () =&amp;gt; {
+  expect(getCharCount(&amp;quot;гиппопотомомонстросесквиппедалиофобия&amp;quot;, &amp;quot;п&amp;quot;)).toBe(5);
+});
+
+it(&amp;quot;Проверка 4&amp;quot;, () =&amp;gt; {
+  expect(getCharCount(&amp;quot;ААААаааа&amp;quot;, &amp;quot;а&amp;quot;)).toBe(8);
+});
+
+it(&amp;quot;Проверка 5&amp;quot;, () =&amp;gt; {
+  expect(getCharCount(&amp;quot;ААААаааа&amp;quot;, &amp;quot;А&amp;quot;)).toBe(8);
+});">Проверка строки</a>
+</li><li><a href="http://javascript.ru/forum/showthread.php?t=84978&amp;goto=newpost" rel="nofollow" title="В Ruby я пытаюсь разработать алгоритм быстрой сортировки. Я быстро заработал простой, но он требовал создания временных массивов на лету. Я пытаюсь построить более упрощенную быструю сортировку, которая просто заменяет компоненты на месте, а не создает новые массивы.
+
+def quicksort(arr = , left = 0, right = 0)
+  right = arr.length - 1 if right &amp;lt; 1
+  if left &amp;lt; right
+    index = partition(arr, left, right)
+    quicksort(arr, left, index - 1)
+    quicksort(arr, index, right)
+  end
+  arr
+end
+
+def partition(arr, left, right)
+  pivot = arr
+  while left &amp;lt;= right
+    left += 1 while arr &amp;lt; pivot
+    right -= 1 while arr &amp;gt; pivot
+    if left &amp;lt;= right
+      arr, arr = arr, arr
+      left += 1
+      right -= 1
+    end
+  end
+  left
+end
+
+arr = 
+p quicksort(arr)
+
+Кто-нибудь знает, почему этот код не работает? Я следовал инструкциям в письме, но я все еще не могу заставить его работать правильно.">запуск алгоритма быстрой сортировки в действие</a>
+</li><li><a href="http://javascript.ru/forum/showthread.php?t=84871&amp;goto=newpost" rel="nofollow" title="Здравствуйте товарищи кодеры!
+
+Жутко надоел спам в чате. Единственное, что пока пришло в голову, запретить сообщения которые содержат больше скажем 30 английских символов. Обычно хотя бы логику того, что нужно сделать представляю, но сейчас в растерянности.
+Итак, вот как выглядит сообщение:
+
+&amp;lt;div id=&amp;quot;KIDE_id_1000391&amp;quot; class=&amp;quot;KIDE_msg_top&amp;quot;&amp;gt;
+  &amp;lt;span class=&amp;quot;KIDE_msg_hour&amp;quot;&amp;gt; 9:34 -&amp;lt;/span&amp;gt;
+  &amp;lt;span title=&amp;quot;22-1 9:34:16&amp;quot; oncontextmenu=&amp;quot;event.preventDefault();kide.mensaje('Павлин_4861',0,1000391,'','22-1 9:34:16','e34629ab8eb3df87eb0230a6a380c2d2',3,'http://www.gravatar.com/avatar/9c083d94d6703024d615406e8b17a01c?s=50&amp;amp;d=wavatar')&amp;quot; class=&amp;quot;KIDE_guest&amp;quot;&amp;gt;
+                &amp;lt;span style=&amp;quot;cursor: pointer&amp;quot; title=&amp;quot;22-1 9:34:16&amp;quot; onclick=&amp;quot;kide.insertSmile('Павлин_4861, ')&amp;quot;
+                        class=&amp;quot;KIDE_guest&amp;quot;&amp;gt;Ник&amp;lt;/span&amp;gt;: &amp;lt;span class=&amp;quot;KIDE_dc_guest KIDE_msg&amp;quot;&amp;gt;Текст сообщения&amp;lt;/span&amp;gt;
+  &amp;lt;i class=&amp;quot;fa fa-reply qutes&amp;quot; title=&amp;quot;Цитировать&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
+  &amp;lt;span class=&amp;quot;hig K_copy&amp;quot;&amp;gt;&amp;lt;i class=&amp;quot;fa fa-clipboard&amp;quot; title=&amp;quot;Копировать&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/span&amp;gt;
+  &amp;lt;/span&amp;gt;
+&amp;lt;/div&amp;gt;
+
+:help:">Антиспам (запрет англоязычных сообщений)</a>
+</li><li><a href="http://javascript.ru/forum/showthread.php?t=84809&amp;goto=newpost" rel="nofollow" title="Я хочу сказать скрипту.Работать нужно так. Если нажать кнопку открыть в конкретном блоке, то открыть модальное окно в этот блоке.
+
+
+&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
+&amp;lt;head&amp;gt;
+    &amp;lt;meta charset=&amp;quot;UTF-8&amp;quot;&amp;gt;
+    &amp;lt;meta http-equiv=&amp;quot;X-UA-Compatible&amp;quot; content=&amp;quot;IE=edge&amp;quot;&amp;gt;
+    &amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;width=device-width, initial-scale=1.0&amp;quot;&amp;gt;
+    &amp;lt;title&amp;gt;Document&amp;lt;/title&amp;gt;
+    &amp;lt;style&amp;gt;
+        .blok {
+            max-width: 280px;
+            margin: 30px 0px 30px 0px;
+        }
+        .zagolovok {
+            font-size: 24px;
+            margin: 0px 0px 10px 0px;
+        }
+        .modal__open {
+            cursor: pointer;
+            color: dodgerblue;
+        }
+        .modal {
+            display: none;
+            margin: 30px 0px 30px 0px;
+        }
+        .modal__close {
+            cursor: pointer;
+            margin: 30px 0px 30px 0px;
+            color: dodgerblue;
+        }
+        .modal__tekst {
+            font-size: 14px;
+        }
+        .open{
+            display: block;
+        }
+    &amp;lt;/style&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+
+    &amp;lt;div class=&amp;quot;blok&amp;quot;&amp;gt;
+        &amp;lt;div class=&amp;quot;zagolovok&amp;quot;&amp;gt;Заголовок&amp;lt;/div&amp;gt;
+        &amp;lt;div class=&amp;quot;modal__open&amp;quot;&amp;gt;Открыть&amp;lt;/div&amp;gt;
+        &amp;lt;div class=&amp;quot;modal&amp;quot;&amp;gt;
+            &amp;lt;div class=&amp;quot;modal__close&amp;quot;&amp;gt;Закрыть&amp;lt;/div&amp;gt;
+            &amp;lt;div class=&amp;quot;modal__tekst&amp;quot;&amp;gt;
+                Модальное окно &amp;lt;br&amp;gt;
+                Лишь явные признаки победы институционализации неоднозначны и будут смешаны с не уникальными данными до степени совершенной неузнаваемости, из-за чего возрастает их статус бесполезности. В своём стремлении повысить качество жизни, они забывают, что экономическая повестка сегодняшнего дня обеспечивает широкому кругу (специалистов) участие в формировании инновационных методов управления процессами. Сложно сказать, почему многие известные личности будут объявлены нарушающими общечеловеческие нормы этики и морали.
+            &amp;lt;/div&amp;gt;
+        &amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+
+    &amp;lt;div class=&amp;quot;blok&amp;quot;&amp;gt;
+        &amp;lt;div class=&amp;quot;zagolovok&amp;quot;&amp;gt;Заголовок&amp;lt;/div&amp;gt;
+        &amp;lt;div class=&amp;quot;modal__open&amp;quot;&amp;gt;Открыть&amp;lt;/div&amp;gt;
+        &amp;lt;div class=&amp;quot;modal&amp;quot;&amp;gt;
+            &amp;lt;div class=&amp;quot;modal__close&amp;quot;&amp;gt;Закрыть&amp;lt;/div&amp;gt;
+            &amp;lt;div class=&amp;quot;modal__tekst&amp;quot;&amp;gt;
+                Модальное окно &amp;lt;br&amp;gt;
+                Лишь явные признаки победы институционализации неоднозначны и будут смешаны с не уникальными данными до степени совершенной неузнаваемости, из-за чего возрастает их статус бесполезности. В своём стремлении повысить качество жизни, они забывают, что экономическая повестка сегодняшнего дня обеспечивает широкому кругу (специалистов) участие в формировании инновационных методов управления процессами. Сложно сказать, почему многие известные личности будут объявлены нарушающими общечеловеческие нормы этики и морали.
+            &amp;lt;/div&amp;gt;
+        &amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+
+
+
+    &amp;lt;script&amp;gt;
+        let modal__open = document.querySelector(&amp;quot;.modal__open&amp;quot;);
+        let modal__close = document.querySelector(&amp;quot;.modal__close&amp;quot;);
+        let modal = document.querySelector(&amp;quot;.modal&amp;quot;);
+
+        let modal__fun = () =&amp;gt; {
+            modal.classList.add(&amp;quot;open&amp;quot;);
+        }
+        modal__open.addEventListener(&amp;quot;click&amp;quot;, modal__fun);
+
+        let modal__fun__2 = () =&amp;gt; {
+            modal.classList.remove(&amp;quot;open&amp;quot;);
+        }
+        modal__close.addEventListener(&amp;quot;click&amp;quot;, modal__fun__2);
+    &amp;lt;/script&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;">Работа в конкретном блоке.</a>
+</li><li><a href="http://javascript.ru/forum/showthread.php?t=84976&amp;goto=newpost" rel="nofollow" title="Вопрос 1:
+
+let x = await f1();
+let y = await f2();
+console.log(x, y);
+
+Такой код вызовет функцию f2 только после завершения функции f1 (обе функции - длительные и асинхронные, например, запросы к API). Подскажите пожалуйста, как переписать код, чтобы функция f2 запускалась до завершения f1, но последующий вывод в консоль всё равно дожидался завершения обоих.
+
+Вопрос 2:
+Как в async/await-коде сделать паузу на пару секунд?">Асинхронность</a>
+</li><li><a href="http://javascript.ru/forum/showthread.php?t=84975&amp;goto=newpost" rel="nofollow" title="Есть такая строка:
+&amp;lt;option value=&amp;quot;&amp;quot; data-settings=&amp;quot;{&amp;quot;related&amp;quot;:&amp;quot;17&amp;quot;,&amp;quot;math&amp;quot;:&amp;quot;400&amp;quot;}&amp;quot;&amp;gt;......&amp;lt;/option&amp;gt;
+Надо изменить значение атрибута data-settings &amp;quot;math&amp;quot; c &amp;quot;400&amp;quot; на &amp;quot;0&amp;quot;. Уже всю голову сломал.
+Нужно именно на js, не квери, решение с регуляркой и тп не подходит.
+Спасибо!">Как на чистом JS изменить датасет</a>
+</li><li><a href="http://javascript.ru/forum/showthread.php?t=84971&amp;goto=newpost" rel="nofollow" title="&amp;lt;div class=&amp;quot;box_1&amp;quot;&amp;gt;
+&amp;lt;li class=&amp;quot;hav_sub&amp;quot; data-main-id=&amp;quot;99&amp;quot;&amp;gt;111&amp;lt;/li&amp;gt;
+&amp;lt;li class=&amp;quot;hav_sub&amp;quot; data-main-id=&amp;quot;105&amp;quot;&amp;gt;222&amp;lt;/li&amp;gt;
+&amp;lt;li class=&amp;quot;hav_sub&amp;quot; data-main-id=&amp;quot;23&amp;quot;&amp;gt;333&amp;lt;/li&amp;gt;
+&amp;lt;/div&amp;gt;
+&amp;lt;div class=&amp;quot;box_2&amp;quot;&amp;gt;
+&amp;lt;div class=&amp;quot;subcategory_box&amp;quot; data-id=&amp;quot;99&amp;quot;&amp;gt;aaa&amp;lt;/div&amp;gt;
+&amp;lt;div class=&amp;quot;subcategory_box&amp;quot; data-id=&amp;quot;105&amp;quot;&amp;gt;sss&amp;lt;/div&amp;gt;
+&amp;lt;div class=&amp;quot;subcategory_box&amp;quot; data-id=&amp;quot;23&amp;quot;&amp;gt;ddd&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+Помогите написать скрипт.. c jqurey не сильно знаком..
+Нужно при наведении на li.hav_sub data-main-id=&amp;quot;99&amp;quot;
+добавить класс &amp;quot;open&amp;quot; для div.subcategory_box data-id=&amp;quot;99&amp;quot;
+
+И соответственно убрать этот класс когда мы наводим на другой li с другим атрибутом..
+
+Это получается как меню.. только оно в разных блоках...
+за ранее благодарен..">Помогите как написать небольшой скрипт..</a>
+</li></ul></div><a href="http://javascript.ru/forum/" style="display: block;text-align:right">Forum</a></td>
+</tr>
+</tbody>
+</table>
+<script>
+var ACUholder = document.getElementById('ajaxCartUpdateHolder')
+var ACU = document.getElementById('ajaxCartUpdate')
+if (ACU) ACUholder.parentNode.removeChild(ACUholder) 
+else ACUholder.setAttribute('id', 'ajaxCartUpdate')
+</script>
+</td>
+</tr>
+</table>
+<br/>
+</td>
+</tr>
+</table>
+<!-- / close content container -->
+<!-- /content area table -->
+</td></tr>
+</table><!-- / content table --></td>
+</tr>
+<tr>
+<td class="footer-row"><table align="center" border="0" cellpadding="4" cellspacing="0" class="page" width="100%">
+<tr>
+<td align="right" class="tfoot" width="100%">
+<div class="smallfont" style="height:31px;line-height:31px;text-align:center">
+<strong>
+<span style="padding-right: 20px;">© Илья Кантор, 2007-2021</span>
+<a href="/about-project" rel="nofollow">О проекте</a> -
+
+				<a href="https://javascript.ru/contact?s=a064ddb01efbdd212e06316a3007bfbc" rel="nofollow">Обратная связь</a> -
+				
+				
+
+
+				
+				<a href="#top" onclick="self.scrollTo(0, 0); return false;">Вверх</a>
+</strong>
+</div>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;color:gray;font-size:12px">
+</td>
+</tr>
+</table><!-- / footer table --></td>
+</tr>
+</table><!-- / main table -->
+<script src="/forum/images/ca_serenity/misc/scripts.js" type="text/javascript"></script>
+<script type="text/javascript">vBulletin_init()</script>
+</div>
+<div style="width:1px;position:absolute;left:-9999px">
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter1178660 = new Ya.Metrika({id:1178660,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img alt="" src="//mc.yandex.ru/watch/1178660" style="position:absolute; left:-9999px;"/></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<!-- #wrapper -->
+</div></body>
+</html>

@@ -1,0 +1,2410 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+<title>Запись к врачу через МосМедПортал - сервис поиска врачей и клиник в Москве и Московской области</title>
+<meta charset="utf-8"/>
+<meta content="Сервис МОСМЕДПОРТАЛ - веб-сервис осуществляющий онлайн запись к врачу любой специализации в Москве и МО. Рейтинги и отзывы о врачах и клиниках." name="description"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="/favicon.ico" rel="icon" type="image/x-icon"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="120x120"/>
+<link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="/site.webmanifest" rel="manifest"/>
+<link color="#5bbad5" href="/safari-pinned-tab.svg" rel="mask-icon"/>
+<meta content="#da532c" name="msapplication-TileColor"/>
+<meta content="#ffffff" name="theme-color"/>
+<style>
+    a,body,button,div,form,h1,html,img,input,label,li,p,span,strong,ul{margin:0;padding:0;border:0;outline:0;background:0 0;vertical-align:baseline;font:inherit}input{box-sizing:border-box}body{font-size:12px;line-height:1;color:#000}ul{list-style:none}strong{font-weight:700}@font-face{font-family:Roboto;font-style:normal;font-weight:300;src:local('Roboto Light'),local('Roboto-Light'),url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:Roboto;font-style:normal;font-weight:400;src:local('Roboto'),local('Roboto-Regular'),url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:Roboto;font-style:normal;font-weight:500;src:local('Roboto Medium'),local('Roboto-Medium'),url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fCRc4EsA.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:Roboto;font-style:normal;font-weight:700;src:local('Roboto Bold'),local('Roboto-Bold'),url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfCRc4EsA.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:Roboto;font-style:normal;font-weight:900;src:local('Roboto Black'),local('Roboto-Black'),url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmYUtfCRc4EsA.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}body{font:400 14px/21px Roboto,sans-serif;background:url(/local/templates/mmp/img/bg.jpg)}h1{font-size:32px;line-height:30px;font-weight:300;color:#000;margin:0 0 21px}a{color:#298ec8}.wrap{max-width:1200px;margin:0 auto;position:relative}.clear:after{content:"";display:block;overflow:hidden;clear:both}.left{float:left}.right{float:right}.center{text-align:center}.bbox{box-sizing:border-box;-moz-box-sizing:border-box;-o-box-sizing:border-box;-webkit-box-sizing:border-box;width:100%}.hidden{display:none}.header{padding:30px 0;background:#fff}.logo{color:#959595;font-size:11px;float:left;line-height:14px;text-transform:uppercase}.logo img,.logo span{display:inline-block;vertical-align:middle}.logo img{margin:0 35px 0 0}.logo span{width:105px}.menu-btn{position:absolute;width:20px;height:20px;background:url(/local/templates/mmp/img/catalog-menu.png);background-size:cover;top:0;right:15px;display:none}.header-phone{text-transform:uppercase;line-height:normal;color:#959595;font-size:11px;float:left;margin:1px 20px 0 0}.header-phone a{font-weight:900;color:#000;text-decoration:none;font-size:19px;display:inline-block;margin:0 0 1px}.main-menu{background:#7dc0e9;font-size:16px;padding:12px 0 16px;position:relative}.main-menu:after{content:"";position:absolute;width:100%;border-bottom:#fff 1px dotted;bottom:0;left:0}.main-menu li{display:inline-block;vertical-align:top;text-transform:uppercase;border-left:#fff 1px dotted}.main-menu a:not(.header-city){text-decoration:none;color:#fff;display:block;padding:6px 24px 6px 28px}.quick-search{background:url(/local/templates/mmp/img/quick-search.jpg) no-repeat center 0;background-size:cover;color:#fff;padding:41px 0 18px;font-size:16px}.quick-search.h-85{background:#50a1d2;padding:11px 0 7px}.h-85 .qs-fields{margin-bottom:0}.looking-for>span{float:left;margin:8px 0 0}.qs-fields{margin:0 0 47px 66px}.qs-fields .middle{float:left;width:100%;padding:0 160px 0 0}.search-button{float:right;width:160px;height:41px;background:#d20000;color:#fff;margin:0 0 0 -160px;border-radius:0 3px 3px 0;font-size:14px;font-weight:700}.search-button:after{content:"";display:inline-block;vertical-align:middle;width:18px;height:16px;background:url(/local/templates/mmp/img/zoom.png);margin:0 -4px 0 10px}.qs-checkbox{clear:both;padding:4px 0 0}.for-checkbox{font-size:14px;margin:0 23px 0 0}.content{padding:31px 15px 0 15px}.left-content{float:left;padding:0 350px 0 0}.bread-crumbs{margin:0 0 12px}.bread-crumbs li{color:#8a8a8a;display:inline-block;vertical-align:top;font-size:13px}.bread-crumbs li:after{content:"/";display:inline-block;vertical-align:middle;margin:0 2px 0 3px}.bread-crumbs a{color:#8a8a8a}.b-shadow{position:relative;border-radius:10px;background:#fff;padding:20px 17px 17px;margin:0 0 15px}.b-shadow.no-pad{padding:0}.address,.metro{color:#595959;font-size:13px;font-weight:300;line-height:15px;position:relative;padding:0 0 0 22px;margin:0 0 10px}.address{margin-left:20px!important;padding-left:0;}.metro span{color:#bababa}.address:after,.metro:after{content:"";position:absolute}.address:after{width:13px;height:18px;background:url(/local/templates/mmp/img/location-ico.png);top:0;left:-20px}.metro:after{width:10px;height:10px;border-radius:50%}.metro.label-5:after{background:#a1a2a3;top:2px;left:2px}.button{display:inline-block;color:#fff;text-decoration:none;font-size:14px;background:#009595;text-align:center;border-radius:3px;box-sizing:border-box;-moz-box-sizing:border-box;-o-box-sizing:border-box;-webkit-box-sizing:border-box;padding:11px 16px 12px}.blue-btn{background:#3f8fc5}.small-btn{font-size:13px;padding:4px 16px 5px}.clinic-phone{text-align:center;font-size:14px;color:#000}.clinic-phone p{margin:0 0 5px;font-weight:300;font-size:13px;line-height:13px}.clinic-phone a{font-weight:700;color:#000;text-decoration:none;font-size:18px}.card{overflow:hidden;margin:0 0 20px;position:relative}.b-shadow .card{padding:20px 17px 28px;margin:0 0 10px;overflow:visible}.b-shadow .card:last-child{margin:0;padding-bottom:17px}.card-photo{float:left;font-size:13px}.card-photo .photo{margin:0 0 17px}.info,.w-hours{border:#c8c8c8 1px dotted;border-radius:3px;padding:0 10px 15px}.info-title,.w-hours-title{text-align:center;margin:-11px 0 3px}.w-hours-title strong{background:#fff;padding:0 10px}.w-hours ul{display:table;width:100%;font-weight:300;color:#595959}.w-hours li{display:table-row}.w-hours span{display:table-cell;padding:0 0 1px}.w-hours span:last-child{text-align:right}.clinic-data{margin:0 0 0 217px}.clinic-name{font-size:18px;font-weight:500;line-height:normal;margin:-5px 0 15px}.clinic-name a{color:#3f8fc5;border-bottom:1px solid #5dafde;text-decoration:none}.clinic-address{border-bottom:#c2c2c2 1px dotted;padding:0 0 12px;margin:0 0 14px}.clinic-address>li{position:relative;display:inline-block;vertical-align:top;margin:0 20px 10px 0}.clinic-address>.metro{z-index:10}.clinic-address>li:last-child{margin-right:0}.clinic-card-phone .clinic-phone{float:left;padding:0 270px 0 0}.tab-content>div:not(:first-child){display:none}.info{text-align:center;color:#595959;padding:0 30px 17px;font-size:13px;font-weight:300}.info.review_clinic_card{text-align:left}.info-title{color:#000;margin-bottom:10px}.info-title b{background:#fff;padding:10px}.rate{font-size:0}.rate li{display:inline-block;width:12px;height:12px;background:url(/local/templates/mmp/img/rate.png);margin:0 1px}#right-map{height:420px}.right-map .button{width:100%}.right-map .button span{position:relative}.right-map .button span:after{content:"";position:absolute;width:16px;height:16px;background:url(/local/templates/mmp/img/expand.png);vertical-align:middle;right:-30px;top:0}.select-special{font-size:13px;text-align:right;float:right;margin:7px 0 0 -320px}.select-special a{color:#000;border-bottom:#000 1px dotted;text-decoration:none;display:inline-block;line-height:12px;margin:0 0 0 5px}.search-res{margin:0 0 31px}.search-res .select-special:not(.right){float:none;text-align:left;display:inline-block;vertical-align:top;margin:0}.doctor-treats{margin:11px 0 0}.doctor-treats ul{float:left;font-size:16px;width:28.8%;margin:0 6% 0 0}.doctor-treats.col4 ul{width:20.2%;margin:0 6% 0 0}.doctor-treats ul:last-child{margin-right:0}.doctor-treats li{margin:0 0 8px;padding:0 0 0 18px;position:relative}.doctor-treats li:before{content:"";position:absolute;width:5px;height:5px;background:#d1d1d1;border-radius:50%;top:8px;left:0}.footer-menu li{margin:0 0 2px}.footer-menu .head-menu{font-size:18px;line-height:normal;min-height:22px;margin:0 0 9px}.overlay{display:none;background:rgba(0,0,0,.75);position:fixed;top:0;left:0;z-index:999;width:100%;height:100%}.popup{position:absolute;width:650px;background:#fff;border-radius:4px;z-index:999;top:100px;left:100px;display:none}.pp-close{position:absolute;width:29px;height:29px;background:url(/local/templates/mmp/img/close.png);top:-25px;right:-25px}.popup>div{padding:15px;height:100%}.pp-title{font-size:18px;margin:0 0 15px}.pp-title span{color:#959595;font-size:13px;position:relative;top:-3px}.pp-title a{color:#000;text-decoration:none}.popup .button{display:block;width:200px;margin:23px auto 19px}.popup .center{margin:39px 0 24px}.phone-link{color:#000;text-decoration:none;font-size:18px}.pp-map-list2{width:100%;max-width:1200px}.card-photo .photo{display:flex;align-items:center;justify-content:center}.card-photo--img{max-width:179px;max-height:150px}.btn-emo{background:#ccc!important}.btns-row{display:flex;justify-content:center;margin-top:20px}.btns-row .button{margin:10px!important}.head-search{float:left;width:calc(100% - 590px);margin:0 20px;max-width:564px}.phone-fixed{display:none;float:right}.pp-info>div,.pp-map-list2>div{overflow:hidden}.pp-map-list2>div{padding:0;height:auto}.pp-map-list2 .pp-title{padding:20px 20px 0}.pp-map-list2 .pp-title .left p:first-child{margin-bottom:5px;font-size:21px}.pp-map-list2 .pp-title .right a{margin-bottom:5px;display:block;font-size:21px}.pp-map-list2 .pp-title .right span{color:#959595;font-size:15px}@media (max-width:500px){.hide-xs{display:none!important}}.visible-md{display:none}.qs-cont{width:50%;float:left}.qs-input{width:100%;border-radius:0;border-right:0;padding-left:29px;background:#fff;box-shadow:none;border-color:#ddd;color:#517e9a;font:400 16px/normal Roboto,sans-serif;-webkit-box-sizing:border-box;height:41px;line-height:38px;border-color:#ddd;padding:0 40px 0 10px;border:1px solid #ccc;text-shadow:1px 1px #fff}@media (max-width:1000px){.qs-cont{width:100%}}.styler[type=checkbox]{margin-top:4px;display:block;float:left}.styler[type=checkbox]+span{float:left}@media screen and (max-width:1070px){.clinic-card-phone .clinic-phone{float:none;padding:0;margin:0 0 20px}.select-special{float:none;text-align:left}.select-special{display:inline-flex}.visible-md{display:block!important}}@media screen and (max-width:1000px){.looking-for>span{float:none;margin:0 auto 8px;max-width:500px;display:block}.qs-fields{margin:0 auto 47px;max-width:500px}.qs-fields .middle{float:none;padding:0}.search-button{float:none;width:100%;display:block;margin:1px 0 0;border-radius:3px}}@media screen and (min-width:500px) and (max-width:830px){.head-search{float:none;width:100%;margin:0 auto;max-width:450px;margin-bottom:13px}}@media screen and (max-width:830px){.logo{float:none;display:block;margin:0 auto 10px;width:350px}.header .wrap>.right{float:none;text-align:center}.header .wrap>.right>*{float:none;display:inline-block;vertical-align:middle}.left-content{padding:0;float:none;margin:0}}@media screen and (max-width:700px){.doctor-treats.col4 ul{width:44%;margin:0}}@media screen and (max-width:650px){.for-checkbox{display:block;margin:0 0 5px;width:50%;float:left}.for-checkbox:nth-child(2n+1){width:calc(50% + 18px)}.for-checkbox:nth-child(2n){width:calc(50% - 18px)}}@media screen and (max-width:500px){.quick-search,.quick-search.h-85{padding-left:15px;padding-right:15px}.card-photo{float:none;margin:0 auto 20px;width:200px}.clinic-data{margin:0}.doctor-treats ul{margin:0 0 20px!important;width:48%}.doctor-treats.col4 ul{float:none;width:auto}.logo{width:210px;float:left;margin-left:10px}.main-menu{position:fixed;top:0;left:-260px;width:260px;height:100%;z-index:500;padding:20px 10px;box-sizing:border-box;-moz-box-sizing:border-box;-o-box-sizing:border-box;-webkit-box-sizing:border-box}.logo span{display:none!important}.header-phone{float:right!important;margin:0 5px 0 0}.header-phone a{margin:0;text-indent:-999px;overflow:hidden;width:24px;height:24px;background:url(/local/templates/mmp/img/phone.png);float:right!important;margin:0}.header-phone p{display:none}.logo img{margin:0}.menu-btn{display:block;position:absolute;top:5px;right:20px}.main-menu a:not(.header-city){margin:0;display:inline;padding:0}.main-menu li{display:list-item;margin:0 0 10px;border:none}}@media screen and (max-width:400px){.logo img{width:90%;margin:0 5% 0 0}.info{padding-left:0;padding-right:0}.doctor-treats ul{margin:0 0 20px!important;width:100%;float:none}}.baron__clipper{position:relative;overflow:hidden}.baron__scroller{overflow-y:scroll;-ms-overflow-style:none;-moz-box-sizing:border-box;box-sizing:border-box;margin:0;border:0;padding:0;width:100%;height:100%;-webkit-overflow-scrolling:touch}.baron__scroller::-webkit-scrollbar{width:0;height:0}.baron__track{display:none;position:absolute;top:0;right:0;bottom:0}.baron__free{position:absolute;top:0;bottom:0;right:0}.baron__bar{display:none;position:absolute;right:0;z-index:1;width:10px;background:#999}.baron__control{display:none}.baron._simple .baron__track{opacity:0;position:absolute;z-index:3;top:10px;bottom:10px;right:5px;width:8px;border-radius:5px;background:#ddf;background:rgba(0,0,255,.1)}.baron._simple .baron__bar{position:absolute;z-index:1;width:8px;border-radius:3px;background:#987;opacity:0}.baron._simple.baron .baron__bar{opacity:.6}.api-search-title *{-webkit-box-sizing:border-box!important;-moz-box-sizing:border-box!important;box-sizing:border-box!important}.api-search-title{position:relative}.api-search-title .api-search-fields{display:table;border-collapse:collapse;border-spacing:0;width:100%;position:relative}.api-search-title .api-search-fields>*{display:table-cell;vertical-align:top}.api-search-title .api-search-fields .api-query{width:100%;position:relative}.api-search-title .api-search-button button,.api-search-title .api-search-input{border:1px solid #ccc;background:#fff;padding:0 12px;height:36px;margin:0;color:#444;font-size:14px}.api-search-title .api-search-input{display:block;width:100%;position:relative;z-index:1;-webkit-border-radius:3px 0 0 3px;-moz-border-radius:3px 0 0 3px;border-radius:3px 0 0 3px;-webkit-box-shadow:0 1px 1px 0 rgba(0,0,0,.05) inset;-moz-box-shadow:0 1px 1px 0 rgba(0,0,0,.05) inset;box-shadow:0 1px 1px 0 rgba(0,0,0,.05) inset}.api-search-title .api-search-input::-ms-clear{display:none;width:0;height:0}.api-search-title .api-search-button button{display:inline-block;text-align:center;white-space:nowrap;border-left:0 none;-webkit-border-radius:0 3px 3px 0;-moz-border-radius:0 3px 3px 0;border-radius:0 3px 3px 0}.api-search-title .baron__root{position:absolute;top:100%;left:0;z-index:1000;width:100%;min-width:160px;visibility:hidden;-webkit-box-shadow:0 6px 12px rgba(0,0,0,.176);-moz-box-shadow:0 6px 12px rgba(0,0,0,.176);box-shadow:0 6px 12px rgba(0,0,0,.176);-webkit-background-clip:padding-box;-moz-background-clip:padding-box;background-clip:padding-box}.api-search-title .api-search-result{background-color:#fff;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px}.api-search-title .api-search-result{font-weight:600;font-size:13px;line-height:16px;color:#333;text-decoration:none}.api-search-title .api-ajax-icon{position:absolute;z-index:3;top:50%;margin-top:-10px;right:10px;background:url(/bitrix/components/api/search.title/templates/.default/images/load.gif) no-repeat 50% 50%;display:none;width:20px;height:20px}.api-search-title .api-clear-icon{z-index:2;display:none;width:40px;position:absolute;top:0;right:0;bottom:0;padding:0 10px;opacity:.25;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;background:url(data:image/svg+xml;charset=utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjE2cHgiIGhlaWdodD0iMTZweCIgdmlld0JveD0iMCAwIDQzOC41MzMgNDM4LjUzMyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDM4LjUzMyA0MzguNTMzOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPHBhdGggZD0iTTQwOS4xMzMsMTA5LjIwM2MtMTkuNjA4LTMzLjU5Mi00Ni4yMDUtNjAuMTg5LTc5Ljc5OC03OS43OTZDMjk1LjczNiw5LjgwMSwyNTkuMDU4LDAsMjE5LjI3MywwICAgYy0zOS43ODEsMC03Ni40Nyw5LjgwMS0xMTAuMDYzLDI5LjQwN2MtMzMuNTk1LDE5LjYwNC02MC4xOTIsNDYuMjAxLTc5LjgsNzkuNzk2QzkuODAxLDE0Mi44LDAsMTc5LjQ4OSwwLDIxOS4yNjcgICBjMCwzOS43OCw5LjgwNCw3Ni40NjMsMjkuNDA3LDExMC4wNjJjMTkuNjA3LDMzLjU5Miw0Ni4yMDQsNjAuMTg5LDc5Ljc5OSw3OS43OThjMzMuNTk3LDE5LjYwNSw3MC4yODMsMjkuNDA3LDExMC4wNjMsMjkuNDA3ICAgczc2LjQ3LTkuODAyLDExMC4wNjUtMjkuNDA3YzMzLjU5My0xOS42MDIsNjAuMTg5LTQ2LjIwNiw3OS43OTUtNzkuNzk4YzE5LjYwMy0zMy41OTYsMjkuNDAzLTcwLjI4NCwyOS40MDMtMTEwLjA2MiAgIEM0MzguNTMzLDE3OS40ODUsNDI4LjczMiwxNDIuNzk1LDQwOS4xMzMsMTA5LjIwM3ogTTMyMi42MjEsMjcwLjkzOWMzLjYxNywzLjYxMyw1LjQyOCw3LjkwNSw1LjQyOCwxMi44NTQgICBjMCw1LjEzMy0xLjgxMSw5LjUxNC01LjQyOCwxMy4xMjdsLTI1LjY5MywyNS43MDFjLTMuNjE0LDMuNjEzLTcuOTk0LDUuNDItMTMuMTM1LDUuNDJjLTQuOTQ4LDAtOS4yMzYtMS44MDctMTIuODQ3LTUuNDIgICBsLTUxLjY3Ni01MS42ODJsLTUxLjY3OCw1MS42ODJjLTMuNjE2LDMuNjEzLTcuODk4LDUuNDItMTIuODQ3LDUuNDJjLTUuMTQsMC05LjUxNy0xLjgwNy0xMy4xMzQtNS40MmwtMjUuNjk3LTI1LjcwMSAgIGMtMy42MTYtMy42MTMtNS40MjQtNy45OTQtNS40MjQtMTMuMTI3YzAtNC45NDgsMS44MDktOS4yNCw1LjQyNC0xMi44NTRsNTEuNjc4LTUxLjY3M2wtNTEuNjc4LTUxLjY3OCAgIGMtMy42MTYtMy42MTItNS40MjQtNy44OTgtNS40MjQtMTIuODQ3YzAtNS4xNCwxLjgwOS05LjUxNyw1LjQyNC0xMy4xMzRsMjUuNjk3LTI1LjY5M2MzLjYxNy0zLjYxNiw3Ljk5NC01LjQyNCwxMy4xMzQtNS40MjQgICBjNC45NDksMCw5LjIzMSwxLjgwOSwxMi44NDcsNS40MjRsNTEuNjc4LDUxLjY3NGw1MS42NzYtNTEuNjc0YzMuNjEtMy42MTYsNy44OTgtNS40MjQsMTIuODQ3LTUuNDI0ICAgYzUuMTQxLDAsOS41MjEsMS44MDksMTMuMTM1LDUuNDI0bDI1LjY5MywyNS42OTNjMy42MTcsMy42MTcsNS40MjgsNy45OTQsNS40MjgsMTMuMTM0YzAsNC45NDgtMS44MTEsOS4yMzUtNS40MjgsMTIuODQ3ICAgbC01MS42NzUsNTEuNjc4TDMyMi42MjEsMjcwLjkzOXoiIGZpbGw9IiM1NTU1NTUiLz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K) no-repeat scroll 50% transparent}.rating_clinic{text-align:center;margin-bottom:20px}a.button.button-sort{background:#50a1d2;border-bottom:none;color:#fff}a.button.button-sort.button-sort-active{color:#fff;background:#7dc0e9}@media screen and (max-width:500px){html{overflow-x:hidden}h1{font-size:18px;margin:0}.header{padding:15px 0 5px}.looking-for.clear{padding:0 15px}.qs-checkbox{padding:15px 3px 0}.review_clinic_card_desct{display:none}.search-res{margin:0}.button.button-sort{margin-bottom:10px}.b-shadow{position:relative;border-radius:10px;background:#fff;padding:20px 17px 17px;margin:0 0 35px;margin:0 -10px 10px -10px}.card-photo{float:none;margin:0 auto 20px;width:auto;min-height:97px}.card-photo .photo{float:left;clear:both;width:70px}img.card-photo--img{width:80px}.rating_clinic{float:left;clear:both}.w-hours{position:absolute;right:20px}.clinic-data{clear:both}.clinic-card-phone .clinic-phone{display:none}.info.review_clinic_card.review_clinic_card_desct{display:none}ul.bread-crumbs{display:none}}@media screen and (max-width:460px){.popup>div{height:inherit!important;overflow:scroll!important}}
+</style>
+<link as="style" href="/local/templates/mmp/res_css/style.min.css?ver=10" onerror="this.rel='stylesheet'" onload="this.onload=null;this.rel='stylesheet'" rel="preload" type="text/css"/>
+<noscript>
+<link href="/local/templates/mmp/res_css/style.min.css?ver=10" rel="stylesheet" type="text/css"/>
+</noscript>
+<script data-skip-moving="true" type="text/javascript">(function(w, d, n) {var cl = "bx-core";var ht = d.documentElement;var htc = ht ? ht.className : undefined;if (htc === undefined || htc.indexOf(cl) !== -1){return;}var ua = n.userAgent;if (/(iPad;)|(iPhone;)/i.test(ua)){cl += " bx-ios";}else if (/Android/i.test(ua)){cl += " bx-android";}cl += (/(ipad|iphone|android|mobile|touch)/i.test(ua) ? " bx-touch" : " bx-no-touch");cl += w.devicePixelRatio && w.devicePixelRatio >= 2? " bx-retina": " bx-no-retina";var ieVersion = -1;if (/AppleWebKit/.test(ua)){cl += " bx-chrome";}else if ((ieVersion = getIeVersion()) > 0){cl += " bx-ie bx-ie" + ieVersion;if (ieVersion > 7 && ieVersion < 10 && !isDoctype()){cl += " bx-quirks";}}else if (/Opera/.test(ua)){cl += " bx-opera";}else if (/Gecko/.test(ua)){cl += " bx-firefox";}if (/Macintosh/i.test(ua)){cl += " bx-mac";}ht.className = htc ? htc + " " + cl : cl;function isDoctype(){if (d.compatMode){return d.compatMode == "CSS1Compat";}return d.documentElement && d.documentElement.clientHeight;}function getIeVersion(){if (/Opera/i.test(ua) || /Webkit/i.test(ua) || /Firefox/i.test(ua) || /Chrome/i.test(ua)){return -1;}var rv = -1;if (!!(w.MSStream) && !(w.ActiveXObject) && ("ActiveXObject" in w)){rv = 11;}else if (!!d.documentMode && d.documentMode >= 10){rv = 10;}else if (!!d.documentMode && d.documentMode >= 9){rv = 9;}else if (d.attachEvent && !/Opera/.test(ua)){rv = 8;}if (rv == -1 || rv == 8){var re;if (n.appName == "Microsoft Internet Explorer"){re = new RegExp("MSIE ([0-9]+[\.0-9]*)");if (re.exec(ua) != null){rv = parseFloat(RegExp.$1);}}else if (n.appName == "Netscape"){rv = 11;re = new RegExp("Trident/.*rv:([0-9]+[\.0-9]*)");if (re.exec(ua) != null){rv = parseFloat(RegExp.$1);}}}return rv;}})(window, document, navigator);</script>
+<link href="/bitrix/cache/css/s1/mmp/page_e3c192ccbba8b7ac536db69799c46686/page_e3c192ccbba8b7ac536db69799c46686_v1.css?1599726771283" rel="stylesheet" type="text/css"/>
+<link data-template-style="true" href="/bitrix/cache/css/s1/mmp/template_1101a1afcd1141365b7591fdcf6a90bf/template_1101a1afcd1141365b7591fdcf6a90bf_v1.css?159972668515795" rel="stylesheet" type="text/css"/>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<meta content="fGgS9H_U0FuHXLhdGr5odXb26VkGEsoLuI87-GurgZw" name="google-site-verification">
+</meta></head>
+<body>
+<div class="overlay"></div>
+<!--header-->
+<div class="header">
+<div class="wrap clear">
+<a class="menu-btn" href="#"></a>
+<a class="logo" href="/"><img alt="МосМедПортал" src="/local/templates/mmp/img/logo.png"/><span>сервис поиска клиник и врачей</span></a>
+<div class="head-search hide-xs">
+<div class="api-search-title tpl-default" id="bx_2378634312_1">
+<form action="/search/" method="get">
+<div class="api-search-fields">
+<div class="api-query">
+<input autocomplete="off" class="api-search-input" maxlength="300" name="q" placeholder="Поиск" type="text" value=""/>
+<span class="api-ajax-icon"></span>
+<span class="api-clear-icon"></span>
+</div>
+<div class="api-search-button">
+<button type="submit">НАЙТИ</button>
+</div>
+</div>
+<div class="baron baron__root baron__clipper _simple">
+<div class="baron__scroller">
+<div class="api-search-result"></div>
+</div>
+<div class="baron__track">
+<div class="baron__control baron__up">△</div>
+<div class="baron__free">
+<div class="baron__bar"></div>
+</div>
+<div class="baron__control baron__down">▽</div>
+</div>
+</div>
+</form>
+</div>
+</div>
+<!--right-->
+<div class="right">
+<!--            <a class="header-city dot-brd" href="#"><span>Москва</span></a>-->
+<div class="header-phone hide-xs">
+<a href="tel:+74951527755">+7 (495) 152-77-55</a>
+<p>Запись в клиники и врачам</p>
+</div>
+<!--            <a class="call-me cl-red dot-brd" href="#"><span>Перезвоните мне!</span></a>-->
+</div>
+</div>
+</div>
+<!--main-menu-->
+<div class="main-menu">
+<div class="wrap">
+<ul>
+<li><a href="/clinics/"><nobr>Клиники</nobr></a></li>
+<li><a href="/doctors/"><nobr>Врачи</nobr></a></li>
+<li><a href="/diagnostics/"><nobr>Диагностика</nobr></a></li>
+<li><a href="/services/"><nobr>Услуги</nobr></a></li>
+</ul>
+<div class="header-phone phone-fixed">
+<a href="tel:+74995193259">+7 (499) 519-32-59</a>
+</div>
+</div>
+</div>
+<div class="quick-search">
+<div class="wrap">
+<div class="head-block">Бесплатный сервис поиска клиник и врачей в Москве</div>
+<div class="looking-for clear">
+<span>Я ищу:</span>
+<!--qs-fields-->
+<form autocomplete="off" class="qs-fields clear" id="qs-pick-cont">
+<div class="middle bbox">
+<div class="qs-cont">
+<input autocomplete="off" class="qs-input" id="autocomplete_spec" placeholder="Врач, клиника" type="text">
+<input hidden="" name="spec_true" type="text"/>
+</input></div>
+<div class="qs-cont">
+<input autocomplete="off" class="qs-input" id="autocomplete_location" placeholder="Метро, округ, район" type="text"/>
+<input hidden="" name="location_true" type="text"/>
+</div>
+</div>
+<button class="search-button" id="submit-qs">Найти клиники</button>
+<div class="qs-checkbox">
+<label class="for-checkbox">
+<input class="js-allday styler" type="checkbox"/>
+<span>Круглосуточный приём</span>
+</label>
+<label class="for-checkbox">
+<input class="js-child styler second" type="checkbox"/>
+<span>Приём детей</span>
+</label>
+</div>
+</form>
+<!--quantity-->
+<ul class="quantity clear">
+<li>
+<div class="num">100 000+</div>
+<p>пациентов записалось через наш сервис</p>
+</li>
+<li>
+<div class="num">850+</div>
+<p>проверенных клиник Москвы и подмосковья</p>
+</li>
+<li>
+<div class="num">1 500+</div>
+<p>Актуальных медицинских процедур с ценами</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<!--content-->
+<div class="content">
+<div class="wrap clear">
+<div class="appointments">
+<div class="wrap b-shadow clear">
+<h3>Записаться к врачу</h3>
+<!--alphabet-->
+<div class="alphabet clear four-columns target1 js-alphabet expanded">
+<div class="ab-column">
+<div class="ab-list">
+<span class="letter">А</span>
+<ul>
+<li class="no-underline" id="bx_3218110189_86546">
+<a href="/doctors/akusher/">Акушер</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86547">
+<a href="/doctors/allergolog/">Аллерголог</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86548">
+<a href="/doctors/androlog/">Андролог</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86549">
+<a href="/doctors/anesteziolog/">Анестезиолог</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86550">
+<a href="/doctors/artrolog/">Артролог</a>
+</li>
+</ul></div> <div class="ab-list">
+<span class="letter">В</span>
+<ul>
+<li class="no-underline" id="bx_3218110189_86551">
+<a href="/doctors/vegetolog/">Вегетолог</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86552">
+<a href="/doctors/venerolog/">Венеролог</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86553">
+<a href="/doctors/vertebrolog/">Вертебролог</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86554">
+<a href="/doctors/lfk/">Врач ЛФК</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86555">
+<a href="/doctors/funkcionalnaya-diagnostika/">Врач функциональной диагностики </a>
+</li>
+</ul></div> <div class="ab-list">
+<span class="letter">Г</span>
+<ul>
+<li class="no-underline" id="bx_3218110189_86556">
+<a href="/doctors/gastroenterolog/">Гастроэнтеролог</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86557">
+<a href="/doctors/gematolog/">Гематолог</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86558">
+<a href="/doctors/genetik/">Генетик</a>
+</li>
+</ul></div></div><div class="ab-column"> <div class="ab-list">
+<span class="letter">Г</span>
+<ul>
+<li class="no-underline" id="bx_3218110189_86559">
+<a href="/doctors/gepatolog/">Гепатолог</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86560">
+<a href="/doctors/ginekolog/">Гинеколог</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86561">
+<a href="/doctors/girudoterapevt/">Гирудотерапевт</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86562">
+<a href="/doctors/gomeopat/">Гомеопат</a>
+</li>
+</ul></div> <div class="ab-list">
+<span class="letter">Д</span>
+<ul>
+<li class="no-underline" id="bx_3218110189_86563">
+<a href="/doctors/dermatolog/">Дерматолог</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86564">
+<a href="/doctors/diabetolog/">Диабетолог</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86565">
+<a href="/doctors/dietolog/">Диетолог</a>
+</li>
+</ul></div> <div class="ab-list">
+<span class="letter">И</span>
+<ul>
+<li class="no-underline" id="bx_3218110189_86566">
+<a href="/doctors/immunolog/">Иммунолог</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86567">
+<a href="/doctors/infektsionist/">Инфекционист</a>
+</li>
+</ul></div> <div class="ab-list">
+<span class="letter">К</span>
+<ul>
+<li class="no-underline" id="bx_3218110189_86568">
+<a href="/doctors/kardiolog/">Кардиолог</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86569">
+<a href="/doctors/kineziolog/">Кинезиолог</a>
+</li>
+<li class="no-underline" id="bx_3218110189_109712">
+<a href="/doctors/koloproktolog/">Колопроктолог</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86570">
+<a href="/doctors/kosmetolog/">Косметолог</a>
+</li>
+</ul></div> <div class="ab-list">
+<span class="letter">Л</span>
+<ul>
+<li class="no-underline" id="bx_3218110189_86571">
+<a href="/doctors/logoped/">Логопед</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86572">
+<a href="/doctors/lor_otolaringolog/">Лор (отоларинголог)</a>
+</li>
+</ul></div> <div class="ab-list">
+<span class="letter">М</span>
+<ul>
+<li class="no-underline" id="bx_3218110189_86573">
+<a href="/doctors/mammolog/">Маммолог</a>
+</li>
+</ul></div></div><div class="ab-column"> <div class="ab-list">
+<span class="letter">М</span>
+<ul>
+<li class="no-underline" id="bx_3218110189_86574">
+<a href="/doctors/manualnaya_terapiya/">Мануальный терапевт</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86575">
+<a href="/doctors/massazhist/">Массажист</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86576">
+<a href="/doctors/mikolog/">Миколог</a>
+</li>
+</ul></div> <div class="ab-list">
+<span class="letter">Н</span>
+<ul>
+<li class="no-underline" id="bx_3218110189_86577">
+<a href="/doctors/narkolog/">Нарколог</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86578">
+<a href="/doctors/nevrolog/">Невролог</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86579">
+<a href="/doctors/neyropsiholog/">Нейропсихолог</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86580">
+<a href="/doctors/neirohirurg/">Нейрохирург</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86581">
+<a href="/doctors/neonatolog/">Неонатолог</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86582">
+<a href="/doctors/nefrolog/">Нефролог</a>
+</li>
+</ul></div> <div class="ab-list">
+<span class="letter">О</span>
+<ul>
+<li class="no-underline" id="bx_3218110189_86583">
+<a href="/doctors/okulist/">Окулист (офтальмолог)</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86584">
+<a href="/doctors/onkodermatolog/">Онкодерматолог</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86585">
+<a href="/doctors/onkolog/">Онколог</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86586">
+<a href="/doctors/ortoped/">Ортопед</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86587">
+<a href="/doctors/osteopat/">Остеопат</a>
+</li>
+</ul></div> <div class="ab-list">
+<span class="letter">П</span>
+<ul>
+<li class="no-underline" id="bx_3218110189_86588">
+<a href="/doctors/parazitolog/">Паразитолог</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86589">
+<a href="/doctors/pediatr/">Педиатр</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86590">
+<a href="/doctors/plasticheskij_hirurg/">Пластический хирург</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86591">
+<a href="/doctors/podolog/">Подолог</a>
+</li>
+</ul></div></div><div class="ab-column"> <div class="ab-list">
+<span class="letter">П</span>
+<ul>
+<li class="no-underline" id="bx_3218110189_86592">
+<a href="/doctors/proktolog/">Проктолог</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86593">
+<a href="/doctors/psihiatr/">Психиатр</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86594">
+<a href="/doctors/psiholog/">Психолог</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86595">
+<a href="/doctors/psihoterapevt/">Психотерапевт</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86596">
+<a href="/doctors/pulmonolog/">Пульмонолог</a>
+</li>
+</ul></div> <div class="ab-list">
+<span class="letter">Р</span>
+<ul>
+<li class="no-underline" id="bx_3218110189_86597">
+<a href="/doctors/reabilitolog/">Реабилитолог</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86598">
+<a href="/doctors/revmatolog/">Ревматолог</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86599">
+<a href="/doctors/rentgenolog/">Рентгенолог</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86600">
+<a href="/doctors/reproduktolog_eko/">Репродуктолог (ЭКО)</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86601">
+<a href="/doctors/refleksoterapevt/">Рефлексотерапевт</a>
+</li>
+</ul></div> <div class="ab-list">
+<span class="letter">С</span>
+<ul>
+<li class="no-underline" id="bx_3218110189_86602">
+<a href="/doctors/seksolog/">Сексолог</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86603">
+<a href="/doctors/somnolog/">Сомнолог</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86604">
+<a href="/doctors/sportivniy-vrach/">Спортивный врач</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86605">
+<a href="/doctors/stomatolog/">Стоматолог</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86606">
+<a href="/doctors/surdolog/">Сурдолог</a>
+</li>
+</ul></div> <div class="ab-list">
+<span class="letter">Т</span>
+<ul>
+<li class="no-underline" id="bx_3218110189_86607">
+<a href="/doctors/terapevt/">Терапевт</a>
+</li>
+</ul></div></div><div class="ab-column"> <div class="ab-list">
+<span class="letter">Т</span>
+<ul>
+<li class="no-underline" id="bx_3218110189_86608">
+<a href="/doctors/travmatolog/">Травматолог</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86609">
+<a href="/doctors/triholog/">Трихолог</a>
+</li>
+</ul></div> <div class="ab-list">
+<span class="letter">У</span>
+<ul>
+<li class="no-underline" id="bx_3218110189_86610">
+<a href="/doctors/vrach_uzi/">УЗИ-специалист</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86611">
+<a href="/doctors/urolog/">Уролог</a>
+</li>
+</ul></div> <div class="ab-list">
+<span class="letter">Ф</span>
+<ul>
+<li class="no-underline" id="bx_3218110189_86612">
+<a href="/doctors/fizioterapevt/">Физиотерапевт</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86613">
+<a href="/doctors/flebolog/">Флеболог</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86614">
+<a href="/doctors/foniatr/">Фониатр</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86615">
+<a href="/doctors/ftiziatr/">Фтизиатр</a>
+</li>
+</ul></div> <div class="ab-list">
+<span class="letter">Х</span>
+<ul>
+<li class="no-underline" id="bx_3218110189_109713">
+<a href="/doctors/himioterapevt/">Химиотерапевт</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86616">
+<a href="/doctors/hirurg/">Хирург</a>
+</li>
+</ul></div> <div class="ab-list">
+<span class="letter">Э</span>
+<ul>
+<li class="no-underline" id="bx_3218110189_86617">
+<a href="/doctors/endokrinolog/">Эндокринолог</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86618">
+<a href="/doctors/endoskopist/">Эндоскопист</a>
+</li>
+<li class="no-underline" id="bx_3218110189_86619">
+<a href="/doctors/epileptolog/">Эпилептолог</a>
+</li>
+</ul></div>
+</div>
+</div>
+</div>
+</div>
+<br/>
+<!--advantages-->
+<div class="advantages clear">
+<div class="item">
+<img alt="ico" src="/local/templates/mmp/img/bubble-ico.png"/>
+<div class="text">
+<div class="h4">
+                Бесплатные консультации
+            </div>
+<p>
+                Перед записью на приём Вы можете проконсультироваться со специалистами клиники.
+            </p>
+</div>
+</div>
+<div class="item">
+<img alt="ico" src="/local/templates/mmp/img/time-ico.png"/>
+<div class="text">
+<div class="h4">
+                Круглосуточный приём
+            </div>
+<p>
+                Выбирайте клиники которые работают круглосуточно, если Вам необходима срочная помощь врача.
+            </p>
+</div>
+</div>
+<div class="item">
+<img alt="ico" src="/local/templates/mmp/img/star-ico.png"/>
+<div class="text">
+<div class="h4">
+                Честный рейтинг и отзывы
+            </div>
+<p>
+                Мы публикуем только проверенные отзывы реальных пациентов и на их основе показываем Вам лучшие
+                клиники.
+            </p>
+</div>
+</div>
+</div>
+<!--appointments-->
+<div class="appointments">
+<div class="wrap b-shadow clear">
+<h2 class="h1">Медицинские услуги</h2>
+<!--alphabet-->
+<div class="clear four-columns">
+<div class="ab-column">
+<div class="ab-list">
+<div class="ab-head">
+<a href="/services/andrologiya/">
+                            Андрология                        </a>
+</div>
+<ul>
+<li>
+<div>
+<span>
+<a href="/services/prices/spermogramma/">
+                                            Спермограмма                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/analiz-sekreta-prostaty/">
+                                            Анализ секрета простаты                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/udalenie-kisty-pridatka-yaichka/">
+                                            Удаление кисты придатка яичка                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/operatsiya-vinkelmana-pri-vodyanke-yaichka/">
+                                            Операция Винкельмана при водянке яичка                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/tsirkumtsizio/">
+                                            Обрезание крайней плоти (циркумцизио)                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/plastika-polovogo-chlena/">
+                                            Пластика полового члена                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/konsultatsiya-seksologa/">
+                                            Приём сексолога                                        </a>
+</span>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="ab-column">
+<div class="ab-list">
+<div class="ab-head">
+<a href="/services/venerologiya/">
+                            Венерология                        </a>
+</div>
+<ul>
+<li>
+<div>
+<span>
+<a href="/services/prices/lechenie-sifilisa/">
+                                            Лечение сифилиса                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/konsultatsiya-venerologa/">
+                                            Приём венеролога                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/konsultatsiya-dermatovenerologa/">
+                                            Приём дерматовенеролога                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/profilaktika-zppp/">
+                                            Профилактика ЗППП                                        </a>
+</span>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="ab-column">
+<div class="ab-list">
+<div class="ab-head">
+<a href="/services/urologiya/">
+                            Урология                        </a>
+</div>
+<ul>
+<li>
+<div>
+<span>
+<a href="/services/prices/konsultatsiya-nefrologa/">
+                                            Приём нефролога                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/khromotsistoskopiya/">
+                                            Хромоцистоскопия                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/staticheskaya-nefrostsintigrafiya-pochek/">
+                                            Статическая нефросцинтиграфия почек                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/uretroskopiya/">
+                                            Уретроскопия                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/buzhirovanie-uretry/">
+                                            Бужирование уретры                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/udalenie-kamney-iz-mochevogo-puzyrya/">
+                                            Удаление камней из мочевого пузыря                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/stsintigrafiya-pochek/">
+                                            Сцинтиграфия почек                                        </a>
+</span>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="ab-column">
+<div class="ab-list">
+<div class="ab-head">
+<a href="/services/ginekologiya/">
+                            Гинекология                        </a>
+</div>
+<ul>
+<li>
+<div>
+<span>
+<a href="/services/prices/biopsiya-sheyki-matki/">
+                                            Биопсия шейки матки                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/udalenie-kisty-bartolinovoy-zhelezy/">
+                                            Удаление кисты бартолиновой железы                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/lechenie-klimaksa/">
+                                            Лечение климакса                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/gimenoplastika/">
+                                            Гименопластика                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/kolpoperineorafiya-s-levatoroplastikoy/">
+                                            Кольпоперинеопластика                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/inseminatsiya/">
+                                            Инсеминация                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/kriokonservatsiya-spermy/">
+                                            Криоконсервация спермы                                        </a>
+</span>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="clear four-columns target3 hidden">
+<div class="ab-column">
+<div class="ab-list">
+<div class="ab-head">
+<a href="/services/dermatologiya/">
+                            Дерматология                        </a>
+</div>
+<ul>
+<li>
+<div>
+<span>
+<a href="/services/prices/analiz-resnits-na-demodeks/">
+                                            Анализ ресниц на демодекс                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/udalenie-keratom/">
+                                            Удаление кератом                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/udalenie-kontagioznogo-mollyuska-lazerom/">
+                                            Удаление контагиозного моллюска лазером                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/udalenie-ksantelazm/">
+                                            Удаление ксантелазм                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/radiovolnovoe-udalenie-papillom/">
+                                            Радиоволновое удаление папиллом                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/khirurgicheskoe-udalenie-fibromy/">
+                                            Хирургическое удаление фибромы                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/udalenie-fibrom/">
+                                            Удаление фибромы                                        </a>
+</span>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="ab-column">
+<div class="ab-list">
+<div class="ab-head">
+<a href="/services/kosmetologiya/">
+                            Косметология                        </a>
+</div>
+<ul>
+<li>
+<div>
+<span>
+<a href="/services/prices/pressoterapiya/">
+                                            Прессотерапия                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/mikrodermabraziya-litsa/">
+                                            Микродермабразия лица                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/piling-dzhessnera/">
+                                            Пилинг Джесснера                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/khimicheskiy-piling-litsa/">
+                                            Химический пилинг лица                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/kriomassazh-golovy/">
+                                            Криомассаж головы                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/termolifting-litsa/">
+                                            Термолифтинг лица                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/lazernaya-epilyatsiya-nog/">
+                                            Лазерная эпиляция ног                                        </a>
+</span>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="ab-column">
+<div class="ab-list">
+<div class="ab-head">
+<a href="/services/logopediya/">
+                            Логопедия                        </a>
+</div>
+<ul>
+<li>
+<div>
+<span>
+<a href="/services/prices/zanyatie-s-logopedom-dlya-korrektsii-alalii/">
+                                            Занятие с логопедом для коррекции алалии                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/logopedicheskiy-massazh/">
+                                            Логопедический массаж                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/korrektsiya-narusheniy-rechi/">
+                                            Коррекция нарушений речи                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/korrektsiya-narusheniy-pismennoy-rechi/">
+                                            Коррекция нарушений письменной речи                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/konsultatsiya-logopeda/">
+                                            Приём логопеда                                        </a>
+</span>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="ab-column">
+<div class="ab-list">
+<div class="ab-head">
+<a href="/services/lor/">
+                            Лор                        </a>
+</div>
+<ul>
+<li>
+<div>
+<span>
+<a href="/services/prices/audiometriya/">
+                                            Аудиометрия                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/promyvanie-lakun-nebnykh-mindalin/">
+                                            Промывание лакун небных миндалин                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/produvanie-slukhovykh-trub-po-polittseru/">
+                                            Продувание слуховых труб по Политцеру                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/promyvanie-polosti-nosa-kukushka/">
+                                            Промывание полости носа Кукушка                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/endoskopicheskoe-udalenie-polipov-v-nosu/">
+                                            Эндоскопическое удаление полипов в носу                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/stapedoplastika/">
+                                            Стапедопластика                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/timpanoplastika/">
+                                            Тимпанопластика                                        </a>
+</span>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="clear four-columns target3 hidden">
+<div class="ab-column">
+<div class="ab-list">
+<div class="ab-head">
+<a href="/services/mammologiya/">
+                            Маммология                        </a>
+</div>
+<ul>
+<li>
+<div>
+<span>
+<a href="/services/prices/konsultatsiya-mammologa/">
+                                            Приём маммолога                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/konsultatsiya-mammologa-onkologa/">
+                                            Приём маммолога-онколога                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/biopsiya-molochnoy-zhelezy/">
+                                            Биопсия молочной железы                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/radiotermometriya-molochnykh-zhelez/">
+                                            Радиотермометрия молочных желез                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/trepanobiopsiya-molochnoy-zhelezy/">
+                                            Трепанобиопсия молочной железы                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/udalenie-kisty-molochnoy-zhelezy/">
+                                            Удаление кисты молочной железы                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/udalenie-fibroadenomy-molochnoy-zhelezy/">
+                                            Удаление фиброаденомы молочной железы                                        </a>
+</span>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="ab-column">
+<div class="ab-list">
+<div class="ab-head">
+<a href="/services/nevrologiya/">
+                            Неврология                        </a>
+</div>
+<ul>
+<li>
+<div>
+<span>
+<a href="/services/prices/konsultatsiya-nevrologa/">
+                                            Приём невролога                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/konsultatsiya-epileptologa/">
+                                            Приём эпилептолога                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/polisomnografiya/">
+                                            Полисомнография                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/analiz-likvora/">
+                                            Анализ ликвора                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/paravertebralnaya-blokada/">
+                                            Паравертебральная блокада                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/sukhoe-vytyazhenie-pozvonochnika/">
+                                            Сухое вытяжение позвоночника                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/lechebnaya-fizkultura-lfk/">
+                                            Лечебная физкультура (ЛФК)                                        </a>
+</span>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="ab-column">
+<div class="ab-list">
+<div class="ab-head">
+<a href="/services/plasticheskaya-khirurgiya/">
+                            Пластическая хирургия                        </a>
+</div>
+<ul>
+<li>
+<div>
+<span>
+<a href="/services/prices/lipofiling/">
+                                            Липофилинг                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/macs-lifting/">
+                                            MACS-лифтинг                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/septoplastika/">
+                                            Септопластика                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/udalenie-gorbinki-nosa/">
+                                            Удаление горбинки носа                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/korrektsiya-skul/">
+                                            Контурная пластика скул                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/liposaktsiya-ruk/">
+                                            Липосакция рук                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/korrektsiya-mochki-ukha/">
+                                            Коррекция мочки уха                                        </a>
+</span>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="ab-column">
+<div class="ab-list">
+<div class="ab-head">
+<a href="/services/proktologiya/">
+                            Проктология                        </a>
+</div>
+<ul>
+<li>
+<div>
+<span>
+<a href="/services/prices/sfinkterometriya/">
+                                            Сфинктерометрия                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/issechenie-analnoy-treshchiny/">
+                                            Иссечение анальной трещины                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/udalenie-papillom-anusa/">
+                                            Удаление папиллом ануса                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/rezektsiya-sigmovidnoy-kishki/">
+                                            Резекция сигмовидной кишки                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/ligirovanie-gemorroidalnykh-uzlov-lateksnymi-koltsami/">
+                                            Лигирование геморроидальных узлов латексными кольцами                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/skleroterapiya-gemorroidalnykh-uzlov/">
+                                            Склеротерапия геморроидальных узлов                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/issechenie-svishcha-pryamoy-kishki/">
+                                            Иссечение свища прямой кишки                                        </a>
+</span>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="clear four-columns target3 hidden">
+<div class="ab-column">
+<div class="ab-list">
+<div class="ab-head">
+<a href="/services/stomatologiya/">
+                            Стоматология                        </a>
+</div>
+<ul>
+<li>
+<div>
+<span>
+<a href="/services/prices/abatmenty/">
+                                            Установка абатментов                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/lechenie-kariesa/">
+                                            Лечение кариеса                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/lechenie-parodontita/">
+                                            Лечение пародонтита                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/reteynery/">
+                                            Ретейнеры                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/keramicheskie-vkladki-na-zuby/">
+                                            Керамические вкладки на зубы                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/otkrytyy-sinus-lifting/">
+                                            Открытый синус-лифтинг                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/plastika-uzdechki-verkhney-guby/">
+                                            Пластика уздечки верхней губы                                        </a>
+</span>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="ab-column">
+<div class="ab-list">
+<div class="ab-head">
+<a href="/services/trikhologiya/">
+                            Трихология                        </a>
+</div>
+<ul>
+<li>
+<div>
+<span>
+<a href="/services/prices/konsultatsiya-trikhologa/">
+                                            Приём трихолога                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/trikhogramma/">
+                                            Трихограмма                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/fototrikhogramma/">
+                                            Фототрихограмма                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/ekspress-spektralnyy-analiz-volos-na-mikroelementy/">
+                                            Спектральный анализ волос на микроэлементы                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/darsonvalizatsiya-volos/">
+                                            Дарсонвализация волос                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/ozonoterapiya-volos/">
+                                            Озонотерапия волос                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/vosstanovlenie-brovey/">
+                                            Восстановление бровей                                        </a>
+</span>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="ab-column">
+<div class="ab-list">
+<div class="ab-head">
+<a href="/services/flebologiya/">
+                            Флебология                        </a>
+</div>
+<ul>
+<li>
+<div>
+<span>
+<a href="/services/prices/termografiya/">
+                                            Термография                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/udalenie-kapillyara/">
+                                            Удаление капилляров                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/udalenie-sosudov-na-nosu-lazerom/">
+                                            Удаление сосудов на носу лазером                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/krossektomiya/">
+                                            Кроссэктомия                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/mikroflebektomiya/">
+                                            Микрофлебэктомия                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/udalenie-kava-filtra-iz-sistemy-nizhney-poloy-veny/">
+                                            Удаление кава-фильтра                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/lazernaya-koagulyatsiya-varikoznykh-ven/">
+                                            Лазерная коагуляция варикозных вен                                        </a>
+</span>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="ab-column">
+<div class="ab-list">
+<div class="ab-head">
+<a href="/services/endokrinologiya/">
+                            Эндокринология                        </a>
+</div>
+<ul>
+<li>
+<div>
+<span>
+<a href="/services/prices/konsultatsiya-dietologa/">
+                                            Приём диетолога                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/konsultatsiya-endokrinologa/">
+                                            Приём эндокринолога                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/konsultatsiya-diabetologa/">
+                                            Приём диабетолога                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/udalenie-adenomy-parashchitovidnoy-zhelezy/">
+                                            Удаление аденомы паращитовидной железы                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/services/prices/stsintigrafiya-shchitovidnoy-zhelezy/">
+                                            Сцинтиграфия щитовидной железы                                        </a>
+</span>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="clear four-columns target3 hidden">
+<div class="ab-column">
+<div class="ab-list">
+<div class="ab-head">
+<a href="/diagnostics/uzi/">
+                            УЗИ                        </a>
+</div>
+<ul>
+<li>
+<div>
+<span>
+<a href="/diagnostics/uzi-golovy/">
+                                            УЗИ головы                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/uzi-limfouzlov/">
+                                            УЗИ лимфоузлов                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/uzi-myagkikh-tkaney/">
+                                            УЗИ мягких тканей                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/uzi-organov-bryushnoy-polosti/">
+                                            УЗИ органов брюшной полости                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/uzi-organov-grudnoy-kletki/">
+                                            УЗИ органов грудной клетки                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/uzi-organov-malogo-taza/">
+                                            УЗИ органов малого таза                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/uzi-pozvonochnika/">
+                                            УЗИ позвоночника                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/uzi-pri-beremennosti/">
+                                            УЗИ при беременности                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/uzi-sosudov/">
+                                            УЗИ сосудов                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/uzi-sustavov/">
+                                            УЗИ суставов                                        </a>
+</span>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="ab-column">
+<div class="ab-list">
+<div class="ab-head">
+<a href="/diagnostics/rentgen/">
+                            Рентген                        </a>
+</div>
+<ul>
+<li>
+<div>
+<span>
+<a href="/diagnostics/angiografiya/">
+                                            Ангиография                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/rentgen-golovy/">
+                                            Рентген головы                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/rentgen-konechnostey/">
+                                            Рентген конечностей                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/rentgen-myagkikh-tkaney/">
+                                            Рентген мягких тканей                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/rentgen-vnutrennikh-organov-bryushnoy-polosti/">
+                                            Рентген органов брюшной полости                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/rentgen-organov-grudnoy-kletki/">
+                                            Рентген органов грудной клетки                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/rentgen-organov-malogo-taza/">
+                                            Рентген органов малого таза                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/rentgen-sustavov/">
+                                            Рентген суставов                                        </a>
+</span>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="ab-column">
+<div class="ab-list">
+<div class="ab-head">
+<a href="/diagnostics/endoskopiya/">
+                            Эндоскопия                        </a>
+</div>
+<ul>
+<li>
+<div>
+<span>
+<a href="/diagnostics/prices/artroskopiya/">
+                                            Артроскопия                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/prices/bronkhoskopiya/">
+                                            Бронхоскопия                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/prices/gastroskopiya/">
+                                            Гастроскопия                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/prices/gisteroskopiya/">
+                                            Гистероскопия                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/prices/kolonoskopiya/">
+                                            Колоноскопия                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/prices/kolposkopiya/">
+                                            Кольпоскопия                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/prices/rektoromanoskopiya/">
+                                            Ректороманоскопия                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/prices/trakheobronkhoskopiya/">
+                                            Трахеобронхоскопия                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/prices/ezofagogastroduodenoskopiya/">
+                                            Эзофагогастродуоденоскопия                                        </a>
+</span>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="ab-column">
+<div class="ab-list">
+<div class="ab-head">
+<a href="/diagnostics/uzdg/">
+                            Ультрозвуковая допплерография (УЗДГ)                        </a>
+</div>
+<ul>
+<li>
+<div>
+<span>
+<a href="/diagnostics/prices/dopplerografiya-matochno-platsentarnogo-krovotoka/">
+                                            Допплерография маточно-плацентарного кровотока                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/prices/dupleksnoe-skanirovanie-sosudov-golovnogo-mozga/">
+                                            Дуплексное сканирование сосудов головного мозга                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/prices/uzdg-brakhiotsefalnykh-sosudov/">
+                                            УЗДГ брахиоцефальных сосудов                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/prices/uzdg-ven-nizhnikh-konechnostey/">
+                                            УЗДГ вен нижних конечностей                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/prices/uzdg-sosudov-golovy-i-shei/">
+                                            УЗДГ сосудов головы и шеи                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/prices/uzdg-sosudov-pochek/">
+                                            УЗДГ сосудов почек                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/prices/uzdg-transkranialnoe/">
+                                            УЗДГ транскраниальное                                        </a>
+</span>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="clear four-columns target3 hidden">
+<div class="ab-column">
+<div class="ab-list">
+<div class="ab-head">
+<a href="/diagnostics/funktsionalnaya-diagnostika/">
+                            Функциональная диагностика                        </a>
+</div>
+<ul>
+<li>
+<div>
+<span>
+<a href="/diagnostics/prices/ekg-proby-s-dozirovannoy-fizicheskoy-nagruzkoy/">
+                                            ЭКГ-пробы с дозированной физической нагрузкой                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/prices/reovazografiya-nizhnikh-konechnostey/">
+                                            Реовазография нижних конечностей                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/prices/reoentsefalografiya-reg/">
+                                            Реоэнцефалография (РЭГ)                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/prices/sutochnoe-monitorirovanie-arterialnogo-davleniya/">
+                                            Суточное мониторирование артериального давления                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/prices/sutochnoe-monitorirovanie-ekg-po-kholteru/">
+                                            Суточное мониторирование ЭКГ по Холтеру                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/prices/ekhokardiografiya-ekhokg/">
+                                            Эхокардиография (ЭХОКГ)                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/prices/elektrokardiografiya-ekg/">
+                                            Электрокардиография (ЭКГ)                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/prices/elektroentsefalografiya-eeg/">
+                                            Электроэнцефалография (ЭЭГ)                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/prices/elektroneyromiografiya-enmg/">
+                                            Электронейромиография (ЭНМГ)                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/prices/spirometriya/">
+                                            Спирометрия                                        </a>
+</span>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="ab-column">
+<div class="ab-list">
+<div class="ab-head">
+<a href="/diagnostics/kompyuternaya-tomografiya-kt/">
+                            КТ                        </a>
+</div>
+<ul>
+<li>
+<div>
+<span>
+<a href="/diagnostics/kt-vnutrennikh-organov/">
+                                            КТ внутренних органов брюшной полости                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/kt-golovy/">
+                                            КТ головы                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/kt-grudnoy-kletki/">
+                                            КТ грудной клетки                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/kt-kostey/">
+                                            КТ костей                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/kt-pozvonochnika/">
+                                            КТ позвоночника                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/kt-sustavov/">
+                                            КТ суставов                                        </a>
+</span>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="ab-column">
+<div class="ab-list">
+<div class="ab-head">
+<a href="/diagnostics/mrt/">
+                            МРТ                        </a>
+</div>
+<ul>
+<li>
+<div>
+<span>
+<a href="/diagnostics/mrt-bryushnoy-polosti/">
+                                            МРТ брюшной полости                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/mrt-golovy/">
+                                            МРТ головы                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/mrt-myagkikh-tkaney/">
+                                            МРТ мягких тканей                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/mrt-organov-grudnoy-kletki/">
+                                            МРТ органов грудной клетки                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/mrt-organov-malogo-taza/">
+                                            МРТ органов малого таза                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/mrt-pozvonochnika/">
+                                            МРТ позвоночника                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/mrt-sustavov/">
+                                            МРТ суставов                                        </a>
+</span>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="ab-column">
+<div class="ab-list">
+<div class="ab-head">
+<a href="/diagnostics/laboratornaya-diagnostika/">
+                            Анализы                        </a>
+</div>
+<ul>
+<li>
+<div>
+<span>
+<a href="/diagnostics/analizy-kala/">
+                                            Анализы кала                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/analizy-mochi/">
+                                            Анализы мочи                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/analizy-krovi/">
+                                            Анализы крови                                        </a>
+</span>
+</div>
+</li>
+<li>
+<div>
+<span>
+<a href="/diagnostics/analizy-na-gormony/">
+                                            Анализы на гормоны                                        </a>
+</span>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="center">
+<a class="view-all dot-brd" data-hidden="target3" href="#">
+<span>Развернуть весь список</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="js-quick-search-help hidden" data-metro="" data-spec=""></div>
+<!--footer-->
+<div class="footer">
+<div class="wrap">
+<div class="clear">
+<!--footer-menu-->
+<div class="footer-menu bbox clear">
+<ul>
+<li class="head-menu">О сервисе</li>
+<li><a href="/about/">Информация о проекте</a></li>
+<li><a href="/contact/">Контактная информация</a></li>
+</ul>
+<ul>
+<li class="head-menu">Клиникам и врачам</li>
+<li><a href="/rules/">Правила сервиса</a></li>
+<li><a href="#">Заявка на регистрацию</a></li>
+</ul>
+<ul>
+<li class="head-menu">Пациенту</li>
+<li><a href="/clinics/">Клиники</a></li>
+<li><a href="/doctors/">Врачи</a></li>
+</ul>
+<ul>
+<li class="head-menu">Справочники</li>
+<li><a href="/info/">Справочник пациента</a></li>
+<li><a href="/illness/">Справочник заболеваний</a></li>
+</ul>
+<ul>
+<li class="head-menu">HTML карты сайта</li>
+<li>
+<a href="/html-sitemap-doctors/">Карта сайта по врачам</a>
+</li>
+<li>
+<a href="/html-sitemap-clinics/">Карта сайта по клиникам</a>
+</li>
+<li>
+<a href="/html-sitemap-info/">Карта сайта по информационным страницам</a>
+</li>
+<li>
+<a href="/html-sitemap-service/">Карта сайта по процедурам</a>
+</li>
+</ul>
+</div>
+<!--footer-social-->
+<div class="footer-social">
+<img alt="Группа ВКонтакте" src="/local/templates/mmp/img/vk.jpg">
+<div>
+<p>Мы Вконтакте</p>
+<a href="https://vk.com/mosmedportal" rel="nofollow" target="_blank">Присоединяйся!</a>
+</div>
+<div class="cpr">© 2014-2023 Все права защищены.</div>
+</img></div>
+</div>
+<!--footer-bot-->
+<div class="footer-bot">
+<p>Информация на сайте получена из открытых источников - администрация сайта MosMedPortal.ru ответственности
+                за нее не несет. Все, опубликованные на сайте, отзывы о докторах и клиниках являются оценочными
+                суждениями пользователей сайта и не имеют отношения к администрации и редакции сайта MosMedPortal.ru.
+                Вся, опубликованная на сайте MosMedPortal.ru, информация не может быть использованная для замены
+                непосредственной консультации врача или принятия решения об использовании лекарственных средств.
+                Запрещено любое использование материалов с сайта MosMedPortal.ru без письменного разрешения редакции и
+                администрации проекта.</p>
+<p>Цены, приведенные на сайте, неокончательные, не являются публичной офертой и носят ознакомительный
+                характер.</p>
+</div>
+</div>
+</div>
+<div class="popup pp-map-address">
+<a class="pp-close" href="#"></a>
+<div id="address-map"></div>
+</div>
+<div class="popup pp-info">
+<a class="pp-close" href="#"></a>
+<div class="pp-title"></div>
+</div>
+<div class="popup pp-close-hint">
+<a class="pp-close" href="#"></a>
+<div>
+<div class="pp-title">Вы действительно хотите прервать запись?</div>
+<div class="pp-body center">
+            Если у вас возникли вопросы,
+            позвоните нам по телефону:
+            <br/>
+<a class="phone-link" href="tel:+74952550300">+7 (495) 255-03-00</a>
+<div class="btns-row">
+<button class="button btn-emo pp-close-btn">
+                    Прервать
+                </button>
+<button class="button js-pp-get-back">
+                    Продолжить
+                </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Yandex.Metrika counter -->
+<noscript>
+<div><img alt="" src="https://mc.yandex.ru/watch/25749197" style="position:absolute; left:-9999px;"/></div>
+</noscript>
+<!-- /Yandex.Metrika counter -->
+<script>
+            /*! FilamentGroup.com - v1.0.0 - 2019-01-28
+             * http://filamentgroup.com/
+             * Copyright (c) 2019 Filament Group */
+            !function (o) {
+                "use strict";
+                o.loadCSS || (o.loadCSS = function () {
+                });
+                var a = loadCSS.relpreload = {};
+                if (a.support = function () {
+                        var t;
+                        try {
+                            t = o.document.createElement("link").relList.supports("preload")
+                        } catch (e) {
+                            t = !1
+                        }
+                        return function () {
+                            return t
+                        }
+                    }(), a.bindMediaToggle = function (e) {
+                        var t = e.media || "all";
+
+                        function n() {
+                            e.addEventListener ? e.removeEventListener("load", n) : e.attachEvent && e.detachEvent("onload", n), e.setAttribute("onload", null), e.media = t
+                        }
+
+                        e.addEventListener ? e.addEventListener("load", n) : e.attachEvent && e.attachEvent("onload", n), setTimeout(function () {
+                            e.rel = "stylesheet", e.media = "only x"
+                        }), setTimeout(n, 3e3)
+                    }, a.poly = function () {
+                        if (!a.support())for (var e = o.document.getElementsByTagName("link"), t = 0; t < e.length; t++) {
+                            var n = e[t];
+                            "preload" !== n.rel || "style" !== n.getAttribute("as") || n.getAttribute("data-loadcss") || (n.setAttribute("data-loadcss", !0), a.bindMediaToggle(n))
+                        }
+                    }, !a.support()) {
+                    a.poly();
+                    var e = o.setInterval(a.poly, 500);
+                    o.addEventListener ? o.addEventListener("load", function () {
+                        a.poly(), o.clearInterval(e)
+                    }) : o.attachEvent && o.attachEvent("onload", function () {
+                        a.poly(), o.clearInterval(e)
+                    })
+                }
+                "undefined" != typeof exports ? exports.loadCSS = loadCSS : o.loadCSS = loadCSS
+            }("undefined" != typeof global ? global : this), function (r) {
+                var e = function (e, t, n) {
+                    "use strict";
+                    var o, a = r.document.getElementsByTagName("script")[0], l = r.document.createElement("script");
+                    return "boolean" == typeof t && (o = n, n = t, t = o), l.src = e, l.async = !n, a.parentNode.insertBefore(l, a), t && "function" == typeof t && (l.onload = t), l
+                };
+                "undefined" != typeof module ? module.exports = e : r.loadJS = e
+            }("undefined" != typeof global ? global : this), function (a) {
+                var e = function (e) {
+                    for (var t, n = a.document.getElementsByTagName("meta"), o = 0; o < n.length; o++)if (n[o].name && n[o].name === e) {
+                        t = n[o];
+                        break
+                    }
+                    return t && t.content
+                };
+                "undefined" != typeof module ? module.exports = e : a.getMeta = e
+            }("undefined" != typeof global ? global : this), function (r) {
+                var e = function (e, t, n) {
+                    if (void 0 === t) {
+                        var o = ("; " + r.document.cookie).split("; " + e + "=");
+                        return 2 === o.length ? o.pop().split(";").shift() : null
+                    }
+                    !1 === t && (n = -1);
+                    var a = "";
+                    if (n) {
+                        var l = new Date;
+                        l.setTime(l.getTime() + 24 * n * 60 * 60 * 1e3), a = "; expires=" + l.toGMTString()
+                    }
+                    r.document.cookie = e + "=" + t + a + "; path=/"
+                };
+                "undefined" != typeof module ? module.exports = e : r.cookie = e
+            }("undefined" != typeof global ? global : this), function (l, e) {
+                "use strict";
+                cookie("visited", !0, 7);
+                var t = l.document.documentElement, a = "fullCSS", r = "grunticon", n = "grunticonSVG", o = "grunticonDataPNG", i = "grunticonPNG", d = ["enhanced"];
+                var c = getMeta("fullCSS");
+
+                function u() {
+                    var e = document.createElement("link");
+                    e.href = c;
+                    for (var t = e.href, n = l.document.getElementsByTagName("link"), o = 0; o < n.length; o++)"stylesheet" !== n[o].rel || n[o].getAttribute("href") !== c && n[o].href !== t || cookie(a, "fgv55", 5)
+                }
+
+                c && null === cookie(a) && (l.addEventListener && l.addEventListener("load", u), l.attachEvent && l.attachEvent("onload", u));
+                var s, f, m, g, p = cookie(r);
+                if ((!p || p !== n && p !== o && p !== i) && (s = [getMeta(n), getMeta(o), getMeta(i)], f = !(!l.document.createElementNS || !l.document.createElementNS("http://www.w3.org/2000/svg", "svg").createSVGRect || !l.document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image", "1.1") || l.opera && -1 === navigator.userAgent.indexOf("Chrome")), m = function (e) {
+                        var t = s[e && f ? 0 : e ? 1 : 2], n = l.document.createElement("link");
+                        n.rel = "preload", n.setAttribute("as", "style"), n.href = t, n.onload = function () {
+                            this.rel = "stylesheet", this.onload = null
+                        };
+                        var o = l.document.getElementsByTagName("head")[0].childNodes, a = o[o.length - 1];
+                        a.parentNode.insertBefore(n, a.nextSibling), l.loadCSS.relpreload.poly(), cookie(r, t, 7)
+                    }, (g = new l.Image).onerror = function () {
+                        m(!1)
+                    }, g.onload = function () {
+                        m(1 === g.width && 1 === g.height)
+                    }, g.src = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="), "querySelector" in l.document) {
+                    var v = getMeta("fullJS");
+                    if (S(), v) {
+                        var h = loadJS(v), y = setTimeout(function () {
+                            t.className = t.className.replace(d.join(" "), " ")
+                        }, 8e3);
+                        h.onload = function () {
+                            clearTimeout(y), S()
+                        }
+                    }
+                }
+                function S() {
+                    t.className += " " + d.join(" ")
+                }
+            }(this);
+        </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+	jQuery(function ($) {
+		$.fn.apiSearchTitle({
+			component_id: 'bx_2378634312_1',
+			parent_id: '.api-search-title',
+			container_id: '#bx_2378634312_1',
+			input_id: '.api-search-input',
+			result_id: '.api-search-result',
+			scroll_id: '.baron',
+			ajax_icon_id: '.api-ajax-icon',
+			clear_icon_id: '.api-clear-icon',
+			wait_time: 500,
+			backdrop: {
+				active: true,
+				id: 'bx_2378634312_1_backdrop',
+				clas: 'api-search-title-backdrop',
+				animate:{
+					fadeIn: 0,
+					fadeOut: 0
+				},
+				css: {
+					"opacity": "0",
+					"filter": "alpha(opacity=20)",
+					"position": "fixed",
+					"top": 0,
+					"right": 0,
+					"bottom": 0,
+					"left": 0,
+					"z-index": "900",
+					"background-color": "#3879D9"
+				}
+			},
+			parent: {
+				css: {
+					"z-index": "901"
+				}
+			},
+			mess: {}
+		});
+	});
+
+	$(window).on('load',function(){
+		baron({
+			root: '.baron',
+			scroller: '.baron__scroller',
+			bar: '.baron__bar',
+			scrollingCls: '_scrolling',
+			draggingCls: '_dragging'
+		}).fix({
+			elements: '.header__title',
+			outside: 'header__title_state_fixed',
+			before: 'header__title_position_top',
+			after: 'header__title_position_bottom',
+			clickable: true
+		}).controls({
+			track: '.baron__track',
+			forward: '.baron__down',
+			backward: '.baron__up'
+		});
+	});
+</script><script src="/bitrix/cache/js/s1/mmp/template_42d23c830552d4729e2ee3ffe972fcb9/template_42d23c830552d4729e2ee3ffe972fcb9_v1.js?159972668522004" type="text/javascript"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-53414122-1"></script>
+<script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-53414122-1');
+        </script>
+<script>
+    $('.js-expand-list').on('click', (function(e) {
+        e.preventDefault();
+        $('.js-alphabet').toggleClass('expanded');
+    }))
+</script><script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function () {
+            try {
+                w.yaCounter25749197 = new Ya.Metrika({
+                    id: 25749197,
+                    clickmap: true,
+                    trackLinks: true,
+                    accurateTrackBounce: true,
+                    webvisor: true
+                });
+            } catch (e) {
+            }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () {
+                n.parentNode.insertBefore(s, n);
+            };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else {
+            f();
+        }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<script src="/local/templates/mmp/js/jquery.formstyler.min.js" type="text/javascript"></script>
+<script src="/local/templates/mmp/js/jquery.autocomplete.min.js" type="text/javascript"></script>
+<script src="/local/templates/mmp/js/owl.carousel.min.js" type="text/javascript"></script>
+<script src="/local/templates/mmp/js/main.js?ver=2" type="text/javascript"></script>
+<script src="/local/templates/mmp/js/popup.js?ver=2" type="text/javascript"></script>
+<script src="/local/templates/mmp/js/quick-search.js" type="text/javascript"></script>
+<script defer="" src="/local/templates/mmp/js/map.js" type="text/javascript"></script>
+<script defer="" src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;load=package.controls,Map,Placemark,templateLayoutFactory,Clusterer,geoObject.addon.balloon" type="text/javascript"></script>
+<script defer="" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" type="text/javascript"></script>
+<script src="/local/templates/mmp/js/jquery.fancybox.min.js" type="text/javascript"></script>
+</body>
+</html>

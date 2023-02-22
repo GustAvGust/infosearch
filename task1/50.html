@@ -1,0 +1,425 @@
+<!DOCTYPE HTML>
+
+<html lang="ru" prefix="og: https://ogp.me/ns#">
+<head>
+<meta charset="utf-8"/>
+<base href="https://ekodiet.ru/"/>
+<link href="https://ekodiet.ru/favicon.ico" rel="icon" type="image/x-icon"/>
+<link href="/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="/css/main.css" rel="stylesheet"/>
+<link href="/style4.css" rel="stylesheet" type="text/css"/>
+<script src="/js/jquery-3.6.0.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/script4.js" type="text/javascript"></script>
+<script>
+        $(function($) {
+            setMakeMenu();
+        });
+    </script>
+<title>
+    Диета (функциональное питание): автоматизированный экспертный расчет    </title>
+<meta content="Диеты (функциональное питание), получаемые здесь, рассчитаны автоматизированным путём с учетом индивидуальных особенностей" name="description"/>
+<meta content="Rassadnikov Evgenyi" name="author"/>
+<meta content="диета,функциональное питание,калькулятор каллорий,расчет блюд,расчет рациона" name="keywords"/>
+<meta content="index, follow" name="robots"/>
+<meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport"/>
+<meta content="Диета (функциональное питание): автоматизированный экспертный расчет" name="DC.title">
+<meta content="Рассадников Евгений" name="DC.creator">
+<meta content="Рассадников Евгений" name="DC.creator.name">
+<meta content="диета,функциональное питание,калькулятор каллорий,расчет блюд,расчет рациона" name="DC.subject">
+<meta content="Диеты (функциональное питание), получаемые здесь, рассчитаны автоматизированным путём с учетом индивидуальных особенностей" name="DC.description">
+<meta content="Рассадников Евгений" name="DC.publisher"/>
+<meta content="https://ekodiet.ru/" name="DC.publisher.url"/>
+<meta content="2015-02-07" name="DC.date"/>
+<meta content="Software" name="DC.type"/>
+<meta content="text/html" name="DC.format"/>
+<meta content="https://ekodiet.ru/" name="DC.identifier"/>
+<meta content="ru-RU" name="DC.language"/>
+<meta content="World" name="DC.coverage"/>
+<meta content="Рассадников Евгений, владелец всех прав" name="DC.rights"/>
+<meta content="ru_RU" property="og:locale"/>
+<meta content="ru_BY" property="og:locale:alternate"/>
+<meta content="uk_UA" property="og:locale:alternate"/>
+<meta content="SoftwareApplication" property="og:type"/>
+<meta content="ekodiet.ru" property="og:site_name"/>
+<meta content="Диета (функциональное питание): автоматизированный экспертный расчет" property="og:title"/>
+<meta content="Диеты (функциональное питание), получаемые здесь, рассчитаны автоматизированным путём с учетом индивидуальных особенностей" property="og:description"/>
+<meta content="https://ekodiet.ru/img/apple-touch-icon-128.png" property="og:image"/>
+<meta content="https://ekodiet.ru/" property="og:url">
+<meta content="summary" name="twitter:card"/>
+<meta content="@ekodiet_ru" name="twitter:site"/>
+<meta content="@ekodiet_ru" name="twitter:creator"/>
+<meta content="Диета (функциональное питание): автоматизированный экспертный расчет" name="twitter:title"/>
+<meta content="Диеты (функциональное питание), получаемые здесь, рассчитаны автоматизированным путём с учетом индивидуальных особенностей" name="twitter:description"/>
+<meta content="https://ekodiet.ru/img/apple-touch-icon-128.png" name="twitter:image"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<!-- Разметка JSON-LD, созданная Мастером разметки структурированных данных Google. -->
+<script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "SoftwareApplication",
+      "name" : "Ekodiet",
+      "description" : "Автоматизированный расчет рациона питания (диеты) на основе индивидуальных особенностей (рост, вес, телосложение, вид трудовой деятельности и др.)",
+      "url" : "https://ekodiet.ru/",
+      "thumbnailUrl": "https://ekodiet.ru/logotip_ekodiet.png",   
+      "author" : {
+        "@type" : "Person",
+        "name" : "Рассадников Е. А.",
+        "url" : "https://ekodiet.ru/dieta/kontakty",
+        "email" : "trympampam@mail.ru",
+        "telephone": "+79204452901"
+      },                   
+      "datePublished" : "2015-02-07",
+      "publisher" : {
+        "@type" : "Person",
+        "name" : "Рассадников Е.А."
+      },
+      "applicationCategory" : "бесплатное браузерное прикладное программное обеспечение",
+      "installUrl" : "https://ekodiet.ru/",
+      "operatingSystem" : "Windows, Linux, BSD, macOS и др.",
+      "requirements" : "минимальные, достаточные для запуска браузера",
+      "screenshot" : ["https://ekodiet.ru/img/screenshot_ekodiet_anketa.png",
+                      "https://ekodiet.ru/img/screenshot_ekodiet_menyu.png",
+                      "https://ekodiet.ru/img/screenshot_ekodiet_grafik.png",
+                      "https://ekodiet.ru/img/screenshot_ekodiet_blyudo.png"
+                     ],
+      "softwareVersion" : "2.0",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "3"
+      },
+      "isAccessibleForFree" : true,
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "RUB"
+      },
+      "sameAs" : [ "https://vk.com/ekodiet",
+                    "https://www.facebook.com/Ekodiet-103093922197240",
+                    "https://twitter.com/ekodiet_ru",
+                    "https://www.pinterest.ru/ekodiet/"
+                  ]
+}
+</script>
+</meta></meta></meta></meta></meta></meta></head>
+<body itemscope="" itemtype="http://schema.org/SoftwareApplication">
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+       (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+       m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+       (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+       ym(86770475, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+       });
+    </script>
+<noscript><div><img alt="" src="https://mc.yandex.ru/watch/86770475" style="position:absolute; left:-9999px;"/></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<header class="header">
+<nav class="navbar navbar-expand-lg navbar-light">
+<a class="navbar-brand" href="/">
+<picture>
+<source media="(max-width: 560px)" srcset="/logotip_ekodiet_560.webp" type="image/webp"/>
+<source srcset="/logotip_ekodiet.webp" type="image/webp"/>
+<img alt="Логотип Ekodiet" itemprop="thumbnailUrl" loading="lazy" src="/logotip_ekodiet.png"/>
+</picture>Ekodiet
+              </a>
+<button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav mr-auto">
+<li class="nav-item active">
+<a class="nav-link" href="/" itemprop="url" rel="canonical" title="Ekodiet">Главная<svg class="makeLi"><circle r="0.2rem"></circle></svg></a>
+<div class="makeLi"></div> </li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="/dieta/lk" id="navbarDropdownMenuLink" title="Личный кабинет пользователя Ekodiet.ru">
+                      Личный кабинет                    </a>
+<ul aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+<li><a class="dropdown-item" href="/dieta/lk" rel="nofollow" title="Назначение личного кабинета">Для чего?</a></li>
+<li><a class="dropdown-item" id="menu_anketa_id" rel="nofollow" title="Анкета">Анкета</a></li>
+<li><a class="dropdown-item" id="menu_allergiya_id" rel="nofollow" title="Аллергены">Аллергены</a></li>
+<li><a class="dropdown-item" id="menu_racion_id" rel="nofollow" title="Мой рацион">Мой рацион</a></li>
+</ul>
+</li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="/dieta/kalkulator-kalorii-online" id="navbarDropdownMenuLink" title="Калькулятор калорий онлайн пользователя Ekodiet.ru">
+                      Калькулятор калорий онлайн                    </a>
+<ul aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+<li><a class="dropdown-item" href="/dieta/kalkulator-kalorii-online" title="Пояснение к разделу Калькулятор калорий онлайн">Что это?</a></li>
+<li><a class="dropdown-item" id="menu_racion_view_id" rel="nofollow">Просмотр/редактирование созданных вариантов</a></li>
+<li><a class="dropdown-item" id="menu_racion_add_id" rel="nofollow">Создание нового варианта</a></li>
+<li><a class="dropdown-item" id="menu_blyud_add_id" rel="nofollow">Создание нового блюда</a></li>
+<li><a class="dropdown-item" id="menu_blyud_view_id" rel="nofollow">Просмотр/редактирование созданных блюд</a></li>
+</ul>
+</li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="/dieta/informaciya" id="navbarDropdownMenuLink" title="Справочная информация">
+                      Справочная информация                    </a>
+<ul aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu long">
+<li><a class="dropdown-item" href="/dieta/informaciya" rel="nofollow" title="Описание">Описание</a></li>
+<li><a class="dropdown-item" id="menu_video_id" rel="nofollow" title="Видеоурок получения диеты">Видеоурок</a></li>
+<li><a class="dropdown-item" href="/dieta/blyuda" rel="canonical" title="Таблицы с информацией о калорийности различных блюдах">Таблицы калорийности блюд</a></li>
+<li><a class="dropdown-item" href="/dieta/producty" rel="canonical" title="Таблицы с информацией о калорийности различных компонентов блюд (продуктов)">Таблицы калорийности продуктов</a></li>
+<li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" data-toggle="dropdown" href="#" title="Научные статьи">Научные статьи</a>
+<ul class="dropdown-menu long">
+<a class="dropdown-item" href="/dieta/raschyot-menyu-raciona-article-i" rel="canonical">ЭКСПЕРТНАЯ СИСТЕМА АНАЛИЗА И ФОРМИРОВАНИЯ РАЦИОНОВ ФУНКЦИОНАЛЬНОГО ПИТАНИЯ (ИНДИВИДУАЛЬНЫХ МЕНЮ ДИЕТ) ДЛЯ ДЕТЕРМИНИРОВАННЫХ ГРУПП НАСЕЛЕНИЯ</a>
+<a class="dropdown-item" href="/dieta/raschyot-menyu-raciona-article-ii" rel="canonical">Проектирование индивидуализированных рационов питания (индивидульных диет) студентов на основе комплексного анализа компонентного состава тела и пищевого статуса</a>
+</ul>
+</li>
+<li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" data-toggle="dropdown" href="#" title="Описание основных понятий">Основные понятия</a>
+<ul class="dropdown-menu long">
+<a class="dropdown-item" href="/dieta/opredelenie-effektivnaya" rel="canonical">Диета</a>
+<a class="dropdown-item" href="/dieta/normy" rel="canonical">Нормы физиологических потребностей в энергии и пищевых веществах для различных групп населения Российской Федерации</a>
+<a class="dropdown-item" href="/dieta/racion-pitaniya-funkcionalnyi" rel="canonical">Функциональное питание</a>
+<a class="dropdown-item" href="/dieta/racion-pitaniya-napravlenie" rel="canonical">Направление профилактического питания</a>
+<a class="dropdown-item" href="/dieta/raschyot-menyu-raciona" rel="canonical">Расчет диеты</a>
+</ul>
+</li>
+</ul>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/dieta/kontakty" rel="nofollow" title="Контакты">Контакты</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/#biblioteka" id="menu_library_id" rel="nofollow" title="Библиотека">Библиотека</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/dieta/kompleks-uprazhnenyi" title="Комплекс упражнений для здоровья">Комплекс упражнений</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="https://www.donationalerts.com/r/webolap" rel="noindex,nofollow" title="Донейшен для разработчиков Ekodiet">Донейшен</a>
+</li>
+</ul>
+<form class="form-inline my-2 my-lg-0">
+<div class="d_link_header">
+<a class="link1" id="aut_enter" rel="nofollow"><picture>
+<source media="(max-width: 560px)" srcset="/seo/menu/enter_560.webp" type="image/webp"/>
+<source srcset="/seo/menu/enter.webp" type="image/webp"/>
+<img alt="Вход" loading="lazy" src="/seo/menu/enter.png"/>
+</picture></a>
+<a class="link1" id="aut_registraciya" rel="nofollow"><picture>
+<source media="(max-width: 560px)" srcset="/seo/menu/reg_560.webp" type="image/webp"/>
+<source srcset="/seo/menu/reg.webp" type="image/webp"/>
+<img alt="Регистрация" loading="lazy" src="/seo/menu/reg.png"/>
+</picture></a> </div>
+</form>
+</div>
+</nav>
+</header>
+<main>
+<div class="row mt-2">
+<div class="col">
+<div class="container">
+<meta content="true" itemprop="isAccessibleForFree"/>
+<h1 class="pageTitle">
+<span itemprop="name">Ekodiet</span> 
+    v<span itemprop="softwareVersion">2.0</span> - 
+    <span itemprop="description">Автоматизированный расчет рациона питания (диеты) на основе индивидуальных особенностей (рост, вес, телосложение, вид трудовой деятельности и др.)</span>
+</h1>
+<div class="carousel slide" data-interval="5000" data-ride="carousel" id="carouselDemo">
+<ol class="carousel-indicators">
+<li class="active" data-slide-to="0" data-target="#carouselDemo"></li>
+<li data-slide-to="1" data-target="#carouselDemo"></li>
+<li data-slide-to="2" data-target="#carouselDemo"></li>
+<li data-slide-to="3" data-target="#carouselDemo"></li>
+</ol>
+<div class="carousel-inner">
+<div class="carousel-item active">
+<picture class="d-block w-100">
+<source media="(max-width: 560px)" srcset="/img/screenshot_ekodiet_anketa_560.webp" type="image/webp"/>
+<source srcset="/img/screenshot_ekodiet_anketa.webp" type="image/webp"/>
+<img alt="Скриншот Ekodiet: заполнение анкеты" itemprop="screenshot" loading="lazy" src="/img/screenshot_ekodiet_anketa.png"/>
+</picture>
+<div class="carousel-caption d-none d-md-block">
+<h5>Зарегистрируйтесь, заполните анкету</h5>
+</div>
+</div>
+<div class="carousel-item">
+<picture class="d-block w-100">
+<source media="(max-width: 560px)" srcset="/img/screenshot_ekodiet_menyu_560.webp" type="image/webp"/>
+<source srcset="/img/screenshot_ekodiet_menyu.webp" type="image/webp"/>
+<img alt="Скриншот Ekodiet: пример меню рациона" itemprop="screenshot" loading="lazy" src="/img/screenshot_ekodiet_menyu.png"/>
+</picture>
+<div class="carousel-caption d-none d-md-block">
+<h5>Получите рассчитанные варианты индивидульных рационов питания (диет)</h5>
+</div>
+</div>
+<div class="carousel-item">
+<picture class="d-block w-100">
+<source media="(max-width: 560px)" srcset="/img/screenshot_ekodiet_grafik_560.webp" type="image/webp"/>
+<source srcset="/img/screenshot_ekodiet_grafik.webp" type="image/webp"/>
+<img alt="Скриншот Ekodiet: графический анализ диеты" itemprop="screenshot" loading="lazy" src="/img/screenshot_ekodiet_grafik.png"/>
+</picture>
+<div class="carousel-caption d-none d-md-block">
+<h5>Проведите графический анализ полученных вариантов меню (при желании)</h5>
+</div>
+</div>
+<div class="carousel-item">
+<picture class="d-block w-100">
+<source media="(max-width: 560px)" srcset="/img/screenshot_ekodiet_blyudo_560.webp" type="image/webp"/>
+<source srcset="/img/screenshot_ekodiet_blyudo.webp" type="image/webp"/>
+<img alt="Скриншот Ekodiet: пример информации о блюде" itemprop="screenshot" loading="lazy" src="/img/screenshot_ekodiet_blyudo.png"/>
+</picture>
+<div class="carousel-caption d-none d-md-block">
+<h5>Приготовьте блюда из полученного рациона на основе рецепта и технологической карты</h5>
+</div>
+</div>
+</div>
+<a class="carousel-control-prev" data-slide="prev" href="#carouselDemo" role="button">
+<span aria-hidden="true" class="carousel-control-prev-icon">&lt;</span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" data-slide="next" href="#carouselDemo" role="button">
+<span aria-hidden="true" class="carousel-control-next-icon">&gt;</span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+<p class="footer_txt">
+    Ekodiet 2.0 - это <span itemprop="applicationCategory">бесплатное браузерное прикладное программное обеспечение</span> 
+    (стоимость расчета меню рациона/диеты и других возможностей <span itemprop="offers" itemscope="" itemtype="http://schema.org/Offer"><span itemprop="price">0</span> <span itemprop="priceCurrency">RUB</span></span>). 
+    Пользоваться ресурсом можно в большинстве операционных систем (<span itemprop="operatingSystem">Windows, Linux, BSD, macOS и др.</span>), поддерживающих современные версии браузеров. 
+    Т.е. требования к устройству <span itemprop="requirements">минимальные, достаточные для запуска браузера</span>.
+</p>
+<p class="footer_txt">    
+    Здесь Вы можете произвести <a href="/dieta/raschyot-menyu-raciona" rel="canonical">Расчет диеты</a> (составить варианты суточных меню рационов <a href="/dieta/racion-pitaniya-funkcionalnyi" rel="canonical">Функционального питания</a>) с учетом индивидуальных особенностей. Под индивидуальными особенностями понимаются антропометрические параметры (рост, вес, индекс массы тела (ИМТ), размер запястья ведущей руки, и др.), уровень физической нагрузки и принадлежность к определенному <a href="/dieta/racion-pitaniya-napravlenie" rel="canonical">Направлению профилактического питания</a> с некоторым уточнением.
+    Это достигается благодаря применению инновационных алгоритмов расчета, с целью эффективной корректировки (уменьшения / увеличения) или поддержания Вашего идеального веса (массы тела) и улучшения показателей здоровья.
+    Другими словами, на основе <a href="/dieta/normy" rel="canonical" title="Нормы физиологических потребностей в энергии и пищевых веществах для различных групп населения Российской Федерации">норм физиологических потребностей в энергии и пищевых веществах</a> для различных групп населения Российской Федерации и формул Лоренца, Брока, Кетле, Харриса-Бенедикта, Кетч-Мак-Урдла, Миффилина-Сан-Жеора происходит автоматизированный расчёт, результатом которого является создание суточных вариантов индивидуальных меню диет, максимально удовлетворяющих различным особенностям человека.
+    Т.е. <a href="/dieta/opredelenie-effektivnaya" rel="canonical">Диета</a> (варианты суточных меню рационов функционального питания), рассчитанная таким образом, будет способствовать поддержанию индивидуальной идеальной массы тела, позволит производить эффективное похудение или набор массы тела. Такая диета приведет к прекрасному состоянию Вашего организма, в соответствии с текущими весом, ростом, возрастом, полом, типом телосложения (соматотипом), профессией и физическими нагрузками. Является результатом 7 лет исследований и разработок, начатых в <a href="http://www.vsuet.ru/" rel="nofollow" title="ВГУИТ">ВОРОНЕЖСКОМ ГОСУДАРСТВЕННОМ УНИВЕРСИТЕТЕ ИНЖЕНЕРНЫХ ТЕХНОЛОГИЙ</a> на кафедрах "Информационных технологий моделирования и управления" и "Пищевых биотехнологий и переработки животного и рыбного сырья".
+</p>
+<p class="footer_txt">Для создания индивидуальной диеты (вариантов суточных меню рационов функционального питания) при помощи автоматизированного расчёта достаточно <a id="aut_registraciya" rel="nofollow">зарегистрироваться</a> и/или <a id="aut_enter" rel="nofollow">войти</a> в свой <a href="/dieta/lk" rel="canonical" title="Личный кабинет">"Личный кабинет"</a>, в котором:</p>
+<p class="footer_txt">1) Заполнить/отредактировать все необходимые поля в разделе <a id="menu_anketa_id" rel="nofollow">Анкета</a>(обязательное условие только при первом расчёте рационов);</p>
+<p class="footer_txt">2) Добавить свои аллергены(если таковые имеются, т.е. не является обязательным пунктом) в разделе "Аллергены";</p>
+<p class="footer_txt">3) Перейти в раздел <a id="menu_racion_id" rel="nofollow" title="Мой рацион">Мой рацион</a>.</p>
+<p class="footer_txt">Проблема правильного питания, а значит составления индивидуальных меню диет (автоматизированного расчёта вариантов суточных меню рационов функционального питания) относится к <a href="http://lenta.ru/articles/2015/11/23/ecology/" rel="nofollow" target="_blank" title="Лента.ру">новейшим вызовам здоровья людей.</a>
+                      Учёные Всемирной организации здравоохранения (ВОЗ) к 4 наиболее значимым условиям, оказывающим влияние на поддержание хорошего самочувствия людей, относят: наследственность (генетические факторы) — 15-20%; состояние окружающей среды — 20-25%; медицинское обеспечение (уровень здравоохранения) —10-15%; условия и образ жизни людей, питание — 50-55%. Такая пропорция факторов (с учётом особенностей нашего государства) создана благодаря исследованиям, проведенных в 1994 г Межведомственной комиссией Совета безопасности РФ по охране здоровья населения в Федеральных концепциях «Охрана здоровья населения» и «К здоровой России».
+                      А это значит, что человек проживет дольше в том случае, если он будет при повышении индивидуальных показателей своего здоровья заботиться о всех вышеописанных параметрах. Статистика российских экспертов указывает на то, что у нас 78% лиц мужского пола и 52% лиц женского пола не следят за состоянием своего организма. Данный сайт, используя алгоритмы расчета, имеющие научное обоснование, поможет проявить заботу о Вашем здоровье хотя бы в одном направлении - правильное питание (получение индивидуальных меню диет).</p>
+<p class="footer_txt">Раздел сайта <a href="/dieta/informaciya" rel="canonical" title="Справочная информация">Справочная информация</a> позволит лучше понять принципы, цели и назначение данного ресурса, даст наиболее полное представление об уникальности функционирования данной информационной системы и используемых в ней методах, средствах и алгоритмах, используемых при расчётах. А если при расчёте диеты или регистрации у Вас возникли трудности, то подраздел <a id="menu_video_id" rel="canonical" title="Видеоурок получения диеты">Видеоурок</a> позволит их решить.</p>
+<p class="footer_txt">Также всем зарегистрированным пользователям бесплатно доступен <a href="/dieta/kalkulator-kalorii-online" rel="canonical" title="Калькулятор калорий онлайн">Калькулятор калорий онлайн</a>. Другими словами, у Вас есть возможность "Ручного" проектирования вариантов суточных рационов питания (произвести индивидуальный расчет диеты) на основе "Справочника блюд" и блюд, созданных Вами на основе информации о продуктах, расположенных у нас на сайте, и нашего понимания этого процесса.</p>
+<p class="footer_txt">Рейтинг: <span itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating">значение - <span itemprop="ratingValue">5</span>; голосов: <span itemprop="ratingCount">3</span></span></p>
+</div>
+</div>
+<!--<div class="col-md-auto googleAd">
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <ins class="adsbygoogle"
+                 style="display:inline-block;width:300px;height:600px"
+                 data-ad-client="ca-pub-3767559463608126"
+                 data-ad-slot="6593733013"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-3767559463608126"
+                 data-ad-slot="7270494590"
+                 data-ad-format="auto"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>-->
+</div>
+</main>
+<footer class="footer">
+<div class="container">
+<div class="row">
+<div class="col-sm">
+<section>
+<h4>Разделы</h4>
+<ul class="nav flex-column">
+<li class="nav-item"><a class="nav-link" href="/" itemprop="installUrl" rel="index,follow" title="Главная Ekodiet.ru">Главная</a></li>
+<li class="nav-item"><a class="nav-link" href="/dieta/lk" rel="index,follow" title="Личный кабинет пользователя Ekodiet.ru">Личный кабинет</a></li>
+<li class="nav-item"><a class="nav-link" href="/dieta/kalkulator-kalorii-online" rel="index,follow" title="Калькулятор калорий онлайн для авторизованных пользователей">Калькулятор калорий онлайн</a></li>
+<li class="nav-item"><a class="nav-link" href="/dieta/informaciya" rel="index,follow" title="Справочная информация для всех посетителей ресурса">Справочная информация</a></li>
+</ul>
+</section>
+</div>
+<div class="col-sm">
+<section>
+<h4>Мы в сетях</h4>
+<ul class="nav flex-column">
+<li class="nav-item"><a class="nav-link" href="https://vk.com/ekodiet" itemprop="sameAs" rel="nofollow noopener noreferrer" target="_blank" title="Ekodiet.ru Вконтакте">Вконтакте</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.facebook.com/Ekodiet-103093922197240" itemprop="sameAs" rel="nofollow noopener noreferrer" target="_blank" title="Ekodiet.ru Facebook">Facebook</a></li>
+<li class="nav-item"><a class="nav-link" href="https://twitter.com/ekodiet_ru" itemprop="sameAs" rel="nofollow noopener noreferrer" target="_blank" title="Ekodiet.ru Twitter">Twitter</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.pinterest.ru/ekodiet/" itemprop="sameAs" rel="nofollow noopener noreferrer" target="_blank" title="Ekodiet.ru Pinterest">Pinterest</a></li>
+</ul>
+</section>
+</div>
+<div class="col-sm kontakt">
+<section>
+<h4>Контактное лицо:</h4>
+<ul class="nav flex-column" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+<li class="nav-item">ФИО: <a href="/dieta/kontakty" itemprop="url" title="Контактное лицо Ekodiet"><span itemprop="name">Рассадников Е. А.</span></a></li>
+<li class="nav-item">E-mail: <a href="mailto:trympampam@mail.ru"><span itemprop="email">trympampam@mail.ru</span></a></li>
+<li class="nav-item">WhatsApp: <a href="tel:+79204452901"><span itemprop="telephone">+79204452901</span></a></li>
+</ul>
+</section>
+</div>
+<div class="col-sm">
+<section>
+<h4>Поделитесь ссылкой</h4>
+<div class="share-btns">
+<a class="whatsapp" href="javascript: void(0)" onclick="window.open('whatsapp://send?text=https://ekodiet.ru/','sharer','status=0,toolbar=0,width=650,height=500');ym(83556412,'reachGoal','shareres')" rel="noindex,nofollow" title="Поделиться в WhatsApp">
+<picture>
+<source srcset="/img/whatsapp_logotip.webp" type="image/webp"/>
+<img alt="Поделиться в WhatsApp страницей Ekodiet" loading="lazy" src="/img/whatsapp_logotip.png"/>
+</picture>
+</a>
+<a class="vkontakte" href="javascript: void(0)" onclick="window.open('https://vkontakte.ru/share.php?url=https://ekodiet.ru/','sharer','status=0,toolbar=0,width=650,height=500');ym(83556412,'reachGoal','shareres')" rel="noindex,nofollow" title="Поделиться Вконтакте">
+<picture>
+<source srcset="/img/vk_logotip.webp" type="image/webp"/>
+<img alt="Поделиться Вконтакте страницей Ekodiet" loading="lazy" src="/img/vk_logotip.png"/>
+</picture>
+</a>
+<a class="ok" href="javascript: void(0)" onclick="window.open('https://connect.ok.ru/offer?url=https://ekodiet.ru/','sharer','status=0,toolbar=0,width=650,height=500');ym(83556412,'reachGoal','shareres')" rel="noindex,nofollow" title="Поделиться в Одноклассниках">
+<picture>
+<source srcset="/img/odnoklassniki_logotip.webp" type="image/webp"/>
+<img alt="Поделиться в Одноклассниках страницей Ekodiet" loading="lazy" src="/img/odnoklassniki_logotip.png"/>
+</picture>
+</a>
+<a class="telegram" href="javascript: void(0)" onclick="window.open('https://telegram.me/share/url?url=https://ekodiet.ru/','sharer','status=0,toolbar=0,width=650,height=500');ym(83556412,'reachGoal','shareres')" rel="noindex,nofollow" title="Поделиться в Телеграм">
+<picture>
+<source srcset="/img/telegram_logotip.webp" type="image/webp"/>
+<img alt="Поделиться в Телеграм страницей Ekodiet" loading="lazy" src="/img/telegram_logotip.png"/>
+</picture>
+</a>
+<a class="twitter" href="javascript: void(0)" onclick="window.open('https://twitter.com/intent/tweet?text=Диета (функциональное питание): автоматизированный экспертный расчет https://ekodiet.ru/','sharer','status=0,toolbar=0,width=650,height=500');" rel="noindex,nofollow" title="Твитнуть">
+<picture>
+<source srcset="/img/twitter_logotip.webp" type="image/webp"/>
+<img alt="Твитнуть страницу Ekodiet" loading="lazy" src="/img/twitter_logotip.png"/>
+</picture>
+</a>
+<a class="facebook" href="javascript: void(0)" onclick="window.open('https://www.facebook.com/sharer.php?u=https://ekodiet.ru/','sharer','status=0,toolbar=0,width=650,height=500');ym(83556412,'reachGoal','shareres')" rel="noindex,nofollow" title="Поделиться в Facebook">
+<picture>
+<source srcset="/img/facebook_logotip.webp" type="image/webp"/>
+<img alt="Поделиться в Facebook страницей Ekodiet" loading="lazy" src="/img/facebook_logotip.png"/>
+</picture>
+</a>
+</div>
+</section>
+</div>
+</div>
+<div class="row copyright"><div class="col-sm">© Рассадников Е. А., Ekodiet, 2021</div></div>
+</div>
+</footer>
+<script>
+      $(function($) {
+          setMainMarginBottom();
+      });
+  </script>
+<div id="modal_form"><!-- модальное oкнo редактирования/добавления -->
+<div class="modal_header">
+<span id="modal_close">X</span> <!-- Кнoпкa зaкрыть -->
+<p id="modal_head_p"></p>
+</div>
+<div class="modal_content">
+</div>
+</div>
+<div id="overlay"></div><!-- Пoдлoжкa модального окна--> <div id="toTop" style="display: block;">▲Наверх</div>
+</body>
+</html>

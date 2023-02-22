@@ -1,0 +1,343 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>openPGP в России / защита Ваших секретов</title>
+<meta content="pgp, pretty good privacy, криптография, шифр, ключ, безопасность, openpgp, keyserver, алгоритм, стеганография, эцп, электронная подпись, pgp/mime, rfc 2440, email, приватность, секретность, gnupg, gpg, криптоанализ, сеть доверия, web of trust, tor, аноним" name="keywords"/>
+<meta content='Добро пожаловать на сайт проекта "openPGP в России", посвященного информационной безопасности, криптографии, сетевой анонимности, а также информационной и технической поддержке пользователей OpenPGP-совместимых средств шифрования данных.' name="description"/>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<meta content="no" http-equiv="imagetoolbar"/>
+<link href="/styles/atom.css" media="screen" rel="stylesheet" type="text/css"/>
+<link href="/styles/wiki.css" media="screen" rel="stylesheet" type="text/css"/>
+<link href="/styles/plastiq.css" media="screen" rel="stylesheet" type="text/css"/>
+<link href="/images/favicon.ico" rel="shortcut icon"/>
+<link href="/" rel="start"/>
+<link href="http://www.pgpru.com/proekt/pravila" rel="copyright"/>
+<link href="/FAQ" rel="help"/>
+<link href="/Библиотека/Словарь" rel="glossary"/>
+<link href="/news.xml" rel="alternate" title="Новости проекта и мира" type="application/rss+xml"/>
+<link href="/comments.xml" rel="alternate" title="Последние обсуждения в форуме" type="application/rss+xml"/>
+<link href="/changes.xml" rel="alternate" title="Последние обновления сайта" type="application/rss+xml"/>
+<link href="http://www.pgpru.com/glavnaja/revisions.xml" rel="alternate" title="История изменений текущего документа" type="application/rss+xml"/>
+<script src="/js/controls.js" type="text/javascript"></script>
+<script src="/js/protoedit.js" type="text/javascript"></script>
+<script src="/js/wikiedit2.js" type="text/javascript"></script>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="101%">
+<tr>
+<td height="97" rowspan="3" style="background-image:url(/images/plastiq/back_top_1.png);" width="50"><img height="1" src="/images/plastiq/spacer.gif" width="50"/></td>
+<td rowspan="3" style="background-image:url(/images/plastiq/header_1.png);" width="20"><img height="1" src="/images/plastiq/spacer.gif" width="20"/></td>
+<td height="16" style="background-image:url(/images/plastiq/header_2.png)"><img height="1" src="/images/plastiq/spacer.gif" width="468"/></td>
+<td rowspan="3" style="background-image:url(/images/plastiq/header_4.png);" width="26"><img height="1" src="/images/plastiq/spacer.gif" width="26"/></td>
+<td rowspan="3" style="background-image:url(/images/plastiq/back_top.png); background-repeat:repeat-x;" width="100%">
+<div style="background-image:url(/images/plastiq/back_top_logo.png); background-repeat:no-repeat; height:97px; width:266px;">
+<div id="controls">
+<a name="top"></a>
+					id: <em>Гость</em>   <a href="http://www.pgpru.com/glavnaja/vhod" title="авторизоваться и войти в систему">вход</a>   <a href="http://www.pgpru.com/glavnaja/registracija" title="зарегистрироваться в системе">регистрация</a><br/>
+
+					текущее время 19:03 22/02/2023  				</div>
+</div>
+</td>
+<td rowspan="3" style="background-image:url(/images/plastiq/back_top_2.png);" width="50"><img height="1" src="/images/plastiq/spacer.gif" width="50"/></td>
+<td rowspan="3" style="background-image:url(/images/plastiq/back_top_3.png);" width="25"><img height="1" src="/images/plastiq/spacer.gif" width="25"/></td>
+</tr>
+<tr>
+<td height="60" width="468">
+<div id="banner">
+<a href="https://www.pgpru.com/proekt/podderzhka" title="Поддержка проекта"><img height="60" src="http://www.pgpru.com/files/banners/stub-4.gif" width="468"/></a> </div>
+</td>
+</tr>
+<tr>
+<td height="21" style="background-image:url(/images/plastiq/header_3.png);"></td>
+</tr>
+<tr>
+<td height="375" style="background-image:url(/images/plastiq/back_left.png); background-repeat:repeat-y;" valign="top">
+<div style="background-image:url(/images/plastiq/back_left_1.png); height:373px;"></div>
+</td>
+<td colspan="5" rowspan="2">
+<table border="0" cellpadding="0" cellspacing="0" style="background-color:#FFFFFF;" width="100%">
+<tr>
+<td colspan="3" height="25">
+<table border="0" cellpadding="0" cellspacing="0" style="background-color:#646464;" width="100%">
+<tr>
+<td height="25" style="background-image:url(/images/plastiq/panel_left.png);" width="25"></td>
+<td style="background-image:url(/images/plastiq/panel_mid.png); background-repeat:repeat-x;">
+<div id="navigation">
+<a class="" href="http://www.pgpru.com/glavnaja" name="/glavnaja" title="/главная">главная</a> <a class="" href="http://www.pgpru.com/proekt" name="/proekt" title="/проект">проект</a> <a class="" href="http://www.pgpru.com/novosti" name="/novosti" title="/новости">новости</a> <a class="" href="http://www.pgpru.com/forum" name="/forum" title="/форум">форум</a> <a class="" href="http://www.pgpru.com/faq" name="/faq" title="/faq">faq</a> <a class="" href="http://www.pgpru.com/biblioteka" name="/biblioteka" title="/библиотека">библиотека</a> <a class="" href="http://www.pgpru.com/chernowiki" name="/chernowiki" title="/черновики">черновики</a> <a class="" href="http://www.pgpru.com/razrabotki" name="/razrabotki" title="/разработки">разработки</a> <a class="" href="http://www.pgpru.com/servisy" name="/servisy" title="/сервисы">сервисы</a> <a class="" href="http://www.pgpru.com/soft" name="/soft" title="/софт">софт</a> <a class="" href="http://www.pgpru.com/poisk" name="/poisk" title="/поиск">поиск</a>
+</div>
+</td>
+<td align="right" style="background-image:url(/images/plastiq/panel_right.png);" width="50">
+<div id="tools">
+<div class="bookmark_in"><img src="/images/plastiq/spacer.gif" title="вы должны быть зарегистрированы, чтобы работать с системой закладок"/></div>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="background-image:url(/images/plastiq/body_leftmid.png); background-repeat:repeat-y; height:29px;" valign="top">
+<div style="background-image:url(/images/plastiq/body_topmid.png); background-repeat:repeat-x; height:29px;">
+<div id="meta" style="background-image:url(/images/plastiq/body_topleft.png); background-repeat:no-repeat; height:29px;">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td>
+Владелец: <a href="http://www.pgpru.com/proekt/poljzovateli?profile=SATtva">SATtva</a> (создано 14/09/2006 22:50), редакция от 04/12/2016 09:20 (автор: <a href="http://www.pgpru.com/proekt/poljzovateli?profile=SATtva">SATtva</a>)
+										</td>
+<td align="right">
+<a href="http://www.pgpru.com/glavnaja/print" title="Версия для печати">Печать</a>
+</td>
+</tr>
+</table>
+<div class="path" title="путь к текущему документу">
+<a href="/">http://www.pgpru.com</a>/Главная								</div>
+</div>
+</div>
+</td>
+<td rowspan="2" style="background-image:url(/images/plastiq/body_rightmid.png); background-position:right; background-repeat:repeat-y;" valign="top" width="210">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td height="348" style="background-image:url(/images/plastiq/body_right.png); background-position:top right; background-repeat:no-repeat;" valign="top">
+<div id="sidepanel">
+<div style="background-image:url(/images/plastiq/glass_top.png); height:20px;"></div>
+<div id="bookmarks">
+<a class="" href="http://www.pgpru.com/proekt/izmenenija" name="proekt/izmenenija" title="Проект / Изменения">Последние изменения</a> <a class="" href="http://www.pgpru.com/proekt/kommentarii" name="proekt/kommentarii" title="Проект / Комментарии">Последние комментарии</a> <a class="" href="http://www.pgpru.com/proekt/udalennye" name="proekt/udalennye" title="Проект / Удаленные">Удаленные документы</a> <a class="" href="http://www.pgpru.com/proekt/todo" name="proekt/todo" title="Проект / To Do">Требуется доработка</a> <a class="" href="http://www.pgpru.com/proekt/poljzovateli" name="proekt/poljzovateli" title="Проект / Пользователи">Досье пользователей</a> <a class="" href="http://www.pgpru.com/oprosy" title="Опросы">Опросы</a> <a class="" href="http://www.pgpru.com/servisy/keyserver" name="servisy/keyserver" title="Сервисы / Keyserver">Keyserver</a> <a class="" href="http://www.pgpru.com/proekt/wiki" name="proekt/wiki" title="Проект / Wiki">Документация Wiki</a> <a class="" href="http://www.pgpru.com/proekt/pravila" name="proekt/pravila" title="Проект / Правила">Правила сайта</a> <a class="denied" href="http://www.pgpru.com/glavnaja/registracija" name="glavnaja/registracija" title="Главная / Регистрация"><img alt="denied" src="http://www.pgpru.com/themes/plastiq/icons/lock.gif"/>Регистрация</a>
+</div>
+<div style="background-image:url(/images/plastiq/glass_sub_1.png); height:20px;"></div>
+<div style="background-image:url(/images/plastiq/glass_sub_2.png); height:20px;">
+<div style="background-image:url(/images/plastiq/glass_sections.png); background-position:right; background-repeat:no-repeat; height:20px;"></div>
+</div>
+<div style="background-image:url(/images/plastiq/glass_sub_3.png); height:20px;"></div>
+<div id="sections">
+<ul>
+<li><strong><a class="" href="http://www.pgpru.com/glavnaja/vhod" title="Главная / Вход">Вход</a></strong></li>
+<li><strong><a class="" href="http://www.pgpru.com/glavnaja/nastrojjki" title="Главная / Настройки">Настройки</a></strong></li>
+<ul>
+<li><a class="" href="http://www.pgpru.com/glavnaja/nastrojjki/parolj" title="Главная / Настройки / Пароль">Пароль</a></li>
+</ul>
+</ul>
+</div>
+<div style="background-image:url(/images/plastiq/glass_mid_2.png); background-repeat:repeat-y; height:20px;"></div>
+<div style="background-image:url(/images/plastiq/glass_bot.png); height:5px; background-repeat:no-repeat;"></div>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height="321" style="background-image:url(/images/plastiq/body_leftmid.png); background-repeat:repeat-y;" valign="top" width="25">
+<div id="tools" style="background-image:url(/images/plastiq/tools_back.png); background-repeat:repeat-y;">
+<div style="background-image:url(/images/plastiq/tools_top.png); height:7px;"></div>
+<div class="new"><a accesskey="n" href="http://www.pgpru.com/glavnaja/new" title="создать новый документ"><img alt="создать" src="/images/plastiq/spacer.gif"/></a></div>
+<div class="show"><img alt="просмотр" src="/images/plastiq/spacer.gif"/></div>
+<div class="revisions"><a accesskey="r" href="http://www.pgpru.com/glavnaja/revisions" title="просмотреть последние изменения документа"><img alt="редакции" src="/images/plastiq/spacer.gif"/></a></div>
+<div class="referrers"><a accesskey="l" href="http://www.pgpru.com/glavnaja/referrers" title="список документов, ссылающихся на данный"><img alt="ссылки" src="/images/plastiq/spacer.gif"/></a></div>
+<div style="background-image:url(/images/plastiq/tools_bottom.png); height:7px;"></div>
+</div>
+</td>
+<td height="321" style="background-image:url(/images/plastiq/body_divider.png); background-repeat:no-repeat;" valign="top">
+<div id="body"><div id="content">
+<!-- begin page output -->
+<table border="0" class="dtable">
+<tr class="userrow"><td class="usercell" valign="top"><a name="h3-1"></a><h1>О проекте</h1>
+<br/><a name="p90041-1"></a><p class="auto" id="p90041-1">
+Добро пожаловать на сайт проекта "openPGP в России", посвященного информационной безопасности, криптографии, сетевой анонимности, а также информационной и технической поддержке пользователей OpenPGP-совместимых средств шифрования данных. <a class="" href="http://www.pgpru.com/proekt" name="proekt" title="Проект">Подробнее...</a></p><br/>
+<table border="0" cellpadding="0" cellspacing="0" class="inf"><tr><td class="sign">i</td><td class="text">– Я в этом не разбираюсь. Что такое <a class="" href="https://www.pgpru.com/biblioteka/osnovy/vvedenievkripto/glava1" name="biblioteka/osnovy/vvedenievkripto/glava1" title="Библиотека / Основы / Введение В Крипто / Глава 1">криптография, ключ, шифр?</a><br/>
+– Что такое <a class="" href="https://www.pgpru.com/faq/obschie#q1" name="faq/obschie" title="F A Q / Общие">PGP</a> / <a class="" href="https://www.pgpru.com/faq/obschie#q2" title="F A Q / Общие">GnuPG</a> / <a class="" href="https://www.pgpru.com/faq/obschie#q3" title="F A Q / Общие">OpenPGP?</a><br/>
+– Зачем мне <a class="" href="https://www.pgpru.com/faq/obschie#q4" title="F A Q / Общие">шифрование</a> и <a class="" href="https://www.pgpru.com/faq/anonimnostj#q1" name="faq/anonimnostj" title="F A Q / Анонимность">сетевая анонимность?</a><br/>
+– <a class="" href="https://www.pgpru.com/faq/obschie#q8" title="F A Q / Общие">Можно ли доверять</a> PGP/GnuPG и <a class="" href="https://www.pgpru.com/faq/proekt#q4" name="faq/proekt" title="F A Q / Проект">законно ли их использование</a>?</td></tr></table><a name="h3-2"></a><h2><!--notypo--><a href="#news" name="news" title=""></a>
+<!--/notypo-->Новостной блог</h2>
+<br/><a name="p90041-2"></a><p class="auto" id="p90041-2">
+<small>Компетентный взгляд на события криптографии, инфобезопасности и прав человека. <span class="cite"><a class="" href="http://www.pgpru.com/novosti#add" name="novosti" title="Новости">Добавить новость...</a></span> <!--notypo-->|<!--/notypo--> <a class="" href="http://www.pgpru.com/novosti#archive" title="Новости">Архив новостей...</a> <!--notypo-->|<!--/notypo--> <a class="" href="http://www.pgpru.com/novosti#subscribe" title="Новости">Экспорт RSS...</a></small><br/>
+<!--notypo-->
+<br/>
+<table>
+<tr>
+<td valign="top"><small style="padding-right:10px;">(03.12)</small></td>
+<td><a class="" href="http://www.pgpru.com/novosti/2016/podderzhkarossijjskojjkriptografiivgnupg2" name="novosti/2016/podderzhkarossijjskojjkriptografiivgnupg2" title="Новости / 2016 / Поддержка Российской Криптографии В Gnupg-2">Поддержка российской криптографии в gnupg-2</a> <a class="outerlink" href="http://www.pgpru.com/proekt/poljzovateli?profile=saipr" title="">// saipr</a></td>
+</tr>
+<tr>
+<td valign="top"><small style="padding-right:10px;">(13.09)</small></td>
+<td><a class="" href="http://www.pgpru.com/novosti/2016/anonsirovani2luai2proutersumnymikonfigami" name="novosti/2016/anonsirovani2luai2proutersumnymikonfigami" title="Новости / 2016 / Анонсирован I 2 lua--I 2 P Роутер Сумными Конфигами">Анонсирован i2lua - I2P роутер с "умными" конфигами</a> <a class="outerlink" href="http://www.pgpru.com/proekt/poljzovateli?profile=supervillain" title="">// supervillain</a></td>
+</tr>
+<tr>
+<td valign="top"><small style="padding-right:10px;">(18.08)</small></td>
+<td><a class="" href="http://www.pgpru.com/novosti/2016/najjdenaiispravlenaujazvimostjvlibgcryptsuschestvovavshajas1998goda" name="novosti/2016/najjdenaiispravlenaujazvimostjvlibgcryptsuschestvovavshajas1998goda" title="Новости / 2016 / Найдена И Исправлена Уязвимость В Libgcrypt Существовавшая С 1998 Года">Найдена и исправлена уязвимость в Libgcrypt, существовавшая с 1998 года</a> <a class="outerlink" href="http://www.pgpru.com/proekt/poljzovateli?profile=sentaus" title="">// sentaus</a></td>
+</tr>
+<tr>
+<td valign="top"><small style="padding-right:10px;">(12.02)</small></td>
+<td><a class="" href="http://www.pgpru.com/novosti/2016/zapretispoljzovanijanikoviavatarokvsetiinternetobsuzhdenievmgjua" name="novosti/2016/zapretispoljzovanijanikoviavatarokvsetiinternetobsuzhdenievmgjua" title="Новости / 2016 / Запрет Использования Ников И Аватарок В Сети Интернет-Обсуждение В М Г Ю А">Запрет использования ников и аватарок в сети Интернет - обсуждение в МГЮА</a> <a class="outerlink" href="http://www.pgpru.com/proekt/poljzovateli?profile=IPCLUB" title="">// IPCLUB</a></td>
+</tr>
+<tr>
+<td valign="top"><small style="padding-right:10px;">(19.01)</small></td>
+<td><a class="" href="http://www.pgpru.com/novosti/2016/relizi2pdrealizaciianonimnojjsetii2pnajazykec" name="novosti/2016/relizi2pdrealizaciianonimnojjsetii2pnajazykec" title="Новости / 2016 / Релиз I 2 pd Реализации Анонимной Сети I 2 P На Языке C">Релиз i2pd, реализации анонимной сети I2P на языке C++</a> <a class="outerlink" href="http://www.pgpru.com/proekt/poljzovateli?profile=supervillain" title="">// supervillain</a></td>
+</tr>
+<tr>
+<td valign="top"><small style="padding-right:10px;">(04.12)</small></td>
+<td><a class="" href="http://www.pgpru.com/novosti/2015/letsencryptotkryvaetsja" name="novosti/2015/letsencryptotkryvaetsja" title="Новости / 2015 / Lets Encrypt Открывается">Let's Encrypt открывается</a> <a class="outerlink" href="http://www.pgpru.com/proekt/poljzovateli?profile=SATtva" title="">// SATtva</a></td>
+</tr>
+<tr>
+<td valign="top"><small style="padding-right:10px;">(16.07)</small></td>
+<td><a class="" href="http://www.pgpru.com/novosti/2015/apzakazalaissledovanijasposobovmanipulirovanijaobschestvennymmneniemiborjbysanonimnostjju" name="novosti/2015/apzakazalaissledovanijasposobovmanipulirovanijaobschestvennymmneniemiborjbysanonimnostjju" title="Новости / 2015 / А П Заказала Исследования Способов Манипулирования Общественным Мнением И Борьбы С Анонимностью">АП заказала исследования способов манипулирования общественным мнением и борьбы с анонимностью</a> <a class="outerlink" href="http://www.pgpru.com/proekt/poljzovateli?profile=SATtva" title="">// SATtva</a></td>
+</tr>
+<tr>
+<td valign="top"><small style="padding-right:10px;">(23.06)</small></td>
+<td><a class="" href="http://www.pgpru.com/novosti/2015/vlinux41realizovanapodderzhkafajjlovogoshifrovanijavext4" name="novosti/2015/vlinux41realizovanapodderzhkafajjlovogoshifrovanijavext4" title="Новости / 2015 / В Linux 41 Реализована Поддержка Файлового Шифрования В Ext 4">В Linux 4.1 реализована поддержка файлового шифрования в Ext4</a> <a class="outerlink" href="http://www.pgpru.com/proekt/poljzovateli?profile=SATtva" title="">// SATtva</a></td>
+</tr>
+<tr>
+<td valign="top"><small style="padding-right:10px;">(01.06)</small></td>
+<td><a class="" href="http://www.pgpru.com/novosti/2015/facebooknachinaetpoljzovatjsjaopenpgp" name="novosti/2015/facebooknachinaetpoljzovatjsjaopenpgp" title="Новости / 2015 / Facebook Начинает Пользоваться Open P G P">Facebook начинает пользоваться OpenPGP</a> <a class="outerlink" href="http://www.pgpru.com/proekt/poljzovateli?profile=SATtva" title="">// SATtva</a></td>
+</tr>
+<tr>
+<td valign="top"><small style="padding-right:10px;">(23.05)</small></td>
+<td><a class="" href="http://www.pgpru.com/novosti/2015/planovoeobnovleniesslsertifikatasajjta" name="novosti/2015/planovoeobnovleniesslsertifikatasajjta" title="Новости / 2015 / Плановое Обновление S S L-сертификата Сайта">Плановое обновление SSL-сертификата сайта</a> <a class="outerlink" href="http://www.pgpru.com/proekt/poljzovateli?profile=SATtva" title="">// SATtva</a></td>
+</tr>
+</table>
+<!--/notypo--></p><a name="h3-3"></a><h2><!--notypo--><a href="#whatsnew" name="whatsnew" title=""></a>
+<!--/notypo-->Последние обновления</h2>
+<br/><a name="p90041-3"></a><p class="auto" id="p90041-3">
+<!--notypo--><table><tr><td></td><td align="right" nowrap="nowrap"><a href="http://www.pgpru.com/xml/changes_openpgp.xml"><img alt="XML" src="http://www.pgpru.com/themes/plastiq/icons/xml.gif"/></a><a href="/Проект/ОСайте/RSS" title="Что это такое?">?</a></td></tr></table><table><tr><td><tr class="lined"><td colspan="2"><br/><strong>25/10/2022:</strong></td></tr>
+<tr><td valign="top"><small>(14:22)  </small></td><td>Создан новый документ <a class="" href="http://www.pgpru.com/forum/prakticheskajabezopasnostj/gpgprovidedobjectistoolarge" name="forum/prakticheskajabezopasnostj/gpgprovidedobjectistoolarge" title="Форум / Практическая Безопасность / Gpg Provided Object Is Too Large">gpg: Provided object is too large</a> в разделе Форум (автор <a href="http://www.pgpru.com/proekt/poljzovateli?profile=Abyrvalg" title="">Abyrvalg</a>)</td></tr>
+<tr class="lined"><td colspan="2"><br/><strong>17/10/2022:</strong></td></tr>
+<tr><td valign="top"><small>(12:43)  </small></td><td>Создан новый документ <a class="" href="http://www.pgpru.com/forum/rabotaspgp/kljuchinedobavljajutsjasdrugogokompjjutera" name="forum/rabotaspgp/kljuchinedobavljajutsjasdrugogokompjjutera" title="Форум / Работа С P G P / Ключи Не Добавляются С Другого Компьютера">Ключи не добавляются с другого компьютера</a> в разделе Форум (автор <a href="http://www.pgpru.com/proekt/poljzovateli?profile=kostya" title="">kostya</a>)</td></tr>
+<tr class="lined"><td colspan="2"><br/><strong>22/02/2022:</strong></td></tr>
+<tr><td valign="top"><small>(09:09)  </small></td><td>Создан новый документ <a class="" href="http://www.pgpru.com/forum/prakticheskajabezopasnostj/zaschitafajjlabiologicheskimalgoritmom" name="forum/prakticheskajabezopasnostj/zaschitafajjlabiologicheskimalgoritmom" title="Форум / Практическая Безопасность / Защита Файла Биологическим Алгоритмом">Защита файла биологическим алгоритмом</a> в разделе Форум (автор <a href="http://www.pgpru.com/proekt/poljzovateli?profile=AndreyNikIos" title="">AndreyNikIos</a>)</td></tr>
+<tr class="lined"><td colspan="2"><br/><strong>06/09/2021:</strong></td></tr>
+<tr><td valign="top"><small>(12:39)  </small></td><td>Создан новый документ <a class="" href="http://www.pgpru.com/forum/prakticheskajabezopasnostj/fractalcrypt" name="forum/prakticheskajabezopasnostj/fractalcrypt" title="Форум / Практическая Безопасность / Fractal Crypt">FractalCrypt</a> в разделе Форум (автор <a href="http://www.pgpru.com/proekt/poljzovateli?profile=zorggish" title="">zorggish</a>)</td></tr>
+<tr class="lined"><td colspan="2"><br/><strong>15/07/2021:</strong></td></tr>
+<tr><td valign="top"><small>(04:27)  </small></td><td>Изменен документ <a class="" href="http://www.pgpru.com/forum/prakticheskajabezopasnostj/posovetujjtehromopodobnyjjbezopasnyjjbrauzer" name="forum/prakticheskajabezopasnostj/posovetujjtehromopodobnyjjbezopasnyjjbrauzer" title="Форум / Практическая Безопасность / Посоветуйте Хромоподобный Безопасный Браузер">Посоветуйте хромоподобный безопасный браузер</a> (<a class="" href="http://www.pgpru.com/forum/prakticheskajabezopasnostj/posovetujjtehromopodobnyjjbezopasnyjjbrauzer/revisions" title="Форум / Практическая Безопасность / Посоветуйте Хромоподобный Безопасный Браузер">редакции</a>) в разделе Форум (автор <a href="http://www.pgpru.com/proekt/poljzovateli?profile=Piano" title="">Piano</a>)</td></tr><tr><td valign="top"><small>(04:26)  </small></td><td>Изменен документ <a class="" href="http://www.pgpru.com/forum/prakticheskajabezopasnostj/posovetujjtehromopodobnyjjbezopasnyjjbrauzer" title="Форум / Практическая Безопасность / Посоветуйте Хромоподобный Безопасный Браузер">Посоветуйте хромоподобный безопасный браузер</a> (<a class="" href="http://www.pgpru.com/forum/prakticheskajabezopasnostj/posovetujjtehromopodobnyjjbezopasnyjjbrauzer/revisions" title="Форум / Практическая Безопасность / Посоветуйте Хромоподобный Безопасный Браузер">редакции</a>) в разделе Форум (автор <a href="http://www.pgpru.com/proekt/poljzovateli?profile=Piano" title="">Piano</a>)</td></tr>
+<tr class="lined"><td colspan="2"><br/><strong>13/04/2021:</strong></td></tr>
+<tr><td valign="top"><small>(10:17)  </small></td><td>Создан новый документ <a class="" href="http://www.pgpru.com/forum/offtopik/zaschitainformaciiiinformacionnajabezopasnostjnapredprijatii" name="forum/offtopik/zaschitainformaciiiinformacionnajabezopasnostjnapredprijatii" title="Форум / Офф-топик / Защита Информации И Информационная Безопасность На Предприятии">Защита информации и информационная безопасность на предприятии</a> в разделе Форум (автор <a href="http://www.pgpru.com/proekt/poljzovateli?profile=EgorData" title="">EgorData</a>)</td></tr>
+<tr class="lined"><td colspan="2"><br/><strong>09/04/2021:</strong></td></tr>
+<tr><td valign="top"><small>(12:13)  </small></td><td>Добавлен <a class="" href="http://www.pgpru.com/comment96569" name="comment96569" title="Comment 96569">новый комментарий</a> в дискуссии <a class="" href="http://www.pgpru.com/forum/unixlike/vvedenievlinuksy" name="forum/unixlike/vvedenievlinuksy" title="Форум / Unix Like / Введение В Линуксы">Введение в линуксы)</a> в разделе Форум (автор <a href="http://www.pgpru.com/proekt/poljzovateli?profile=RomaDroID" title="">RomaDroID</a>)</td></tr>
+<tr class="lined"><td colspan="2"><br/><strong>27/03/2021:</strong></td></tr>
+<tr><td valign="top"><small>(09:50)  </small></td><td>Добавлен <a class="" href="http://www.pgpru.com/comment96567" name="comment96567" title="Comment 96567">новый комментарий</a> в дискуссии <a class="" href="http://www.pgpru.com/forum/prakticheskajabezopasnostj/gdeluchshezavestipochtovyjjjaschik" name="forum/prakticheskajabezopasnostj/gdeluchshezavestipochtovyjjjaschik" title="Форум / Практическая Безопасность / Где Лучше Завести Почтовый Ящик">Где лучше завести почтовый ящик.</a> в разделе Форум (автор <a href="http://www.pgpru.com/proekt/poljzovateli?profile=RomaDroID" title="">RomaDroID</a>)</td></tr>
+<tr class="lined"><td colspan="2"><br/><strong>05/03/2021:</strong></td></tr>
+<tr><td valign="top"><small>(16:56)  </small></td><td>Добавлен <a class="" href="http://www.pgpru.com/comment96564" name="comment96564" title="Comment 96564">новый комментарий</a> в дискуссии <a class="" href="http://www.pgpru.com/forum/kriptografija/tamperresistanceprotivrebjonka" name="forum/kriptografija/tamperresistanceprotivrebjonka" title="Форум / Криптография / Tamper Resistance Против Ребёнка">tamper resistance против ребёнка</a> в разделе Форум (автор <a href="http://www.pgpru.com/proekt/poljzovateli?profile=poptalk" title="">poptalk</a>)</td></tr></td></tr></table><!--/notypo--></p><a name="h3-4"></a><h2><!--notypo--><a href="#rating" name="rating" title=""></a>
+<!--/notypo-->Рейтинг страниц</h2>
+<br/>
+<!--notypo--><fieldset><legend>Лучшие документы по оценке читателей</legend>
+<table>
+<tr class="lined"><td><a href="http://www.pgpru.com/forum/anonimnostjvinternet/kaktorificirovatjskype">Как торифицировать skype?</a></td><td style="width:10px; white-space:nowrap;"> <strong>+3</strong></td></tr>
+<tr class="lined"><td><a href="http://www.pgpru.com/novosti/2013/proektprinimaetpozhertvovanijacherezbitcoin">Проект принимает пожертвования через Bitcoin</a></td><td style="width:10px; white-space:nowrap;"> <strong>+3</strong></td></tr>
+<tr class="lined"><td><a href="http://www.pgpru.com/novosti/2014/relizpass15konsoljnyjjmenedzherparolejj">Релиз pass 1.5 — консольный менеджер паролей</a></td><td style="width:10px; white-space:nowrap;"> <strong>+3</strong></td></tr>
+<tr class="lined"><td><a href="http://www.pgpru.com/forum/prakticheskajabezopasnostj/anonsideiapparatnogoskremblera">Анонс идеи аппаратного скремблера</a></td><td style="width:10px; white-space:nowrap;"> <strong>+3</strong></td></tr>
+<tr class="lined"><td><a href="http://www.pgpru.com/biblioteka/statji/8y">Основные изменения в системе Tor по сравнению с разработкой 2004 года</a></td><td style="width:10px; white-space:nowrap;"> <strong>+3</strong></td></tr>
+</table>
+</fieldset>
+<br/><fieldset><legend>Худшие документы по оценке читателей</legend>
+<table>
+<tr class="lined"><td><a href="http://www.pgpru.com/biblioteka/osnovy/vvedenievkripto/glava1">Глава 1. Основы криптографии</a></td><td style="width:10px; white-space:nowrap"> <strong>-0.06</strong></td></tr>
+<tr class="lined"><td><a href="http://www.pgpru.com/novosti/2012/deputatyrfplanirujutzapretsredstvanonimizaciivinternete">Депутаты РФ планируют запрет средств анонимизации в интернете</a></td><td style="width:10px; white-space:nowrap"> <strong>-0.36</strong></td></tr>
+<tr class="lined"><td><a href="http://www.pgpru.com/forum/kriptografija/podborparoljanaarhiv7zip7z">Подбор пароля на архив 7-ZIP (*.7z)</a></td><td style="width:10px; white-space:nowrap"> <strong>-0.5</strong></td></tr>
+<tr class="lined"><td><a href="http://www.pgpru.com/forum/offtopik/zadachapnpidazheppspacemozhetbytjreshenananekvantovyhkompjjuterah">Задача P=NP и даже P=PSPACE может быть решена на неквантовых компьютерах</a></td><td style="width:10px; white-space:nowrap"> <strong>-0.6</strong></td></tr>
+<tr class="lined"><td><a href="http://www.pgpru.com/forum/unixlike/kakuznatjrabochijjiptochkidostupa">Как узнать рабочий IP точки доступа</a></td><td style="width:10px; white-space:nowrap"> <strong>-0.67</strong></td></tr>
+</table>
+</fieldset>
+<!--/notypo--><br/>
+</td><td class="usercell" valign="top"> </td><td class="usercell" valign="top"><a name="h3-5"></a><h1><!--notypo--><a href="#donate" name="donate" title=""></a>
+<!--/notypo-->Поддержать</h1><a name="p90041-4"></a><p class="auto" id="p90041-4">
+<!--notypo-->
+<br/>
+<small>Чтобы расширять и развивать проект, мы нуждаемся в вашей поддержке. Мы будем благодарны любому виду помощи. <a href="/proekt/podderzhka">Подробнее...</a></small><br/><br/>
+<div class="cite" style="text-align:center; border:3px dashed #CC0000; padding:5px; background-color:#FFEDED;"><strong><small><a href="/proekt/podderzhka#h14531-4">Сделайте денежное пожертвование через Bitcoin, WebMoney, Яндекс.Деньги</a></small></strong></div>
+<!--/notypo--></p><a name="h3-6"></a><h2><!--notypo--><a href="#polls" name="polls" title=""></a>
+<!--/notypo-->Опросы</h2>
+<br/><a name="p90041-5"></a><p class="auto" id="p90041-5">
+<!--notypo--><table cellspacing="3" class="formation"><tr><td align="center"><em>Активных опросов нет.</em></td></tr></table><!--/notypo--><br/>
+<small><span class="cite"><a class="" href="http://www.pgpru.com/oprosy#add" name="oprosy" title="Опросы">Добавить опрос...</a></span><br/>
+<a class="" href="http://www.pgpru.com/oprosy" title="Опросы">Архив опросов...</a></small></p><div class="right"> </div><br/>
+<div class="right"><!--notypo--><!--/notypo--></div><br/>
+<div class="center"><a href="http://www.vladmiller.info"><img alt="SATtva. Персональный сайт: блог, консультации, контакты (1 Кб)" height="31" src="http://www.pgpru.com/glavnaja/files?get=sattva_banner.gif" title="SATtva. Персональный сайт: блог, консультации, контакты (1 Кб)" width="88"/></a></div><br/>
+<div class="center"><a href="?Ref=https://www.cacert.org"><img alt="CAcert.org. Свободная безопасность (2 Кб)" height="31" src="http://www.pgpru.com/glavnaja/files?get=cacert_banner.gif" title="CAcert.org. Свободная безопасность (2 Кб)" width="88"/></a></div><br/>
+<div class="center"><a href="?Ref=http://www.hro.org"><img alt="Human Rights Online. Права человека в России (1 Кб)" height="31" src="http://www.pgpru.com/glavnaja/files?get=hro.gif" title="Human Rights Online. Права человека в России (1 Кб)" width="88"/></a></div><br/>
+</td></tr>
+</table>
+<br/><a name="p90041-6"></a><p class="auto" id="p90041-6">
+<small><!--notypo--><div style="font-size: 11px; color: #666666;"><hr/><script type="text/javascript">
+<!--
+var _acic={dataProvider:10};(function(){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="https://www.acint.net/aci.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})()
+//-->
+</script> <a href="https://elslotswin.com" target="_blank">Elslots</a> </div><!--/notypo--></small></p>
+<br style="clear:both"/> 
+
+<div id="commentsfiles"></div>
+<!-- end page output -->
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="3" height="25">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td height="25" style="background-image:url(/images/plastiq/body_botleft.png);" width="25"><img height="1" src="/images/plastiq/spacer.gif" width="25"/></td>
+<td style="background-image:url(/images/plastiq/body_botmid.png); background-repeat:repeat-x;" width="100%"></td>
+<td style="background-image:url(/images/plastiq/body_botright.png);" width="60"><img height="1" src="/images/plastiq/spacer.gif" width="50"/></td>
+</tr>
+</table>
+</td>
+</tr>
+</table></td>
+<td rowspan="2" style="background-image:url(/images/plastiq/back_bottom_2.png);" valign="top">
+<div style="background-image:url(/images/plastiq/back_right_1.png); height:373px;"></div>
+</td>
+</tr>
+<tr>
+<td height="25" style="background-image:url(/images/plastiq/back_left.png); background-repeat:repeat-y;" valign="bottom">
+<div style="background-image:url(/images/plastiq/back_left_2.png); height:25px;"></div>
+</td>
+</tr>
+<tr>
+<td height="108" rowspan="3" style="background-image:url(/images/plastiq/back_left_3.png);"></td>
+<td rowspan="3" style="background-image:url(/images/plastiq/footer_1.png);"></td>
+<td height="21" style="background-image:url(/images/plastiq/footer_2.png);"></td>
+<td rowspan="3" style="background-image:url(/images/plastiq/footer_4.png);"></td>
+<td rowspan="3" style="background-image:url(/images/plastiq/back_bottom.png); background-repeat:repeat-x;">
+<div id="copyright">
+<a href="/proekt/pravila">Нормы пользования</a>. Некоторые права на материалы сайта защищены по условиям лицензии CreativeCommons. Движок
+				<a href="http://openspace.vladmiller.info">openSpace 0.8.25a</a> и дизайн сайта © 2006-2007 <a href="http://www.vladmiller.info">Vlad "SATtva" Miller</a>.
+			</div>
+<div style="position:absolute; top:0px; left:0px; z-index:1; visibility:hidden; width:88px; height:31px;">
+<!-- Begin HotLog counter -->
+<script type="text/javascript">
+				hotlog_js="1.0";
+				hotlog_r=""+Math.random()+"&s=177581&im=133&r="+escape(document.referrer)+"&pg="+
+				escape(window.location.href);
+				document.cookie="hotlog=1; path=/"; hotlog_r+="&c="+(document.cookie?"Y":"N");
+				</script>
+<script type="text/javascript">
+				hotlog_js="1.1";hotlog_r+="&j="+(navigator.javaEnabled()?"Y":"N")
+				</script>
+<script type="text/javascript">
+				hotlog_js="1.2";
+				hotlog_r+="&wh="+screen.width+'x'+screen.height+"&px="+
+				(((navigator.appName.substring(0,3)=="Mic"))?
+				screen.colorDepth:screen.pixelDepth)</script>
+<script type="text/javascript">hotlog_js="1.3"</script>
+<script type="text/javascript">hotlog_r+="&js="+hotlog_js;
+				document.write("<a href='http://click.hotlog.ru/?177581' target='_top'><img "+
+				" src='http://hit8.hotlog.ru/cgi-bin/hotlog/count?"+
+				hotlog_r+"&' border=0 width=88 height=31 alt=HotLog><\/img><\/a>")
+				</script>
+<noscript><a href="http://click.hotlog.ru/?177581" target="_top"><img alt="HotLog" border="0" height="31" src="http://hit8.hotlog.ru/cgi-bin/hotlog/count?s=177581&amp;im=133" width="88"/></a></noscript>
+<!-- End HotLog counter -->
+</div>
+</td>
+<td rowspan="3" style="background-image:url(/images/plastiq/back_bottom_1.png); background-repeat:no-repeat;"></td>
+<td rowspan="3" style="background-image:url(/images/plastiq/back_bottom_2.png);"></td>
+</tr>
+<tr>
+<td height="60">
+<div id="banner">
+<a href="https://www.pgpru.com/proekt/podderzhka" title="Поддержка проекта"><img height="60" src="http://www.pgpru.com/files/banners/stub-3.gif" width="468"/></a> </div>
+</td>
+</tr>
+<tr>
+<td height="27" style="background-image:url(/images/plastiq/footer_3.png);"></td>
+</tr>
+</table>
+</body>
+</html>

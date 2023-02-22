@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+<title>Qrooto</title>
+<meta charset="utf-8"/>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5DLwPPVAz88_k0yO2nmFe7T9k1urQs84" type="text/javascript"></script>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&amp;subset=cyrillic" rel="stylesheet"/>
+<!--Favicon-->
+<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<link href="/favicon.ico" rel="icon" type="image/x-icon"/>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<link href="/bitrix/js/main/core/css/core.min.css?14436510602854" rel="stylesheet" type="text/css">
+<link href="/bitrix/js/main/core/css/core_popup.min.css?147124732829699" rel="stylesheet" type="text/css">
+<link data-template-style="true" href="/bitrix/templates/qplatform_new/css/vendor/pixeden.css?144239285811045" rel="stylesheet" type="text/css">
+<link data-template-style="true" href="/bitrix/templates/qplatform_new/css/jquery.circliful.css?1470895944848" rel="stylesheet" type="text/css">
+<link data-template-style="true" href="/bitrix/templates/qplatform_new/css/material-design-iconic-font.min.css?147089594470815" rel="stylesheet" type="text/css"/>
+<link data-template-style="true" href="/bitrix/templates/qplatform_new/css/styles.min.css?1445068016161299" rel="stylesheet" type="text/css"/>
+<link data-template-style="true" href="/bitrix/templates/qplatform_new/css/custom.css?151084959217393" rel="stylesheet" type="text/css"/>
+<link data-template-style="true" href="/bitrix/templates/qplatform_new/css/responsive.css?165892632512610" rel="stylesheet" type="text/css"/>
+<script type="text/javascript">if(!window.BX)window.BX={message:function(mess){if(typeof mess=='object') for(var i in mess) BX.message[i]=mess[i]; return true;}};</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','SITE_ID':'s5','SITE_DIR':'/','USER_ID':'','SERVER_TIME':'1677081711','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'dc0f7944447ef8b2adb6fa18674bf439'});</script>
+<script src="/bitrix/js/main/core/core.min.js?148283981073556" type="text/javascript"></script>
+<script src="/bitrix/js/main/core/core_db.min.js?14685052805048" type="text/javascript"></script>
+<script src="/bitrix/js/main/core/core_ajax.min.js?147124732821031" type="text/javascript"></script>
+<script src="/bitrix/js/main/json/json2.min.js?14436510603467" type="text/javascript"></script>
+<script src="/bitrix/js/main/core/core_ls.min.js?14436510627365" type="text/javascript"></script>
+<script src="/bitrix/js/main/core/core_fx.min.js?14436510629592" type="text/javascript"></script>
+<script src="/bitrix/js/main/core/core_frame_cache.min.js?147124731611191" type="text/javascript"></script>
+<script src="/bitrix/js/main/jquery/jquery-1.8.3.min.js?144365106493636" type="text/javascript"></script>
+<script src="/bitrix/js/main/core/core_popup.min.js?147124731829812" type="text/javascript"></script>
+<script src="/bitrix/templates/qplatform_new/js/vendor/modernizr.custom.js?14378185466614" type="text/javascript"></script>
+<script src="/bitrix/templates/qplatform_new/js/vendor/detectizr.min.js?14395360287937" type="text/javascript"></script>
+<script src="/bitrix/templates/qplatform_new/js/vendor/jquery-2.1.4.min.js?144181727084345" type="text/javascript"></script>
+<script src="/bitrix/templates/qplatform_new/js/vendor/preloader.min.js?14433754042961" type="text/javascript"></script>
+<script src="/bitrix/templates/qplatform_new/js/vendor/placeholder.js?14433812443754" type="text/javascript"></script>
+<script src="/bitrix/templates/qplatform_new/js/vendor/bootstrap.min.js?144216756815467" type="text/javascript"></script>
+<script src="/bitrix/templates/qplatform_new/js/vendor/smoothscroll.js?143922573019764" type="text/javascript"></script>
+<script src="/bitrix/templates/qplatform_new/js/vendor/velocity.min.js?144195540434852" type="text/javascript"></script>
+<script src="/bitrix/templates/qplatform_new/js/vendor/velocity.ui.min.js?143349683613257" type="text/javascript"></script>
+<script src="/bitrix/templates/qplatform_new/js/vendor/magnific-popup.min.js?143802553021143" type="text/javascript"></script>
+<script src="/bitrix/templates/qplatform_new/js/vendor/owl.carousel.min.js?140380510240401" type="text/javascript"></script>
+<script src="/bitrix/templates/qplatform_new/js/vendor/scroll-effect.js?143592473418023" type="text/javascript"></script>
+<script src="/bitrix/templates/qplatform_new/js/jquery.circliful.min.js?14708959446501" type="text/javascript"></script>
+<script src="/bitrix/templates/qplatform_new/js/scripts.js?149783382414438" type="text/javascript"></script>
+<script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "c4dc5e96816fff23de758fbfd4d46e30"]); _ba.push(["host", "qrooto.ru"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+<script>var THEME_LANG ='ru';</script>
+<script>var THEME ='R';</script>
+</link></link></link></link></meta></head>
+<body class="qrooto scroll-slideshow" data-animation="parallax" data-hijacking="off">
+<!--Логин в Метрике-->
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter46746060 = new Ya.Metrika({
+                    id:46746060,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img alt="" src="https://mc.yandex.ru/watch/46746060" style="position:absolute; left:-9999px;"/></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<!-- Page Wrapper -->
+<div class="page-wrapper">
+<!-- Navbar -->
+<!-- Add class ".navbar-sticky" to make navbar stuck when it hits the top of the page. You can also use modifier class like: "navbar-light" to change navbar apperance. The screen width at which navbar collapses can be controlled through the variable "$nav-collapse" in sass/variables.scss -->
+<header class="navbar navbar-sticky">
+<div class="container">
+<a class="site-logo" href="index.php">
+<img alt="QROOTO" class="logo-default" src="/images/new/logo-dark_qrooto.png"/>
+</a><!-- .site-logo -->
+<!-- Mobile Menu Toggle -->
+<div class="nav-toggle"><span></span></div>
+<div class="clearfix">
+<div class="toolbar">
+<!-- a href="https://www.facebook.com/Qrooto/" target="_blank" class="btn btn-sm btn-ghost btn-default btn-social sb-facebook">
+                        <i class="fa fa-facebook"></i>
+                    </a -->
+<a class="btn btn-sm btn-ghost btn-default btn-social sb-vkontakte" href="https://vk.com/club122346394" target="_blank">
+<i class="fa fa-vk"></i>
+</a>
+<a class="btn btn-sm btn-ghost btn-default btn-social sb-ok" href="https://ok.ru/group/53036936855753" target="_blank">
+<i class="fa fa-odnoklassniki"></i>
+</a>
+</div><!-- .toolbar -->
+<!-- Use modifier class to apply different submenu (dropdown) animations. Possible options: .submenu-slideUp, .submenu-slideDown, .submenu-flipIn. Please note if no class added to .main-navigation default fadeIn animation will be applied. Note: this is applicable only for Desktop. -->
+<nav class="main-navigation submenu-slideDown">
+<ul class="menu">
+<li> <a href="/index.php">Пользователю</a></li>
+<li> <a href="/vendor.php">Сотрудничество</a></li>
+<!-- li> <a href="/partner.php" >Партнёрам</a></li -->
+</ul>
+</nav><!-- .main-navigation -->
+</div><!-- .clearfix -->
+</div><!-- .container -->
+</header><!-- .navbar -->
+<nav class="orange" id="cd-vertical-nav">
+<ul>
+<li><a data-number="0" href="#p0"><span class="cd-dot"></span><span class="cd-label">ВВОДНАЯ</span></a></li>
+<li><a data-number="1" href="#p1"><span class="cd-dot"></span><span class="cd-label">СКАЧАЙ</span></a></li>
+<li><a data-number="2" href="#p2"><span class="cd-dot"></span><span class="cd-label">ЗАРЕГИСТРИРУЙСЯ</span></a></li>
+<li><a data-number="3" href="#p3"><span class="cd-dot"></span><span class="cd-label">ИДИ В ЛЮБУЮ ТОРГОВУЮ СЕТЬ</span></a></li>
+<li><a data-number="4" href="#p4"><span class="cd-dot"></span><span class="cd-label">ВЫБИРАЙ ТОВАРЫ ИЗ КАТАЛОГА</span></a></li>
+<li><a data-number="5" href="#p5"><span class="cd-dot"></span><span class="cd-label">ОПЛАТИ НА КАССЕ</span></a></li>
+<li><a data-number="6" href="#p6"><span class="cd-dot"></span><span class="cd-label">ПОЛУЧИ БАЛЛЫ</span></a></li>
+<li><a data-number="11" href="#p11"><span class="cd-dot"></span><span class="cd-label">КОНТАКТЫ</span></a></li>
+</ul>
+</nav>
+<a class="cd-nav-trigger cd-img-replace">Навигация<span></span></a>
+<!-- Scroll Slideshow -->
+<a name="p0"></a>
+<section class="cd-section visible" id="p0">
+<div>
+<div class="content">
+<div class="container">
+<div class="row index-page-center">
+<div class="col-md-4 col-sm-4 col-xs-12 index-page-text text-center">
+<!-- App Store Button -->
+<a class="btn btn-app-store" href="https://itunes.apple.com/ru/app/круто-кэшбек-сервис-qrooto/id1289196221?mt=8">
+<i class="fa fa-apple"></i>
+<div>
+<span>Download on the</span>
+                                    App Store
+                                </div>
+</a>
+</div>
+<div class="col-md-4 col-sm-4 col-xs-12 index-page-text text-center">
+<div class="icon">
+<img src="/images/new/icon-qrooto.png"/>
+</div>
+<div class="title text-center">
+<h1>
+                                    QROOTO
+                                </h1>
+</div>
+</div><!-- .col-md-4 -->
+<div class="col-md-4 col-sm-4 col-xs-12 index-page-text text-center">
+<!-- Google Play Button -->
+<a class="btn btn-google-play" href="https://play.google.com/store/apps/details?id=qplatform.qrooto&amp;hl=ru">
+<img alt="Google Play" src="/images/google-play.png"/>
+<span>Get it on</span>
+</a>
+</div>
+</div><!-- .row -->
+<div class="row index-page-center2">
+<div class="col-md-1 col-xs-12 index-page-text text-center hidden-xs"></div>
+<div class="col-md-10 col-xs-12 index-page-text text-center">
+<div class="title text-center">
+<p class="large"><strong>Получайте кэшбэк за покупки в магазинах Пятерочка, Магнит, Дикси, Ашан, Перекресток, Метро, SPAR, ВкусВилл, Монетка, Полушка и все других в мобильном приложении QROOTO(Круто)</strong></p>
+<p>
+<a class="btn btn-sm btn-ghost btn-default scroll-down" href="#p1">Узнать больше</a>
+</p>
+</div>
+</div><!-- .col-md-4 -->
+<div class="col-md-1 col-xs-12 index-page-text text-center hidden-xs"></div>
+</div><!-- .row -->
+</div><!-- .container -->
+<a class="mouse-scroll-control scroll-down" href="#p1">
+<div class="mouse">
+<div class="wheel"></div>
+</div>
+<div>
+<span class="m_scroll_arrows unu"></span>
+<span class="m_scroll_arrows doi"></span>
+<span class="m_scroll_arrows trei"></span>
+</div>
+</a>
+</div>
+</div>
+</section><!-- .cd-section.visible -->
+<a name="p1"></a>
+<section class="cd-section" id="p1">
+<div>
+<div class="content">
+<div class="container padding-top middle-vertical">
+<div class="row middle-vertical">
+<div class="col-md-8">
+<div class="row">
+<div class="col-lg-10">
+<!-- Block Title -->
+<!-- Use modifier classes: ".featured-title" - to enable fancy animation on hover; ".text-center" and "text-right" - for title alignment. Apply ".light-skin" class for changing appearance. -->
+<div class="block-title">
+<h2>СКАЧАЙТЕ</h2>
+<h2>ПРИЛОЖЕНИЕ QROOTO и зарегистрируйтесь</h2>
+</div><!-- .block-title.featured-title -->
+<div>
+<a href="policy.php">Пользовательское соглашение</a>
+</div>
+</div>
+</div>
+</div><!-- .col-md-8 -->
+<div class="col-md-4">
+</div><!-- .col-md-4 -->
+</div><!-- .row -->
+</div><!-- .container -->
+</div>
+</div>
+</section><!-- .cd-section -->
+<a name="p2"></a>
+<section class="cd-section" id="p2">
+<div>
+<div class="content">
+<div class="container padding-top middle-vertical">
+<div class="row middle-vertical">
+<div class="col-md-8">
+<div class="row">
+<div class="col-lg-10">
+<!-- Block Title -->
+<!-- Use modifier classes: ".featured-title" - to enable fancy animation on hover; ".text-center" and "text-right" - for title alignment. Apply ".light-skin" class for changing appearance. -->
+<div class="block-title">
+<h2>Покупайте товары с кэшбэком, сканируйте чеки и зарабатывайте ДЕНЬГИ.</h2>
+</div><!-- .block-title.featured-title -->
+<p>
+                                        В карточке товара видно, сколько баллов вы получите за его покупку и сколько времени осталось до окончания акции. 10 баллов = 1 рубль.
+                                    </p>
+</div>
+</div>
+</div><!-- .col-md-8 -->
+<div class="col-md-4">
+</div><!-- .col-md-4 -->
+</div><!-- .row -->
+</div><!-- .container -->
+</div>
+</div>
+</section><!-- .cd-section -->
+<a name="p3"></a>
+<section class="cd-section" id="p3">
+<div>
+<div class="content">
+<div class="container padding-top middle-vertical">
+<div class="row middle-vertical">
+<div class="col-md-8">
+<div class="row">
+<div class="col-lg-10">
+<!-- Block Title -->
+<!-- Use modifier classes: ".featured-title" - to enable fancy animation on hover; ".text-center" and "text-right" - for title alignment. Apply ".light-skin" class for changing appearance. -->
+<div class="block-title">
+<h2>Расскажите друзьям!</h2>
+</div><!-- .block-title.featured-title -->
+<p>
+										Получайте премию за каждого друга! Премия начисляется после сканирования первого чека.
+                                    </p>
+</div>
+</div>
+</div><!-- .col-md-8 -->
+<div class="col-md-4">
+</div><!-- .col-md-4 -->
+</div><!-- .row -->
+</div><!-- .container -->
+</div>
+</div>
+</section><!-- .cd-section -->
+<a name="p4"></a>
+<section class="cd-section" id="p4">
+<div>
+<div class="content">
+<div class="container padding-top middle-vertical">
+<div class="row middle-vertical">
+<div class="col-md-8">
+<div class="row">
+<div class="col-lg-10">
+<!-- Block Title -->
+<!-- Use modifier classes: ".featured-title" - to enable fancy animation on hover; ".text-center" and "text-right" - for title alignment. Apply ".light-skin" class for changing appearance. -->
+<div class="block-title">
+<h2>Примите наше приглашение в «Мои Чеки Онлайн».</h2>
+</div><!-- .block-title.featured-title -->
+<p> 
+                                    	После подтверждения номера телефона, мы направим вам приглашение в сервис «Мои Чеки Онлайн».
+                                    </p>
+<p>
+                                        Если вы примете его, часть ваших чеков мы будем получать автоматически. При наличии в чеке акционных товаров из нашего приложения, кэшбэк будет начисляться без сканирования чека.
+                                    </p>
+<p>
+                                        Qrooto — партнёр сервиса «Мои Чеки Онлайн». Регистрируясь в сервисе, Пользователь дает свое согласие на получение и использование Правообладателем через информационные сервисы «API Проверка чеков» и «Мои Чеки Онлайн» информации, содержащейся в кассовых чеках Пользователя, сформированных ККТ Продавца в момент совершения Пользователем расчетов, а также на передачу в указанных целях информации о номере мобильного телефона Пользователя.
+                                    </p>
+<p>
+                                         
+                                    </p>
+</div>
+</div>
+</div><!-- .col-md-8 -->
+<div class="col-md-4">
+</div><!-- .col-md-4 -->
+</div><!-- .row -->
+</div><!-- .container -->
+</div>
+</div>
+</section><!-- .cd-section -->
+<a name="p5"></a>
+<section class="cd-section" id="p5">
+<div>
+<div class="content">
+<div class="container padding-top middle-vertical">
+<div class="row middle-vertical">
+<div class="col-md-8">
+<div class="row">
+<div class="col-lg-10">
+<!-- Block Title -->
+<!-- Use modifier classes: ".featured-title" - to enable fancy animation on hover; ".text-center" and "text-right" - for title alignment. Apply ".light-skin" class for changing appearance. -->
+<div class="block-title">
+<h2>90% чеков обрабатываются в течение нескольких минут.</h2>
+</div><!-- .block-title.featured-title -->
+<p>
+                                        Но некоторые чеки могут потребовать больше времени. Обычно проверка занимает до 3х дней.
+                                    </p>
+</div>
+</div>
+</div><!-- .col-md-8 -->
+<div class="col-md-4">
+</div><!-- .col-md-4 -->
+</div><!-- .row -->
+</div><!-- .container -->
+</div>
+</div>
+</section><!-- .cd-section -->
+<a name="p6"></a>
+<section class="cd-section" id="p6">
+<div>
+<div class="content">
+<div class="container padding-top middle-vertical">
+<div class="row middle-vertical">
+<div class="col-md-8">
+<div class="row">
+<div class="col-lg-10">
+<!-- Block Title -->
+<!-- Use modifier classes: ".featured-title" - to enable fancy animation on hover; ".text-center" and "text-right" - for title alignment. Apply ".light-skin" class for changing appearance. -->
+<div class="block-title">
+<h2>
+											Получите деньги одним из следующих способов:<br/></h2>
+</div><!-- .block-title.featured-title -->
+<ul>
+<li>На вашу банковскую карту.</li>
+<li>На ваш мобильный телефон.</li>
+<li>На кошелек ЮМани.</li>
+<li>На кошелек Webmoney.</li>
+</ul>
+</div>
+</div>
+</div><!-- .col-md-8 -->
+<div class="col-md-4">
+</div><!-- .col-md-4 -->
+</div><!-- .row -->
+</div><!-- .container -->
+</div>
+</div>
+</section><!-- .cd-section -->
+<a name="p11"></a>
+<section class="cd-section" id="p11">
+<div>
+<div class="content">
+<div class="table-cell">
+<div class="container padding-top-3x text-center text-light">
+<div class="row">
+<div class="col-md-12 space-bottom-2x">
+<h2>Скачайте и пользуйтесь</h2>
+</div>
+</div><!-- .row -->
+<div class="row">
+<div class="col-md-12 space-bottom-2x">
+<!-- App Store Button -->
+<a class="btn btn-app-store" href="https://itunes.apple.com/ru/app/круто-кэшбек-сервис-qrooto/id1289196221?mt=8">
+<i class="fa fa-apple"></i>
+<div>
+<span>Download on the</span>
+                                                 App Store
+                                             </div>
+</a>
+<!-- Google Play Button -->
+<a class="btn btn-google-play" href="https://play.google.com/store/apps/details?id=qplatform.qrooto&amp;hl=ru">
+<img alt="Google Play" src="/images/google-play.png"/>
+<span>Get it on</span>
+</a>
+<div>
+<p style="text-align: center">
+<a href="policy.php">Пользовательское соглашение</a>
+</p>
+<p style="text-align: center">
+<a href="loyalis.php">Правила программы лояльности</a>
+</p>
+<p style="text-align: center">
+<a href="confide.php">Политика конфиденциальности</a>
+</p>
+</div>
+</div><!-- .col-sm-6.space-bottom-2x -->
+</div><!-- .row -->
+<div class="row">
+<div class="col-md-12 space-bottom-2x">
+<h2>Как связаться с нами</h2>
+</div>
+</div><!-- .row -->
+<div class="row">
+<div class="col-md-6 space-bottom-2x">
+<h4>Социальные сети</h4>
+<p>Читайте наши свежие новости через популярные социальные сети.</p>
+<div class="social-bar">
+<a class="sb-facebook" data-original-title="Facebook" data-placement="top" data-toggle="tooltip" href="https://www.facebook.com/Qrooto/" target="_blank" title="">
+<i class="fa fa-facebook"></i>
+</a>
+<a class="sb-vkontakte" data-original-title="VK" data-placement="top" data-toggle="tooltip" href="https://vk.com/club122346394" target="_blank" title="">
+<i class="fa fa-vk"></i>
+</a>
+<a class="sb-ok" data-original-title="Odnoklassniki" data-placement="top" data-toggle="tooltip" href="https://ok.ru/group/53036936855753" target="_blank" title="">
+<i class="fa fa-odnoklassniki"></i>
+</a>
+</div>
+</div>
+<div class="col-md-6 space-bottom-2x">
+<h4 class="fa-ul-h">Контактная информация</h4>
+<ul class="fa-ul">
+<li> <i class="fa-li fa fa-building"></i><strong>ООО "КуПлатформ"</strong><br/>
+                                                107497, г. Москва, улица Иркутская,<br/>
+                                                дом 17, стр 4, эт 2, ком №19
+             								</li>
+<li><i class="fa-li fa fa-phone"></i><a href="tel:+74957488957">+7 (495) 748-89-57</a></li>
+<li><i class="fa-li fa fa-envelope"></i><a href="mailto:info@qrooto.ru">info@qrooto.ru</a></li>
+</ul>
+</div><!-- .col-sm-6.space-bottom-2x -->
+</div><!-- .row -->
+</div>
+</div>
+</div>
+</div>
+</section><!-- .cd-section -->
+<!-- Scroll To Top Button -->
+<a class="scroll-to-top-btn" href="#">
+<i class="fa fa-angle-up"></i>
+</a><!-- .scroll-to-top-btn -->
+</div><!-- .page-wrapper -->
+<!--Логин в Метрике-->
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter46746060 = new Ya.Metrika({
+                    id:46746060,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img alt="" src="https://mc.yandex.ru/watch/46746060" style="position:absolute; left:-9999px;"/></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</body>
+</html>
