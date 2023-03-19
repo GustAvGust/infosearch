@@ -1,0 +1,7 @@
+webmoney: webmoney
+domain: domains
+ru: ru
+cot: cot
+pr: pr
+hp: hp
+debt: debt

@@ -1,0 +1,4 @@
+store
+ru
+en
+ip

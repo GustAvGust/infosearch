@@ -1,0 +1,9 @@
+vps: vps
+dedicated: dedicated
+domain: domains
+ru: ru
+stom: stom
+reg: reg
+ip: ip
+whois: whois
+profi: profi

@@ -13,7 +13,6 @@ official_words_ru = stopwords.words('russian')
 official_words_en = stopwords.words('english')
 
 m = Mystem()
-lemmas = {}
 
 def not_official_words(word):
   return not(word in official_words_en or word in official_words_ru)
@@ -24,6 +23,7 @@ def add_word_to_lemma(word, lemma):
   lemmas[lemma].add(word)
 
 for i in range(1, 101):
+  lemmas = {}
   step = str(i)
   print("Processing" + step)
   with open("../task1/" + step + ".html", 'r', encoding='utf-8') as file:
@@ -50,15 +50,15 @@ for i in range(1, 101):
     
     add_word_to_lemma(word, lemma)
 
-with open("lemmas.txt", "w", encoding='utf-8') as file:
-  for el in lemmas:
-    file.write(el + ": " + " ".join(lemmas[el]) + "\n")
-# print(lemmas)
+  with open("lemmas" + step + ".txt", "w", encoding='utf-8') as file:
+    for el in lemmas:
+      file.write(el + ": " + " ".join(lemmas[el]) + "\n")
+  # print(lemmas)
 
-tokens = []
-for el in lemmas.values():
-  tokens = tokens + list(el)
+  tokens = []
+  for el in lemmas.values():
+    tokens = tokens + list(el)
 
-with open("tokens.txt", "w", encoding='utf-8') as file:
-  file.write("\n".join(tokens))
-# print(tokens)
+  with open("tokens" + step + ".txt", "w", encoding='utf-8') as file:
+    file.write("\n".join(tokens))
+  # print(tokens)

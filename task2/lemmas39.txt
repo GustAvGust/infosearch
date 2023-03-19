@@ -1,0 +1,11 @@
+c: c
+faq: faq
+vk: vk
+flyspot: flyspot
+ru: ru
+mashka: mashka
+fly: fly
+babysteps: babysteps
+flylady: flylady
+mail: mail
+telegram: telegram

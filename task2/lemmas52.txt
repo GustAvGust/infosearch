@@ -1,0 +1,578 @@
+vertical: vertical
+два: двух
+английский: английский английского
+начальный: начальных
+td: td
+selection: selection
+объединение: объединение
+mark: mark
+read: read
+space: space
+элемент: элементы
+плагин: плагин плагинов
+список: списка списке списки
+video: video
+задание: заданий
+специалист: специалист специалистом
+добавлять: добавить
+bottom: bottom
+basefont: basefont
+default: default
+формат: формат
+article: article
+chrome: chrome
+first: first
+хостинг: хостинг
+face: face
+форум: форум
+разработчик: разработчика разработчикам разработчик разработчиком
+базовый: базовых базовые
+обязательный: обязательные
+книга: книги
+repeat: repeat
+rule: rule
+первый: первых первой
+base: base
+сфера: сфера
+шрифт: шрифты
+валидация: валидация
+reveal: reveal
+решение: решения
+статья: статей статье статьи статью
+отслеживать: отслеживать
+r: rss
+plaintext: plaintext
+inside: inside
+ссылка: ссылку ссылка ссылок
+продолжать: продолжаем
+возможность: возможностью возможности
+инструмент: инструментах инструменты инструментов
+ошибка: ошибки ошибками
+section: section
+собеседование: собеседовании
+тень: тени
+мся: мся
+xhtml: xhtml
+новое: новое
+сервер: сервер серверах
+wrap: wrap
+решать: решить решаем
+писать: писал пишут пишите
+script: script
+decoration: decoration
+начинать: начав начиная начала
+summary: summary
+size: size
+кеш: кэшем
+начало: начале
+noframes: noframes
+increment: increment
+keygen: keygen
+wbr: wbr
+расстояние: расстояние
+command: command
+in: ins
+фронтендер: фронтендеров
+target: target
+column: column columns
+задача: задач задачи
+материал: материалов материалы
+важный: важное важными
+img: img
+выходить: вышел
+адресный: адресную
+rendering: rendering
+v: vs
+disabled: disabled
+разработка: разработке
+darkshadow: darkshadow
+htmlbook: htmlbook
+страница: странице страницу страницы страниц
+часть: частях части частями
+интернет: интернет
+indent: indent
+справочник: справочником справочник
+отлично: отлично
+counter: counter
+radius: radius
+github: github
+цикл: цикла цикле цикл
+топовый: топовым
+познакомиться: познакомитесь познакомились
+overflow: overflow
+caption: caption
+приложение: приложение приложения
+читать: читать
+align: align
+полностью: полностью
+canvas: canvas
+big: big
+узнавать: узнаем узнаете узнать
+маркировать: маркированном
+link: link
+embed: embed
+андроид: андроид
+source: sources source
+рисунок: рисунок
+focus: focus
+writing: writing
+каждый: каждый
+мысль: мыслей
+element: elements
+mode: mode
+обтекание: обтекание
+весь: всей
+поздно: поздно
+рассматривать: рассмотрим
+панель: панель
+образование: образования
+жирный: жирный
+kbd: kbd
+мышь: мыши
+плотина: плотина
+популярный: популярные
+основной: основными основная основное основные
+помощь: помощью помощь
+язык: языком языка языке
+dir: dir
+layout: layout
+практический: практических
+хотеть: хочу
+батарейка: батарейка
+который: которые который
+collapse: collapse
+новый: новым новом
+haslayout: haslayout
+col: col
+opacity: opacity
+разрабатывать: разрабатывать
+checked: checked
+синхронизация: синхронизации
+scrollbar: scrollbar
+fill: fill
+nobr: nobr
+tr: tr
+функция: функциями
+next: next
+output: output
+display: display
+padding: padding
+консоль: консоли
+ul: ul
+быстро: быстро быстрее
+причина: причинам
+box: box
+команда: командами команде
+rt: rt
+поисковый: поисковый
+dlight: dlight
+indeterminate: indeterminate
+подчеркивание: подчеркивание
+optional: optional
+встраивать: встроены
+network: network
+th: th
+наведение: наведении
+area: area
+текст: текст текстом текста
+знать: знаю знать знает
+создавать: создать
+самоучитель: самоучители самоучитель
+outline: outline
+valid: valid
+xmp: xmp
+система: системы
+empty: empty
+label: label
+применение: применения
+html: html
+становиться: стать
+данный: данных
+введение: введение
+linear: linear
+variant: variant
+acronym: acronym
+timing: timing
+сode: сode
+frameset: frameset
+write: write
+разбираться: разбирается разобраться разбираться разобрались
+настраивать: настроить
+top: top
+offset: offset
+база: базах
+вкладывать: вложенные
+pre: pre
+технология: технологии технологиях
+u: u
+погружение: погружение
+ol: ol
+все: всем всеми
+invalid: invalid
+dom: dom
+подгрузиться: подгрузились
+обновлять: обновленный обновил
+окно: окне окна
+мастер: мастер
+набор: набор
+h: h
+бонус: бонус
+кнопка: кнопка
+sub: sub
+option: option
+глава: главах глав
+состоять: состоят
+cs: css
+hgroup: hgroup
+знакомить: знакомить
+бэкендер: бэкендеров
+bgsound: bgsound
+php: php
+практиковать: практикующим
+z: z
+разный: разным
+cell: cells
+вс: вс
+tex: tex
+dfn: dfn
+тег: тегов тега теги
+социальный: социальные
+check: check
+нужный: нужен
+м: м
+тот: тех
+интересный: интересных
+вполне: вполне
+рынок: рынке
+влад: влад
+orient: orient
+type: type
+обучение: обучения
+button: button
+select: select
+webkit: webkit
+side: side
+unicode: unicode
+построиться: построилось
+clear: clear
+audio: audio
+applet: applet
+br: br
+reset: reset
+title: title
+iframe: iframe
+изучение: изучения
+stretch: stretch
+загружаться: загружаются
+left: left
+quote: quotes
+ru: ru
+ч: ч
+widow: widows
+menu: menu
+marquee: marquee
+использовать: использует
+head: head
+уметь: умеет
+картинка: картинку картинка картинки
+function: function
+expand: expand
+content: content
+сайт: сайта сайты сайт сайте
+легко: легко
+объект: объектов
+версия: версий версию
+скриншот: скриншот
+letter: letter
+возраст: возраст
+производительность: производительность
+технический: технического
+bdo: bdo
+orphan: orphans
+track: track
+новичок: новичкам новичков
+samp: samp
+изменять: изменить
+devtools: devtools
+профессия: профессии
+множество: множеством
+ширина: ширину
+lang: lang
+min: min
+placeholder: placeholder
+vlad: vlad
+заголовок: заголовки
+выравнивать: выровнять
+dl: dl
+moz: moz
+использование: использования
+некоторые: некоторые
+показывать: покажем показать
+figure: figure
+курс: курсов
+вкладка: вкладкой вкладками
+бэкенд: бэкенд
+position: position
+атрибут: атрибуты
+hover: hover
+это: это
+метода: метода
+пример: примеров примерах
+день: день
+фоновый: фоновый
+sizing: sizing
+color: colors color
+attr: attr
+форма: форма формы
+console: console
+работа: работы работа
+resize: resize
+gap: gap
+tbody: tbody
+enabled: enabled
+фулстек: фулстек
+сеть: сети
+завораживать: завораживающее
+meta: meta
+запутываться: запутаться
+событие: событие
+таблица: таблицы таблице
+собирать: собрали
+blockquote: blockquote
+борьба: борьба
+index: index
+optgroup: optgroup
+important: important
+случай: случаи
+footer: footer
+active: active
+ruby: ruby
+бесплатный: бесплатный
+растягивать: растянуть
+cursor: cursor
+origin: origin
+адрес: адресу
+param: param
+насыщенный: насыщенным
+sup: sup
+рецепт: рецепты
+font: font
+body: body
+наличие: наличие
+раздел: разделы
+highlight: highlight
+blink: blink
+nth: nth
+right: right
+разметка: разметке
+понадобиться: понадобится
+clip: clip
+header: header
+object: object
+user: user
+shadow: shadow
+map: map
+direction: direction
+thead: thead
+code: code
+пушь: пушах
+charset: charset
+spacing: spacing
+delay: delay
+улучшать: улучшена
+цифровой: цифровые
+transform: transform
+white: white
+spacer: spacer
+management: management
+child: child
+контроль: контроля
+фотография: фотографию
+рассказывать: расскажем
+fieldset: fieldset
+interpolation: interpolation
+вопрос: вопросам
+размещать: разместить
+filter: filter
+меняться: менялась
+маркер: маркеры
+теория: теории
+listing: listing
+image: image
+давать: давайте
+изучать: изучать
+var: var
+style: style
+cite: cite
+form: form
+address: address
+radial: radial
+time: time
+animation: animation
+знание: знание
+strong: strong
+timeweb: timeweb
+family: family
+academy: academy
+курсы: курсы
+break: break
+помогать: помогает
+фронтенд: фронтенд
+исправлять: исправить
+происходить: происходит
+другой: другими другое
+detail: details
+text: text
+figcaption: figcaption
+многое: многое
+strike: strike
+разбер: разбер
+table: table
+word: word
+git: git
+плюс: плюсы
+поле: поля
+учебник: учебник
+блог: блоги блог
+насколько: насколько
+класс: классы
+ячейка: ячеек
+цвет: цвет
+этап: этапах
+макет: макеты
+abbr: abbr
+frame: frame
+bidi: bidi
+list: list
+visited: visited
+самостоятельно: самостоятельно
+достаточно: достаточно
+fit: fit
+строка: строку строками
+del: del
+копирование: копирование
+позволять: позволяют
+какой: какие
+отлавливать: отловить
+center: center
+способный: способен
+пользоваться: пользоваться
+zoom: zoom
+иконка: иконку
+останавливаться: останавливаются
+портфолио: портфолио
+открывать: открыть
+библиотека: библиотек
+x: x
+смартфон: смартфона
+асуанский: асуанская
+работать: работает работать
+div: div
+практикум: практикум
+q: q
+multicol: multicol
+востребовать: востребована
+посещать: посещаем
+создание: создании
+browse: browse
+arrow: arrow
+medium: media
+код: кода код коде
+повседневный: повседневных
+программирование: программирования
+attachment: attachment
+visibility: visibility
+noembed: noembed
+line: line
+value: value
+span: span
+transition: transition
+input: input
+page: page
+m: ms
+понятный: понятным
+dt: dt
+legend: legend
+обзор: обзор
+оптимизировать: оптимизирована
+горизонтально: горизонтально
+textarea: textarea
+property: property
+подписываться: подпишитесь
+isindex: isindex
+недавно: недавно
+tfoot: tfoot
+магазин: магазины
+знакомство: знакомства
+продолжение: продолжение
+hyphen: hyphens
+фон: фон
+colgroup: colgroup
+изменение: изменения
+dd: dd
+один: одного
+gradient: gradient
+background: background
+required: required
+регистрация: регистрации
+отступ: отступы
+курсор: курсора
+progress: progress
+hr: hr
+бывать: бывают
+float: float
+ещ: ещ
+weight: weight
+гит: гите
+насыщенность: насыщенность
+border: border
+last: last
+aside: aside
+обязательно: обязательно
+исполняемый: исполняемого
+браузер: браузера браузер
+small: small
+tt: tt
+count: count
+убирать: убрать
+целый: целый
+doctype: doctype
+дерево: дерево
+компьютер: компьютера
+преимущество: преимущества
+нужно: нужно
+проблема: проблема
+rp: rp
+datalist: datalist
+рсток: рстка
+написать: написанной
+import: import
+nav: nav
+почему: почему
+width: width
+качество: качество
+рано: рано
+li: li
+сделать: сделать
+волнительный: волнительное
+max: max
+мержевич: мержевич
+root: root
+центр: центру
+смена: смены
+meter: meter
+tab: tab
+em: em
+веб: веб
+стиль: стилях
+noscript: noscript
+блок: блоков
+margin: margin
+пул: пулах
+height: height
+comment: comment
+main: main
+отличие: отличие
+p: p
+b: b
+bdi: bdi

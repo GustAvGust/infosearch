@@ -1,0 +1,17 @@
+qb: qb
+eo: eo
+aop: aop
+cast: cast
+www: www
+business: business
+area: area
+sbr: sbr
+io: ios
+reserved: reserved
+app: app
+u: us
+cc: cc
+qsyb: qsyb
+right: rights
+copyright: copyright
+news: news

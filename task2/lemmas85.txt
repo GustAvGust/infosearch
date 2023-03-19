@@ -1,0 +1,5 @@
+connect: connect
+link: link
+description: description
+yandex: yandex
+smartcaptcha: smartcaptcha
