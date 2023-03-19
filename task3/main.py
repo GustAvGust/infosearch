@@ -5,7 +5,7 @@ for i in range(1, 101):
   step = str(i)
   with open("../task1/" + step + ".html", 'r', encoding='utf-8') as file:
     website_html = file.read()
-    website_html.lower()
+    website_html = website_html.lower()
     for item in tokens:
       if item in website_html:
         arr = index.get(item)
